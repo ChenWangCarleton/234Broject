@@ -1,12 +1,9 @@
-## Abdullrhman Aljasser Logs
-# Student #: 100988128
+Abdullrhman Aljasser Logs  
+Student #: 100988128  
 
 [09/23/2017 - 1:30] Meeting 5  
-
 Abdullrhman came 20 minutes late (Reason: Had to return home to get laptop Charger)  
-
 Discussed the order of work:  
-
 1. Filling up Database
 2. Build a UI
 3. Building up the UI list (Retrieving data from database)
