@@ -9,7 +9,9 @@ Discussed the order of work:
 3. Building up the UI list (Retrieving data from database)
    - We choose to go with server approach, Two different methods
      - Get all - Send a request to server and retrieve all product data to the client (Using Post all)
+	   - Retrieve only item name and product ID
      - Get (#item) - Send a reqest to server and retrieve product updated price (Using Post #item)
+	   - Retrieve item prices (From all different stores)
 4. Evaluation
    - Will discuss next meeting [09/26/2017 Tuesday]  
  
