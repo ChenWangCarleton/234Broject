@@ -1,7 +1,7 @@
 Abdullrhman Aljasser Logs  
 Student #: 100988128  
 
-[09/23/2017 - 1:30] Meeting 5  
+**[09/23/2017 - 1:30] Meeting 5**  
 Abdullrhman came 20 minutes late (Reason: Had to return home to get laptop Charger)  
 Discussed the order of work:  
 1. Filling up Database
@@ -19,3 +19,10 @@ I am going to finish a simple front UI
 Hanad going to work simple server  
 Bill going to work on Database (JSON decode and code)  
 Chen going to look into search function  
+
+**[09/26/2017 - 1:30] Meeting 6**  
+We established a date to complete rough copies of our project (Date Oct 7)  
+UI (Abdullrhman) - Filling up grocery list, track choosn list, and create pop windows  
+Server (Hanad) - Ensure server send and recieve (JSON/Text docs)  
+GPS (Bill) - Implment google API, Ensure to determin user location and search stores nearby  
+Database (Chen) - Retrieve data from website  
