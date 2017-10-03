@@ -26,3 +26,8 @@ UI (Abdullrhman) - Filling up grocery list, track choosn list, and create pop wi
 Server (Hanad) - Ensure server send and recieve (JSON/Text docs)  
 GPS (Bill) - Implment google API, Ensure to determin user location and search stores nearby  
 Database (Chen) - Retrieve data from website  
+
+**[09/30/2017 - 1:30] Meeting 7**  
+Missed  
+
+**[10/3/2017 - 1:30] Meeting 8**
