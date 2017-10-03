@@ -20,23 +20,15 @@ public class GUI extends Application {
 
  @Override
  public void start(Stage primaryStage) throws Exception {
-     ItemList list = new ItemList();
-    list.addItem("Apple", Item.Category.FRUIT);
-    //System.out.println(list.searchItem("Apple").getName());
-    //System.out.println(list.searchItem("Apple").getCategory());
-    //System.out.println(list.getSize());
+    ItemList list = new ItemList();
+    
+    /*list.addItem("Apple", Item.Category.FRUIT);
     list.addItem("Pork", Item.Category.MEAT);
-    //System.out.println(list.getSize());
-    //list.removeItem("Apple");
-    //System.out.println(list.getSize());
-    //System.out.println(list.searchItem("Pork").getName());
-    System.out.println(list.searchItem("Apple").getId());
-    System.out.println(list.searchItem("Pork").getId());
     list.addItem("Banana", Item.Category.MEAT);
-    System.out.println(list.searchItem("Banana").getId());
     list.addItem("Peach", Item.Category.FRUIT);
     list.addItem("Orange", Item.Category.FRUIT);
-    list.save();
+    list.save();*/
+    list.load();
     
   final ObservableList<Item> itemData = FXCollections.observableArrayList(list.getList());
   
@@ -60,7 +52,7 @@ public class GUI extends Application {
   itemTable.setItems(itemData);
   
   //init other components
-  Label idLabel = new Label("ID");
+  //Label idLabel = new Label("ID");
   Label nameLabel = new Label("Name");
   Label categoryLabel = new Label("Category");
   
@@ -74,7 +66,6 @@ public class GUI extends Application {
   
   Button addBtn = new Button("Add Item");
   Button removeBtn = new Button("Remove Item");
-  //Button showBtn = new Button("Show Item List");
     
   HBox nameHBox = new HBox();
   HBox categoryHBox = new HBox();
@@ -87,12 +78,12 @@ public class GUI extends Application {
   //Button functions
   //add button
   addBtn.setOnMouseClicked((evt)->{
-   list.addItem(nameTextField.getText(),Item.Category.values()[categoryOpts.getSelectionModel().getSelectedIndex()]);
+   if (categoryOpts.getSelectionModel().getSelectedIndex() >= 0)
+     list.addItem(nameTextField.getText(),Item.Category.values()[categoryOpts.getSelectionModel().getSelectedIndex()]);
    
    final ObservableList<Item> newData = FXCollections.observableArrayList(list.getList());
    //renew table
    itemTable.setItems(newData);
-   list.save();
   });
   //remove button
   removeBtn.setOnMouseClicked((evt)->{

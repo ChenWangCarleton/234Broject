@@ -10,6 +10,8 @@ import java.io.FileOutputStream;
 import java.io.FileReader;  
 import java.io.FileNotFoundException;  
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 
 public class ItemList {
@@ -33,6 +35,7 @@ public class ItemList {
   
   public void addItem(String n, Item.Category c){
     list.add(new Item(n,c));
+    save();
   }
   
   public void removeItem(String n){
@@ -40,7 +43,7 @@ public class ItemList {
   }
   
   
-  //save & load
+  //save
   public void save(){
     JSONArray arr = new JSONArray();
     for(int i = 0; i < list.size(); i++){
@@ -50,13 +53,13 @@ public class ItemList {
     }
     //save to file
     String s = arr.toString();
-    String filePath = "/Users/YaminoCastle/Desktop/3004/test code/ItemList.json";
+    String filePath = "/Users/YaminoCastle/Desktop/3004/GrosToGo/ItemList.json";
     CharBuffer cbuf = null;
     File file = new File(filePath);
     try
     {
       byte [] buff=new byte[]{};  
-      FileOutputStream output=new FileOutputStream("/Users/YaminoCastle/Desktop/3004/test code/ItemList.json");  
+      FileOutputStream output=new FileOutputStream(filePath);  
       buff=s.getBytes();  
       output.write(buff, 0, buff.length);  
     }
@@ -67,6 +70,50 @@ public class ItemList {
     catch (IOException e)
     {
       e.printStackTrace();
+    }
+  }
+  
+  //load
+  public void load(){
+    //read from file
+    
+    String s = null;
+    String filePath = "/Users/YaminoCastle/Desktop/3004/GrosToGo/ItemList.json";
+    File file = new File(filePath);
+    if (!file.exists()) return;
+    try
+    {
+      s = new String(Files.readAllBytes(Paths.get(filePath)));
+      
+    }
+    catch (FileNotFoundException e)
+    {
+      e.printStackTrace();
+    }
+    catch (IOException e)
+    {
+      e.printStackTrace();
+    }
+    JSONParser parser = new JSONParser();
+    try
+    {
+      Object obj = parser.parse(s);
+      JSONArray arr = (JSONArray)obj;
+      
+      for (int i = 0; i < arr.size(); i++){
+
+        Item tempItem = new Item();
+        
+        tempItem.read((JSONObject)arr.get(i));
+        
+        list.add(tempItem);
+        
+      }
+    }
+    catch (ParseException pe)
+    {
+      System.out.println("position: " + pe.getPosition());
+      System.out.println(pe);
     }
   }
   

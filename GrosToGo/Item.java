@@ -10,9 +10,9 @@ public class Item {
   static int nextId = 3000;
   int id;
   Category cat;
-  String name;
-  ArrayList<Float> price;
-  String imgName;
+  String name = null;
+  ArrayList<Float> price = new ArrayList<Float>();
+  String imgName = null;
   
   /*public Item(String n, int c) {
     name = n;
@@ -20,8 +20,10 @@ public class Item {
     cat = Category.values()[c];  
     imgName = null;
   }*/
-  
-    public Item(String n, Category c) {
+  public Item(){
+    id = ++nextId;
+  }
+  public Item(String n, Category c) {
     name = n;
     id = ++nextId;
     cat = c;  
@@ -62,10 +64,14 @@ public class Item {
     id = Integer.parseInt(obj.get("itemID").toString());
     cat = Category.values()[Integer.parseInt(obj.get("category").toString())];
     JSONArray priceArr = (JSONArray)obj.get("price");
-    for (int i = 0; i < price.size(); i++){
+    
+    for (int i = 0; i < priceArr.size(); i++){
       price.set(i, Float.parseFloat(priceArr.get(i).toString()));
     }
-    imgName = obj.get("img").toString();
+    
+    if (obj.get("img") != null)
+      imgName = obj.get("img").toString();
+
     
     //name = json["name"].toString();
   }
