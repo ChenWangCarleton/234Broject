@@ -53,7 +53,7 @@ public class ItemList {
     }
     //save to file
     String s = arr.toString();
-    String filePath = "/Users/YaminoCastle/Desktop/3004/GrosToGo/ItemList.json";
+    String filePath = "ItemList.json";
     CharBuffer cbuf = null;
     File file = new File(filePath);
     try
@@ -78,7 +78,7 @@ public class ItemList {
     //read from file
     
     String s = null;
-    String filePath = "/Users/YaminoCastle/Desktop/3004/GrosToGo/ItemList.json";
+    String filePath = "ItemList.json";
     File file = new File(filePath);
     if (!file.exists()) return;
     try
