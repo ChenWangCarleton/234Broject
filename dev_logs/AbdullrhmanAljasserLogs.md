@@ -28,4 +28,6 @@ GPS (Bill) - Implment google API, Ensure to determin user location and search st
 Database (Chen) - Retrieve data from website  
 
 
-**[10/3/2017 - 1:30] Meeting 8**
+**[10/3/2017 - 1:30] Meeting 8**  
+Hanad switched with Bill (Server <-> GPS)  
+Chen hopefully will  
