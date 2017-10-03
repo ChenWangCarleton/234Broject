@@ -1,4 +1,0 @@
-Hey guys! I got a basic Client Server interaction working. The client sends a packet to the server and the server acknowledges it. It asks if you want to read or write but they do the same thing. Later we would replace read and write with post and get. Overall Its very simple but might be a little confusing if you’ve dealt with datagrams and sockets before. Try and go through it and understand it before tomorrow meeting and then I can answer any questions you might have. Right now the type of data that i’m sending doesn’t matter(Client.java 55-80 and ) because we’re going to replace it with JSON. Tomorrow we can talk about how to add the JSON stuff. Let me know if you have any questions. 
-
-
-Hanad

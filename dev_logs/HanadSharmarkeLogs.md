@@ -1,1 +1,1 @@
-Hanad SharmarkeTesting Week1(Sept16-22): -Did the 'Description for for D1 and two user scenarios'                  -first 2 min 30 seconds of pitch  
+Hanad SharmarkeTesting Week1(Sept16-22): -Did the 'Description for for D1 and two user scenarios'                  -first 2 min 30 seconds of pitch  Week2(Sept23-29): -Created a Client-Server connection which sends read and write requests                    
