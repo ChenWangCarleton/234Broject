@@ -1,0 +1,63 @@
+package ca.comp3004.grocerygo.grocerygo;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
+    ListView myViewList;
+    Map<String, String[]> myList = new HashMap<String, String[]>();
+    ArrayAdapter<String> listAdapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //Populating the map with products and categories from the database
+        myList.put("Fruits & Veggies",new String[] {"Apple","Orange","Grapes","Cucumber","ETC"});
+        myList.put("Proteins",new String[]{"Beef","Chicken","Fish","Turkey","ETC"});
+        myList.put("Dairy",new String[]{"Milk","Yogurt","Cream","ETC"});
+        myList.put("Grains",new String[]{"Flour","Flat Bread","Toast","ETC"});
+        myList.put("Oils",new String[]{"Olive Oil","Sunflower Oil","Sesame oil","ETC"});
+
+        //Creating a list of all categories
+        Set<String> myListKeys = myList.keySet();
+        ArrayList<String> categories = new ArrayList<String>();
+        for(String val : myListKeys){
+            categories.add(val);
+        }
+
+        //Populating list
+        myViewList = (ListView) findViewById(R.id.groceryList);
+        listAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,categories);
+        myViewList.setAdapter(listAdapter);
+        myViewList.setOnItemClickListener(this);
+
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        //Choosen category
+        TextView cat = (TextView) view;
+        ArrayList<String> tempItems = new ArrayList<String>();
+        //Toast.makeText(this, cat.getText().toString(),Toast.LENGTH_SHORT).show();
+        listAdapter.clear();
+        for(String val : myList.get(cat.getText().toString())){
+            tempItems.add(val);
+        }
+        listAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,tempItems);
+        myViewList.setAdapter(listAdapter);
+        listAdapter.notifyDataSetChanged();
+    }
+}

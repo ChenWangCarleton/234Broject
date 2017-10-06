@@ -1,4 +1,4 @@
-package com.a234broject.grocerygo.grocerygo;
+package ca.comp3004.grocerygo.grocerygo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.a234broject.grocerygo.grocerygo", appContext.getPackageName());
+        assertEquals("ca.comp3004.grocerygo.grocerygo", appContext.getPackageName());
     }
 }

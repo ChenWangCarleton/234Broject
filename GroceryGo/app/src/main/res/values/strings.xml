@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Grocery Go</string>
+    <string name="app_name">GroceryGo</string>
+    <string name="edit_search">Search</string>
+    <string name="button_cart">Cart</string>
 </resources>

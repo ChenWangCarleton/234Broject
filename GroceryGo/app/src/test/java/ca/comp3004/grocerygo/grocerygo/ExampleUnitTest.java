@@ -1,4 +1,4 @@
-package com.a234broject.grocerygo.grocerygo;
+package ca.comp3004.grocerygo.grocerygo;
 
 import org.junit.Test;
 

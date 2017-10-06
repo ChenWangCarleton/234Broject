@@ -2,9 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "26.0.1"
+    buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "com.a234broject.grocerygo.grocerygo"
+        applicationId "ca.comp3004.grocerygo.grocerygo"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
