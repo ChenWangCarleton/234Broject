@@ -27,7 +27,11 @@ Server (Hanad) - Ensure server send and recieve (JSON/Text docs)
 GPS (Bill) - Implment google API, Ensure to determin user location and search stores nearby  
 Database (Chen) - Retrieve data from website  
 
-
-**[10/3/2017 - 1:30] Meeting 8**  
+**[10/03/2017 - 1:30] Meeting 8**  
 Hanad switched with Bill (Server <-> GPS)  
-Chen hopefully will  
+Chen will work on web crawler  
+
+**[10/07/2017 - 1:30] Meeting 9**  
+Completed rough UI  
+Completed rough Server  
+Completed rough Web Crawler  

@@ -1,5 +1,6 @@
 package ca.comp3004.grocerygo.grocerygo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ListView myViewList;
     Map<String, String[]> myList = new HashMap<String, String[]>();
     ArrayAdapter<String> listAdapter;
+    ArrayList<String> tempAL = new ArrayList<String>(); //Temporary Array List
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_main);
 
         //Populating the map with products and categories from the database
+        //Implementing retrevial from server
         myList.put("Fruits & Veggies",new String[] {"Apple","Orange","Grapes","Cucumber","ETC"});
         myList.put("Proteins",new String[]{"Beef","Chicken","Fish","Turkey","ETC"});
         myList.put("Dairy",new String[]{"Milk","Yogurt","Cream","ETC"});
@@ -33,14 +36,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         //Creating a list of all categories
         Set<String> myListKeys = myList.keySet();
-        ArrayList<String> categories = new ArrayList<String>();
         for(String val : myListKeys){
-            categories.add(val);
+            tempAL.add(val);
         }
 
         //Populating list
         myViewList = (ListView) findViewById(R.id.groceryList);
-        listAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,categories);
+        listAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,tempAL);
         myViewList.setAdapter(listAdapter);
         myViewList.setOnItemClickListener(this);
 
@@ -48,15 +50,39 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        //Choosen category
-        TextView cat = (TextView) view;
-        ArrayList<String> tempItems = new ArrayList<String>();
-        //Toast.makeText(this, cat.getText().toString(),Toast.LENGTH_SHORT).show();
-        listAdapter.clear();
-        for(String val : myList.get(cat.getText().toString())){
-            tempItems.add(val);
+        //Selected item
+        TextView selected = (TextView) view;
+        tempAL.clear();
+
+        //Return to categories
+        if(selected.getText().toString().equals("Go Back")){
+            Set<String> myListKeys = myList.keySet();
+            for(String val : myListKeys){
+                tempAL.add(val);
+            }
+        } else if(myList.get(selected.getText().toString()) != null) { //Selected category
+
+            tempAL.clear();
+            tempAL.add("Go Back");
+            for (String val : myList.get(selected.getText().toString())) {
+                tempAL.add(val);
+            }
+        } else {
+            Intent popIntent = new Intent(MainActivity.this, ItemPop.class);
+            popIntent.putExtra("Product", selected.getText().toString());
+            startActivity(popIntent);
+
+            //Adding item into the CART
+
+
+            //After leaving
+            Set<String> myListKeys = myList.keySet();
+            for(String val : myListKeys){
+                tempAL.add(val);
+            }
         }
-        listAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,tempItems);
+
+        listAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,tempAL);
         myViewList.setAdapter(listAdapter);
         listAdapter.notifyDataSetChanged();
     }
