@@ -1,0 +1,701 @@
+Meat & Seafood  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/c/IND001004000000
+     Chicken & Turkey  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Chicken-%26-Turkey/c/IND001004002000
+          Strips, Cubes & Bacon  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Strips%2C-Cubes-%26-Bacon/c/IND001004002007
+               Strips, Cubes & Bacon | Independent     product Level:
+          Drumsticks & Wings  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Drumsticks-%26-Wings/c/IND001004002005
+               Drumsticks & Wings | Independent     product Level:
+          Thighs & Legs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Thighs-%26-Legs/c/IND001004002002
+               Thighs & Legs | Independent     product Level:
+          Breasts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Breasts/c/IND001004002001
+               Breasts | Independent     product Level:
+          Ground and Offal  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Ground-and-Offal/c/IND001004002004
+               Ground and Offal | Independent     product Level:
+          Whole & Halved  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Whole-%26-Halved/c/IND001004002003
+               Whole & Halved | Independent     product Level:
+     Pork  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/c/IND001004003000
+          Offal  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/Offal/c/IND001004003005
+               Offal | Independent     product Level:
+          Ribs & Roasts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/Ribs-%26-Roasts/c/IND001004003002
+               Ribs & Roasts | Independent     product Level:
+          Ham  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/Ham/c/IND001004003001
+               Ham | Independent     product Level:
+          Tenderloin  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/Tenderloin/c/IND001004003003
+               Tenderloin | Independent     product Level:
+          Ground Pork  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/Ground-Pork/c/IND001004003006
+               Ground Pork | Independent     product Level:
+          Chops & Steaks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/Chops-%26-Steaks/c/IND001004003004
+               Chops & Steaks | Independent     product Level:
+          Bacon  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Pork/Bacon/c/IND001004003007
+               Bacon | Independent     product Level:
+     Lamb & Goat  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Lamb-%26-Goat/c/IND001004004000
+          Ground and Offal  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Lamb-%26-Goat/Ground-and-Offal/c/IND001004004001
+               Ground and Offal | Independent     product Level:
+          Stew Chops  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Lamb-%26-Goat/Stew-Chops/c/IND001004004004
+               Stew Chops | Independent     product Level:
+          Roasts & Ribs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Lamb-%26-Goat/Roasts-%26-Ribs/c/IND001004004002
+               Roasts & Ribs | Independent     product Level:
+          Steaks & Loins  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Lamb-%26-Goat/Steaks-%26-Loins/c/IND001004004003
+               Steaks & Loins | Independent     product Level:
+     Prepped & Marinated  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Prepped-%26-Marinated/c/IND001004009000
+          Kebabs & Skewers  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Kebabs-%26-Skewers/c/IND001004009005
+               Kebabs & Skewers | Independent     product Level:
+          Burgers & Meatballs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Burgers-%26-Meatballs/c/IND001004009008
+               Burgers & Meatballs | Independent     product Level:
+          Sausages & Hot Dogs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Sausages-%26-Hot-Dogs/c/IND001004009009
+               Sausages & Hot Dogs | Independent     product Level:
+     Fish & Seafood  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/c/IND001004006000
+          Shrimp & Prawns  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/Shrimp-%26-Prawns/c/IND001004006005
+               Shrimp & Prawns | Independent     product Level:
+          Scallops, Mussels & More  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/Scallops%2C-Mussels-%26-More/c/IND001004006006
+               Scallops, Mussels & More | Independent     product Level:
+          Lobster & Crab  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/Lobster-%26-Crab/c/IND001004006007
+               Lobster & Crab | Independent     product Level:
+          Whole Fish  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/Whole-Fish/c/IND001004006001
+               Whole Fish | Independent     product Level:
+          Small & Salty  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/Small-%26-Salty/c/IND001004006004
+               Small & Salty | Independent     product Level:
+          White Fish  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/White-Fish/c/IND001004006002
+               White Fish | Independent     product Level:
+          Salmon, Trout & Tuna  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Fish-%26-Seafood/Salmon%2C-Trout-%26-Tuna/c/IND001004006003
+               Salmon, Trout & Tuna | Independent     product Level:
+     Game Meats & Fowl  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/c/IND001004010000
+          Bison  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/Bison/c/IND001004010001
+               Bison | Independent     product Level:
+          Rabbit  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/Rabbit/c/IND001004010003
+               Rabbit | Independent     product Level:
+          Cornish Hen  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/Cornish-Hen/c/IND001004010004
+               Cornish Hen | Independent     product Level:
+     Beef & Veal  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Beef-%26-Veal/c/IND001004001000
+          Veal Cuts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Beef-%26-Veal/Veal-Cuts/c/IND001004001008
+               Veal Cuts | Independent     product Level:
+          Steak Cuts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Beef-%26-Veal/Steak-Cuts/c/IND001004001002
+               Steak Cuts | Independent     product Level:
+          Offal & Other Cuts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Beef-%26-Veal/Offal-%26-Other-Cuts/c/IND001004001005
+               Offal & Other Cuts | Independent     product Level:
+          Roasts & Ribs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Beef-%26-Veal/Roasts-%26-Ribs/c/IND001004001003
+               Roasts & Ribs | Independent     product Level:
+          Stew, Cubes & Strips  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Beef-%26-Veal/Stew%2C-Cubes-%26-Strips/c/IND001004001004
+               Stew, Cubes & Strips | Independent     product Level:
+          Ground Beef & Burgers  --->  https://www.yourindependentgrocer.ca/Independent/Food/Meat-%26-Seafood/Beef-%26-Veal/Ground-Beef-%26-Burgers/c/IND001004001001
+               Ground Beef & Burgers | Independent     product Level:
+Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/c/IND001006000000
+     Drink Mixes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Drink-Mixes/c/IND001006002000
+          Powdered Drink Mixes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Drink-Mixes/Powdered-Drink-Mixes/c/IND001006002002
+               Powdered Drink Mixes | Independent     product Level:
+          Liquid Drink Mix  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Drink-Mixes/Liquid-Drink-Mix/c/IND001006002001
+               Liquid Drink Mix | Independent     product Level:
+     Iced Teas & Coffees  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Iced-Teas-%26-Coffees/c/IND001006003000
+          Iced Tea Mix & Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Iced-Teas-%26-Coffees/Iced-Tea-Mix-%26-Drinks/c/IND001006003001
+               Iced Tea Mix & Drinks | Independent     product Level:
+          Iced Coffee  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Iced-Teas-%26-Coffees/Iced-Coffee/c/IND001006003002
+               Iced Coffee | Independent     product Level:
+     Juice  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Juice/c/IND001006004000
+          Coconut Water  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Juice/Coconut-Water/c/IND001006004001
+               Coconut Water | Independent     product Level:
+          Chilled Juices  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Juice/Chilled-Juices/c/IND001006004002
+               Chilled Juices | Independent     product Level:
+          Shelf-Stable Juices  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Juice/Shelf-Stable-Juices/c/IND001006004006
+               Shelf-Stable Juices | Independent     product Level:
+          Sparkling Juices  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Juice/Sparkling-Juices/c/IND001006004011
+               Sparkling Juices | Independent     product Level:
+          Vegetable Juices  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Juice/Vegetable-Juices/c/IND001006004010
+               Vegetable Juices | Independent     product Level:
+     Soft Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soft-Drinks/c/IND001006005000
+          24-Packs & 32 Packs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soft-Drinks/24-Packs-%26-32-Packs/c/IND001006005005
+               24-Packs & 32 Packs | Independent     product Level:
+          2-Liter & 1.5-Liter  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soft-Drinks/2-Liter-%26-1-5-Liter/c/IND001006005002
+               2-Liter & 1.5-Liter | Independent     product Level:
+          1-Liter  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soft-Drinks/1-Liter/c/IND001006005001
+               1-Liter | Independent     product Level:
+          8-Packs & 12-Packs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soft-Drinks/8-Packs-%26-12-Packs/c/IND001006005004
+               8-Packs & 12-Packs | Independent     product Level:
+          6-Packs & 4-Packs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soft-Drinks/6-Packs-%26-4-Packs/c/IND001006005003
+               6-Packs & 4-Packs | Independent     product Level:
+          Specialty Soft Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soft-Drinks/Specialty-Soft-Drinks/c/IND001006005008
+               Specialty Soft Drinks | Independent     product Level:
+     Soy, Rice & Almond Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/c/IND001006006000
+          Rice Milk  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Rice-Milk/c/IND001006006003
+               Rice Milk | Independent     product Level:
+          Nut & Seed Milks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Nut-%26-Seed-Milks/c/IND001006006002
+               Nut & Seed Milks | Independent     product Level:
+          Soy Milk  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Soy-Milk/c/IND001006006001
+               Soy Milk | Independent     product Level:
+     Sports and Energy Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Sports-and-Energy-Drinks/c/IND001006007000
+          Sports Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Sports-and-Energy-Drinks/Sports-Drinks/c/IND001006007003
+               Sports Drinks | Independent     product Level:
+          Meal Replacements  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Sports-and-Energy-Drinks/Meal-Replacements/c/IND001006007004
+               Meal Replacements | Independent     product Level:
+          Energy Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Sports-and-Energy-Drinks/Energy-Drinks/c/IND001006007001
+               Energy Drinks | Independent     product Level:
+     Tea & Hot Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Tea-%26-Hot-Drinks/c/IND001006008000
+          Hot Chocolate  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Tea-%26-Hot-Drinks/Hot-Chocolate/c/IND001006008002
+               Hot Chocolate | Independent     product Level:
+          Black  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Tea-%26-Hot-Drinks/Black/c/IND001006008001
+               Black | Independent     product Level:
+          Green  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Tea-%26-Hot-Drinks/Green/c/IND001006008003
+               Green | Independent     product Level:
+          Specilty Teas  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Tea-%26-Hot-Drinks/Specilty-Teas/c/IND001006008005
+               Specilty Teas | Independent     product Level:
+          Hot Cider  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Tea-%26-Hot-Drinks/Hot-Cider/c/IND001006008004
+               Hot Cider | Independent     product Level:
+     Water  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Water/c/IND001006009000
+          Bottled Water  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Water/Bottled-Water/c/IND001006009003
+               Bottled Water | Independent     product Level:
+          Flavoured Water  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Water/Flavoured-Water/c/IND001006009005
+               Flavoured Water | Independent     product Level:
+          Sparkling Water  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Water/Sparkling-Water/c/IND001006009001
+               Sparkling Water | Independent     product Level:
+     Wine, Beer & Spirits  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Wine%2C-Beer-%26-Spirits/c/IND001006010000
+          Alcohol Free Drinks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Wine%2C-Beer-%26-Spirits/Alcohol-Free-Drinks/c/IND001006010006
+               Alcohol Free Drinks | Independent     product Level:
+     Coffee  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Coffee/c/IND001006001000
+          Filters & Accessories  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Coffee/Filters-%26-Accessories/c/IND001006001009
+               Filters & Accessories | Independent     product Level:
+          Instant Coffee  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Coffee/Instant-Coffee/c/IND001006001007
+               Instant Coffee | Independent     product Level:
+          Whole Bean  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Coffee/Whole-Bean/c/IND001006001008
+               Whole Bean | Independent     product Level:
+          Coffee Pods  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Coffee/Coffee-Pods/c/IND001006001002
+               Coffee Pods | Independent     product Level:
+          Ground Coffee  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Coffee/Ground-Coffee/c/IND001006001004
+               Ground Coffee | Independent     product Level:
+          Coffee Whiteners  --->  https://www.yourindependentgrocer.ca/Independent/Food/Drinks/Coffee/Coffee-Whiteners/c/IND001006001003
+               Coffee Whiteners | Independent     product Level:
+Deli & Ready Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/c/IND001002000000
+     Deli Cheese  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/c/IND001002002000
+          Goat & Sheep  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Goat-%26-Sheep/c/IND001002002007
+               Goat & Sheep | Independent     product Level:
+          Parmaseans & Grating  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Parmaseans-%26-Grating/c/IND001002002005
+               Parmaseans & Grating | Independent     product Level:
+          Friable Cheeses  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Friable-Cheeses/c/IND001002002004
+               Friable Cheeses | Independent     product Level:
+          Gouda & Other Swiss  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Gouda-%26-Other-Swiss/c/IND001002002003
+               Gouda & Other Swiss | Independent     product Level:
+          Mozzarella & Semi-Soft  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Mozzarella-%26-Semi-Soft/c/IND001002002009
+               Mozzarella & Semi-Soft | Independent     product Level:
+          Soft & Spreadable  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Soft-%26-Spreadable/c/IND001002002008
+               Soft & Spreadable | Independent     product Level:
+          Blue Cheese  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Blue-Cheese/c/IND001002002001
+               Blue Cheese | Independent     product Level:
+          Firm Cheeses  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Firm-Cheeses/c/IND001002002010
+               Firm Cheeses | Independent     product Level:
+          Cheddars  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Cheese/Cheddars/c/IND001002002002
+               Cheddars | Independent     product Level:
+     Antipastos, Dips & Spreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/c/IND001002003000
+          Dips  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/Dips/c/IND001002003002
+               Dips | Independent     product Level:
+          Hummus & Spreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/Hummus-%26-Spreads/c/IND001002003001
+               Hummus & Spreads | Independent     product Level:
+          P?t¨¦ & Caviar  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/P%C3%A2t%C3%A9-%26-Caviar/c/IND001002003005
+               P?t¨¦ & Caviar | Independent     product Level:
+     Vegan & Vegetarian  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Vegan-%26-Vegetarian/c/IND001002004000
+          Meat Alternatives  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Vegan-%26-Vegetarian/Meat-Alternatives/c/IND001002004002
+               Meat Alternatives | Independent     product Level:
+          Vegan Cheeses  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Vegan-%26-Vegetarian/Vegan-Cheeses/c/IND001002004001
+               Vegan Cheeses | Independent     product Level:
+     Ready Meals & Sides  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/c/IND001002005000
+          Pasta & Rice Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Pasta-%26-Rice-Meals/c/IND001002005003
+               Pasta & Rice Meals | Independent     product Level:
+          Poultry Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Poultry-Meals/c/IND001002005001
+               Poultry Meals | Independent     product Level:
+          Appetizers & Sides  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Appetizers-%26-Sides/c/IND001002005004
+               Appetizers & Sides | Independent     product Level:
+          Quiche & Pies  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Quiche-%26-Pies/c/IND001002005005
+               Quiche & Pies | Independent     product Level:
+          Desserts & Snacks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Desserts-%26-Snacks/c/IND001002005009
+               Desserts & Snacks | Independent     product Level:
+          Sushi & Sandwiches  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Sushi-%26-Sandwiches/c/IND001002005011
+               Sushi & Sandwiches | Independent     product Level:
+          Breakfast  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Breakfast/c/IND001002005008
+               Breakfast | Independent     product Level:
+          Soups & Stews  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Soups-%26-Stews/c/IND001002005007
+               Soups & Stews | Independent     product Level:
+          Meat Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Meat-Meals/c/IND001002005002
+               Meat Meals | Independent     product Level:
+          Seafood Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Seafood-Meals/c/IND001002005006
+               Seafood Meals | Independent     product Level:
+          Salad  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Salad/c/IND001002005010
+               Salad | Independent     product Level:
+     Fresh Pizza, Pasta & Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/c/IND001002006000
+          Fresh Pizzas  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/Fresh-Pizzas/c/IND001002006004
+               Fresh Pizzas | Independent     product Level:
+          Long & Short Pastas  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/Long-%26-Short-Pastas/c/IND001002006001
+               Long & Short Pastas | Independent     product Level:
+          Fresh Pasta Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/Fresh-Pasta-Sauces/c/IND001002006003
+               Fresh Pasta Sauces | Independent     product Level:
+     Party Trays  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Party-Trays/c/IND001002007000
+               Party Trays | Independent     product Level:
+     Deli Meats  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/c/IND001002001000
+          Beef  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Beef/c/IND001002001002
+               Beef | Independent     product Level:
+          Salami & Pepperoni  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Salami-%26-Pepperoni/c/IND001002001005
+               Salami & Pepperoni | Independent     product Level:
+          Turkey  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Turkey/c/IND001002001001
+               Turkey | Independent     product Level:
+          Smoked & Cured Fish  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Smoked-%26-Cured-Fish/c/IND001002001010
+               Smoked & Cured Fish | Independent     product Level:
+          Bologna, Liverwurst & Pastrami  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Bologna%2C-Liverwurst-%26-Pastrami/c/IND001002001007
+               Bologna, Liverwurst & Pastrami | Independent     product Level:
+          Ham & Pork  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Ham-%26-Pork/c/IND001002001004
+               Ham & Pork | Independent     product Level:
+          Chicken  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Chicken/c/IND001002001003
+               Chicken | Independent     product Level:
+          Mortadella & Prosciutto  --->  https://www.yourindependentgrocer.ca/Independent/Food/Deli-%26-Ready-Meals/Deli-Meats/Mortadella-%26-Prosciutto/c/IND001002001006
+               Mortadella & Prosciutto | Independent     product Level:
+Dairy and Eggs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/c/IND001005000000
+     Egg & Egg Substitutes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/c/IND001005003000
+          Quail and Duck Eggs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/Quail-and-Duck-Eggs/c/IND001005003003
+               Quail and Duck Eggs | Independent     product Level:
+          Liquid Eggs & Whites  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/Liquid-Eggs-%26-Whites/c/IND001005003002
+               Liquid Eggs & Whites | Independent     product Level:
+          Whole Eggs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/Whole-Eggs/c/IND001005003001
+               Whole Eggs | Independent     product Level:
+     Milk & Cream  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Milk-%26-Cream/c/IND001005005000
+          Heavy Cream  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Milk-%26-Cream/Heavy-Cream/c/IND001005005003
+               Heavy Cream | Independent     product Level:
+          Goat & Buffalo Milk  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Milk-%26-Cream/Goat-%26-Buffalo-Milk/c/IND001005005007
+               Goat & Buffalo Milk | Independent     product Level:
+          2% & Whole Milk  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Milk-%26-Cream/2%25-%26-Whole-Milk/c/IND001005005005
+               2% & Whole Milk | Independent     product Level:
+          1% & Skim Milk  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Milk-%26-Cream/1%25-%26-Skim-Milk/c/IND001005005006
+               1% & Skim Milk | Independent     product Level:
+          Creamers  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Milk-%26-Cream/Creamers/c/IND001005005001
+               Creamers | Independent     product Level:
+          Flavoured Milk  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Milk-%26-Cream/Flavoured-Milk/c/IND001005005009
+               Flavoured Milk | Independent     product Level:
+     Packaged Cheeses  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Packaged-Cheeses/c/IND001005007000
+          Cottage Cheese  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Packaged-Cheeses/Cottage-Cheese/c/IND001005007004
+               Cottage Cheese | Independent     product Level:
+          Shredded Cheese  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Packaged-Cheeses/Shredded-Cheese/c/IND001005007006
+               Shredded Cheese | Independent     product Level:
+          String & Snack  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Packaged-Cheeses/String-%26-Snack/c/IND001005007002
+               String & Snack | Independent     product Level:
+          Sliced Cheese  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Packaged-Cheeses/Sliced-Cheese/c/IND001005007007
+               Sliced Cheese | Independent     product Level:
+          Cream Cheese  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Packaged-Cheeses/Cream-Cheese/c/IND001005007003
+               Cream Cheese | Independent     product Level:
+          Cheese Blocks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Packaged-Cheeses/Cheese-Blocks/c/IND001005007001
+               Cheese Blocks | Independent     product Level:
+     Yogurt  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/c/IND001005009000
+          Multipacks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/Multipacks/c/IND001005009006
+               Multipacks | Independent     product Level:
+          Yogurt Tubs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/Yogurt-Tubs/c/IND001005009005
+               Yogurt Tubs | Independent     product Level:
+          Drinkable & Smoothies  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/Drinkable-%26-Smoothies/c/IND001005009003
+               Drinkable & Smoothies | Independent     product Level:
+          Single Yogurts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/Single-Yogurts/c/IND001005009009
+               Single Yogurts | Independent     product Level:
+          Greek Tub Yogurt  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/Greek-Tub-Yogurt/c/IND001005009010
+               Greek Tub Yogurt | Independent     product Level:
+          Greek Single Pack Yogurt  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/Greek-Single-Pack-Yogurt/c/IND001005009011
+               Greek Single Pack Yogurt | Independent     product Level:
+          Greek Multi-Pack Yogurt  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Yogurt/Greek-Multi-Pack-Yogurt/c/IND001005009012
+               Greek Multi-Pack Yogurt | Independent     product Level:
+     Sour Creams & Chip Dips  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/c/IND001005008000
+          Sour Cream  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/Sour-Cream/c/IND001005008001
+               Sour Cream | Independent     product Level:
+          Chilled Chip Dips  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/Chilled-Chip-Dips/c/IND001005008002
+               Chilled Chip Dips | Independent     product Level:
+     Butter & Spreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Butter-%26-Spreads/c/IND001005001000
+          Margarine & Spreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Butter-%26-Spreads/Margarine-%26-Spreads/c/IND001005001002
+               Margarine & Spreads | Independent     product Level:
+          Butter  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Butter-%26-Spreads/Butter/c/IND001005001001
+               Butter | Independent     product Level:
+     Chilled Desserts & Doughs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/c/IND001005002000
+          Whipped Cream  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/Whipped-Cream/c/IND001005002003
+               Whipped Cream | Independent     product Level:
+          Puddings & Mousse  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/Puddings-%26-Mousse/c/IND001005002001
+               Puddings & Mousse | Independent     product Level:
+          Chilled Doughs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/Chilled-Doughs/c/IND001005002004
+               Chilled Doughs | Independent     product Level:
+Frozen  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/c/IND001007000000
+     Beverages & Ice  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Beverages-%26-Ice/c/IND001007003000
+          Juices  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Beverages-%26-Ice/Juices/c/IND001007003001
+               Juices | Independent     product Level:
+          Ice  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Beverages-%26-Ice/Ice/c/IND001007003003
+               Ice | Independent     product Level:
+     Breakfast Foods  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Breakfast-Foods/c/IND001007004000
+          Waffles, Pancakes & French Toast  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Breakfast-Foods/Waffles%2C-Pancakes-%26-French-Toast/c/IND001007004001
+               Waffles, Pancakes & French Toast | Independent     product Level:
+          Breakfast Sandwiches  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Breakfast-Foods/Breakfast-Sandwiches/c/IND001007004003
+               Breakfast Sandwiches | Independent     product Level:
+          Hashbrowns  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Breakfast-Foods/Hashbrowns/c/IND001007004005
+               Hashbrowns | Independent     product Level:
+          Toaster Pastries & Muffins  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Breakfast-Foods/Toaster-Pastries-%26-Muffins/c/IND001007004002
+               Toaster Pastries & Muffins | Independent     product Level:
+     Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meals/c/IND001007007000
+          Vegetarian Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meals/Vegetarian-Meals/c/IND001007007008
+               Vegetarian Meals | Independent     product Level:
+          Pork & Lamb Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meals/Pork-%26-Lamb-Meals/c/IND001007007002
+               Pork & Lamb Meals | Independent     product Level:
+          Beef & Veal Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meals/Beef-%26-Veal-Meals/c/IND001007007001
+               Beef & Veal Meals | Independent     product Level:
+          Chicken & Turkey Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meals/Chicken-%26-Turkey-Meals/c/IND001007007003
+               Chicken & Turkey Meals | Independent     product Level:
+          Fish & Seafood Meals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meals/Fish-%26-Seafood-Meals/c/IND001007007004
+               Fish & Seafood Meals | Independent     product Level:
+     Fish & Seafood  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Fish-%26-Seafood/c/IND001007005000
+          Burgers & Patties  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Fish-%26-Seafood/Burgers-%26-Patties/c/IND001007005003
+               Burgers & Patties | Independent     product Level:
+          Shrimp & Seafood  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Fish-%26-Seafood/Shrimp-%26-Seafood/c/IND001007005004
+               Shrimp & Seafood | Independent     product Level:
+          Fish Portions & Steaks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Fish-%26-Seafood/Fish-Portions-%26-Steaks/c/IND001007005001
+               Fish Portions & Steaks | Independent     product Level:
+     Ice Cream & Treats  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Ice-Cream-%26-Treats/c/IND001007006000
+          Popsicles & Fruit Bars  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Ice-Cream-%26-Treats/Popsicles-%26-Fruit-Bars/c/IND001007006004
+               Popsicles & Fruit Bars | Independent     product Level:
+          Ice Cream Bars & Treats  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Ice-Cream-%26-Treats/Ice-Cream-Bars-%26-Treats/c/IND001007006005
+               Ice Cream Bars & Treats | Independent     product Level:
+          Frozen Yogurt & Gelato  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Ice-Cream-%26-Treats/Frozen-Yogurt-%26-Gelato/c/IND001007006003
+               Frozen Yogurt & Gelato | Independent     product Level:
+          Sherbert & Sorbet  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Ice-Cream-%26-Treats/Sherbert-%26-Sorbet/c/IND001007006002
+               Sherbert & Sorbet | Independent     product Level:
+          Ice Cream Tubs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Ice-Cream-%26-Treats/Ice-Cream-Tubs/c/IND001007006006
+               Ice Cream Tubs | Independent     product Level:
+     Meat & Poultry  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meat-%26-Poultry/c/IND001007008000
+          Meatless Meat Options  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meat-%26-Poultry/Meatless-Meat-Options/c/IND001007008009
+               Meatless Meat Options | Independent     product Level:
+          Burgers & Meatballs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meat-%26-Poultry/Burgers-%26-Meatballs/c/IND001007008005
+               Burgers & Meatballs | Independent     product Level:
+          Pork  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meat-%26-Poultry/Pork/c/IND001007008003
+               Pork | Independent     product Level:
+          Sausages & Bacon  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meat-%26-Poultry/Sausages-%26-Bacon/c/IND001007008004
+               Sausages & Bacon | Independent     product Level:
+          Game Meat  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meat-%26-Poultry/Game-Meat/c/IND001007008007
+               Game Meat | Independent     product Level:
+          Chicken & Turkey  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Meat-%26-Poultry/Chicken-%26-Turkey/c/IND001007008001
+               Chicken & Turkey | Independent     product Level:
+     Pizza, Pasta & Perogies  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/c/IND001007009000
+          Meat Pizzas  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Meat-Pizzas/c/IND001007009002
+               Meat Pizzas | Independent     product Level:
+          Frozen Pasta  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Frozen-Pasta/c/IND001007009005
+               Frozen Pasta | Independent     product Level:
+          Vegetarian Pizzas  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Vegetarian-Pizzas/c/IND001007009003
+               Vegetarian Pizzas | Independent     product Level:
+          Perogies  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Perogies/c/IND001007009007
+               Perogies | Independent     product Level:
+     Vegetables  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Vegetables/c/IND001007010000
+          Vegetable Bags  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Vegetables/Vegetable-Bags/c/IND001007010004
+               Vegetable Bags | Independent     product Level:
+          Herbs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Vegetables/Herbs/c/IND001007010007
+               Herbs | Independent     product Level:
+          French Fries & Onion Rings  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Vegetables/French-Fries-%26-Onion-Rings/c/IND001007010002
+               French Fries & Onion Rings | Independent     product Level:
+          Hashbrowns & Patties  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Vegetables/Hashbrowns-%26-Patties/c/IND001007010003
+               Hashbrowns & Patties | Independent     product Level:
+     Appetizers & Snacks  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Appetizers-%26-Snacks/c/IND001007001000
+          Corn Dogs & Burritos  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Appetizers-%26-Snacks/Corn-Dogs-%26-Burritos/c/IND001007001002
+               Corn Dogs & Burritos | Independent     product Level:
+          Pockets & Pies  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Appetizers-%26-Snacks/Pockets-%26-Pies/c/IND001007001004
+               Pockets & Pies | Independent     product Level:
+          H'ordeurves  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Appetizers-%26-Snacks/H%27ordeurves/c/IND001007001003
+               H'ordeurves | Independent     product Level:
+     Bakery & Fruit  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Bakery-%26-Fruit/c/IND001007002000
+          Pie Shells & Dough  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Bakery-%26-Fruit/Pie-Shells-%26-Dough/c/IND001007002003
+               Pie Shells & Dough | Independent     product Level:
+          Cheesecakes & Pies  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Bakery-%26-Fruit/Cheesecakes-%26-Pies/c/IND001007002001
+               Cheesecakes & Pies | Independent     product Level:
+          Fruit  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Bakery-%26-Fruit/Fruit/c/IND001007002007
+               Fruit | Independent     product Level:
+          Bread & Baked  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Bakery-%26-Fruit/Bread-%26-Baked/c/IND001007002004
+               Bread & Baked | Independent     product Level:
+          Dessert Toppings  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Bakery-%26-Fruit/Dessert-Toppings/c/IND001007002005
+               Dessert Toppings | Independent     product Level:
+          Frozen Cakes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Frozen/Bakery-%26-Fruit/Frozen-Cakes/c/IND001007002002
+               Frozen Cakes | Independent     product Level:
+Pantry  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/c/IND001008000000
+     Canned & Jarred  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/c/IND001008003000
+          Soups  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Soups/c/IND001008003003
+               Soups | Independent     product Level:
+          Stews & Chili  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Stews-%26-Chili/c/IND001008003004
+               Stews & Chili | Independent     product Level:
+          Fruit  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Fruit/c/IND001008003005
+               Fruit | Independent     product Level:
+          Tomatoes & Paste  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Tomatoes-%26-Paste/c/IND001008003009
+               Tomatoes & Paste | Independent     product Level:
+          Meats  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Meats/c/IND001008003007
+               Meats | Independent     product Level:
+          Beans & Legumes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Beans-%26-Legumes/c/IND001008003001
+               Beans & Legumes | Independent     product Level:
+          Fish & Seafood  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Fish-%26-Seafood/c/IND001008003006
+               Fish & Seafood | Independent     product Level:
+          Cooking Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Cooking-Sauces/c/IND001008003011
+               Cooking Sauces | Independent     product Level:
+          Pasta & Pasta Sauce  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Pasta-%26-Pasta-Sauce/c/IND001008003002
+               Pasta & Pasta Sauce | Independent     product Level:
+          Vegetables  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Canned-%26-Jarred/Vegetables/c/IND001008003008
+               Vegetables | Independent     product Level:
+     Cereal, Spreads & Syrups  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/c/IND001008004000
+          Kids Cereals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Kids-Cereals/c/IND001008004007
+               Kids Cereals | Independent     product Level:
+          Cheese & Savory Spreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Cheese-%26-Savory-Spreads/c/IND001008004001
+               Cheese & Savory Spreads | Independent     product Level:
+          Jams, Jellies & Preserves  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Jams%2C-Jellies-%26-Preserves/c/IND001008004003
+               Jams, Jellies & Preserves | Independent     product Level:
+          Chocolate & Sweet Spreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Chocolate-%26-Sweet-Spreads/c/IND001008004005
+               Chocolate & Sweet Spreads | Independent     product Level:
+          Honey & Syrups  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Honey-%26-Syrups/c/IND001008004002
+               Honey & Syrups | Independent     product Level:
+          Nut & Seed Butters  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Nut-%26-Seed-Butters/c/IND001008004004
+               Nut & Seed Butters | Independent     product Level:
+          Adult Cereals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Adult-Cereals/c/IND001008004008
+               Adult Cereals | Independent     product Level:
+          Oatmeal & Hot Cereals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Oatmeal-%26-Hot-Cereals/c/IND001008004010
+               Oatmeal & Hot Cereals | Independent     product Level:
+          Family Cereals  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Family-Cereals/c/IND001008004009
+               Family Cereals | Independent     product Level:
+          Breakfast Bars & Pastries  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Cereal%2C-Spreads-%26-Syrups/Breakfast-Bars-%26-Pastries/c/IND001008004011
+               Breakfast Bars & Pastries | Independent     product Level:
+     Condiments & Toppings  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/c/IND001008005000
+          Pickles & Antipasto  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Pickles-%26-Antipasto/c/IND001008005008
+               Pickles & Antipasto | Independent     product Level:
+          Salsa & Guacamole  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Salsa-%26-Guacamole/c/IND001008005009
+               Salsa & Guacamole | Independent     product Level:
+          Croutons & Salad Toppings  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Croutons-%26-Salad-Toppings/c/IND001008005010
+               Croutons & Salad Toppings | Independent     product Level:
+          World Condiments  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/World-Condiments/c/IND001008005011
+               World Condiments | Independent     product Level:
+          Salad Dressing  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Salad-Dressing/c/IND001008005002
+               Salad Dressing | Independent     product Level:
+          Hot & Chili Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Hot-%26-Chili-Sauces/c/IND001008005007
+               Hot & Chili Sauces | Independent     product Level:
+          Mustard & Ketchup  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Mustard-%26-Ketchup/c/IND001008005001
+               Mustard & Ketchup | Independent     product Level:
+          Relish, Chutney & Fruit Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Relish%2C-Chutney-%26-Fruit-Sauces/c/IND001008005005
+               Relish, Chutney & Fruit Sauces | Independent     product Level:
+          BBQ & Steak Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/BBQ-%26-Steak-Sauces/c/IND001008005004
+               BBQ & Steak Sauces | Independent     product Level:
+          Mayonnaise & Sandwich Spreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Mayonnaise-%26-Sandwich-Spreads/c/IND001008005003
+               Mayonnaise & Sandwich Spreads | Independent     product Level:
+          Tartare & Seafood Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Condiments-%26-Toppings/Tartare-%26-Seafood-Sauces/c/IND001008005006
+               Tartare & Seafood Sauces | Independent     product Level:
+     Herbs, Spices & Sauces  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/c/IND001008006000
+          Packet Sauces & Seasonings  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Packet-Sauces-%26-Seasonings/c/IND001008006005
+               Packet Sauces & Seasonings | Independent     product Level:
+          Breadings, Batters & Coatings  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Breadings%2C-Batters-%26-Coatings/c/IND001008006006
+               Breadings, Batters & Coatings | Independent     product Level:
+          Herb & Spice Blends  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Herb-%26-Spice-Blends/c/IND001008006004
+               Herb & Spice Blends | Independent     product Level:
+          Cooking Pastes & Marinades  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Cooking-Pastes-%26-Marinades/c/IND001008006008
+               Cooking Pastes & Marinades | Independent     product Level:
+          Gravy, Stock & Stuffing  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Gravy%2C-Stock-%26-Stuffing/c/IND001008006007
+               Gravy, Stock & Stuffing | Independent     product Level:
+          Spices  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Spices/c/IND001008006002
+               Spices | Independent     product Level:
+          Salt & Peppers  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Salt-%26-Peppers/c/IND001008006001
+               Salt & Peppers | Independent     product Level:
+     Oil, Vinegars & Cooking Wine  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/c/IND001008007000
+          Cooking Wine  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Cooking-Wine/c/IND001008007005
+               Cooking Wine | Independent     product Level:
+          Vegetable Oils  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Vegetable-Oils/c/IND001008007001
+               Vegetable Oils | Independent     product Level:
+          Infused Oils  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Infused-Oils/c/IND001008007004
+               Infused Oils | Independent     product Level:
+          Balsamic Vinegar  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Balsamic-Vinegar/c/IND001008007008
+               Balsamic Vinegar | Independent     product Level:
+          Cooking Sprays  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Cooking-Sprays/c/IND001008007006
+               Cooking Sprays | Independent     product Level:
+          Specialty Vinegars  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Specialty-Vinegars/c/IND001008007010
+               Specialty Vinegars | Independent     product Level:
+          Olive Oils  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Olive-Oils/c/IND001008007002
+               Olive Oils | Independent     product Level:
+          Cider Vinegar  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Cider-Vinegar/c/IND001008007009
+               Cider Vinegar | Independent     product Level:
+          Nut & Seed Oils  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Nut-%26-Seed-Oils/c/IND001008007003
+               Nut & Seed Oils | Independent     product Level:
+          White Vinegar  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/White-Vinegar/c/IND001008007007
+               White Vinegar | Independent     product Level:
+     Packaged Meals & Kits  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Packaged-Meals-%26-Kits/c/IND001008008000
+          Indian Kits & Mixes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Packaged-Meals-%26-Kits/Indian-Kits-%26-Mixes/c/IND001008008002
+               Indian Kits & Mixes | Independent     product Level:
+          Asian Kits & Mixes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Packaged-Meals-%26-Kits/Asian-Kits-%26-Mixes/c/IND001008008003
+               Asian Kits & Mixes | Independent     product Level:
+          Mexican Kits & Mixes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Packaged-Meals-%26-Kits/Mexican-Kits-%26-Mixes/c/IND001008008001
+               Mexican Kits & Mixes | Independent     product Level:
+          Potato & Rice Side Kits  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Packaged-Meals-%26-Kits/Potato-%26-Rice-Side-Kits/c/IND001008008005
+               Potato & Rice Side Kits | Independent     product Level:
+          Sushi Kits & Ingredients  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Packaged-Meals-%26-Kits/Sushi-Kits-%26-Ingredients/c/IND001008008006
+               Sushi Kits & Ingredients | Independent     product Level:
+          Pasta Kits  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Packaged-Meals-%26-Kits/Pasta-Kits/c/IND001008008004
+               Pasta Kits | Independent     product Level:
+     Pasta, Rice & Beans  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/c/IND001008009000
+          Pasta  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/Pasta/c/IND001008009001
+               Pasta | Independent     product Level:
+          Quinoa  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/Quinoa/c/IND001008009007
+               Quinoa | Independent     product Level:
+          Dried Beans  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/Dried-Beans/c/IND001008009008
+               Dried Beans | Independent     product Level:
+          Polenta & Couscous  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/Polenta-%26-Couscous/c/IND001008009006
+               Polenta & Couscous | Independent     product Level:
+          Specialty Grains  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/Specialty-Grains/c/IND001008009005
+               Specialty Grains | Independent     product Level:
+          Noodles  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/Noodles/c/IND001008009003
+               Noodles | Independent     product Level:
+          Rice  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Pasta%2C-Rice-%26-Beans/Rice/c/IND001008009004
+               Rice | Independent     product Level:
+     Snacks & Candy  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/c/IND001008010000
+          Chips  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Chips/c/IND001008010001
+               Chips | Independent     product Level:
+          Popcorn & Pretzels  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Popcorn-%26-Pretzels/c/IND001008010002
+               Popcorn & Pretzels | Independent     product Level:
+          Crackers & Flatbreads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Crackers-%26-Flatbreads/c/IND001008010009
+               Crackers & Flatbreads | Independent     product Level:
+          Candy  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Candy/c/IND001008010005
+               Candy | Independent     product Level:
+          Jerky, Nuts & Seeds  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Jerky%2C-Nuts-%26-Seeds/c/IND001008010007
+               Jerky, Nuts & Seeds | Independent     product Level:
+          Chocolate  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Chocolate/c/IND001008010004
+               Chocolate | Independent     product Level:
+          Snack Bars & Fruit  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Snack-Bars-%26-Fruit/c/IND001008010003
+               Snack Bars & Fruit | Independent     product Level:
+          Pudding & Jelly  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Pudding-%26-Jelly/c/IND001008010010
+               Pudding & Jelly | Independent     product Level:
+          Cookies & Cakes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Snacks-%26-Candy/Cookies-%26-Cakes/c/IND001008010008
+               Cookies & Cakes | Independent     product Level:
+     Baking Ingredients  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/c/IND001008002000
+          Kits, Mixes & Filling  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Kits%2C-Mixes-%26-Filling/c/IND001008002001
+               Kits, Mixes & Filling | Independent     product Level:
+          Sugar & Sweeteners  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Sugar-%26-Sweeteners/c/IND001008002005
+               Sugar & Sweeteners | Independent     product Level:
+          Decorations & Frosting  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Decorations-%26-Frosting/c/IND001008002002
+               Decorations & Frosting | Independent     product Level:
+          Doughs & Crusts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Doughs-%26-Crusts/c/IND001008002007
+               Doughs & Crusts | Independent     product Level:
+          Extracts & Colouring  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Extracts-%26-Colouring/c/IND001008002008
+               Extracts & Colouring | Independent     product Level:
+          Flour & Baking Aides  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Flour-%26-Baking-Aides/c/IND001008002009
+               Flour & Baking Aides | Independent     product Level:
+          Canned & Powdered Milk  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Canned-%26-Powdered-Milk/c/IND001008002011
+               Canned & Powdered Milk | Independent     product Level:
+          Chocolate & Cocoa  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Chocolate-%26-Cocoa/c/IND001008002003
+               Chocolate & Cocoa | Independent     product Level:
+          Fruit, Seeds & Nuts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Fruit%2C-Seeds-%26-Nuts/c/IND001008002010
+               Fruit, Seeds & Nuts | Independent     product Level:
+          Meals & Grains  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Meals-%26-Grains/c/IND001008002006
+               Meals & Grains | Independent     product Level:
+          Shortening & Fats  --->  https://www.yourindependentgrocer.ca/Independent/Food/Pantry/Baking-Ingredients/Shortening-%26-Fats/c/IND001008002004
+               Shortening & Fats | Independent     product Level:
+Bakery  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/c/IND001003000000
+     Wraps, Pita & Flat Breads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/c/IND001003005000
+          Pita Bread  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Pita-Bread/c/IND001003005003
+               Pita Bread | Independent     product Level:
+          Naan & Roti  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Naan-%26-Roti/c/IND001003005004
+               Naan & Roti | Independent     product Level:
+          Pizza Dough & Bases  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Pizza-Dough-%26-Bases/c/IND001003005001
+               Pizza Dough & Bases | Independent     product Level:
+          Tortillas and wraps  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Tortillas-and-wraps/c/IND001003005002
+               Tortillas and wraps | Independent     product Level:
+     Breakfast, Muffins, & Scones  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/c/IND001003006000
+          Waffles & Pancakes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Waffles-%26-Pancakes/c/IND001003006002
+               Waffles & Pancakes | Independent     product Level:
+          Muffins  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Muffins/c/IND001003006001
+               Muffins | Independent     product Level:
+          Donuts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Donuts/c/IND001003006008
+               Donuts | Independent     product Level:
+          Croissants  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Croissants/c/IND001003006006
+               Croissants | Independent     product Level:
+          Bagels  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Bagels/c/IND001003006007
+               Bagels | Independent     product Level:
+          English Muffins  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/English-Muffins/c/IND001003006004
+               English Muffins | Independent     product Level:
+          Scones & Biscuits  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Scones-%26-Biscuits/c/IND001003006005
+               Scones & Biscuits | Independent     product Level:
+          Crumpets  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Crumpets/c/IND001003006003
+               Crumpets | Independent     product Level:
+     Desserts & Pastries  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/c/IND001003007000
+          Brownies & Slices  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/Brownies-%26-Slices/c/IND001003007001
+               Brownies & Slices | Independent     product Level:
+          Pie Shells & Crusts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/Pie-Shells-%26-Crusts/c/IND001003007006
+               Pie Shells & Crusts | Independent     product Level:
+          Cookies  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/Cookies/c/IND001003007003
+               Cookies | Independent     product Level:
+          Cakes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/Cakes/c/IND001003007002
+               Cakes | Independent     product Level:
+          Cupcakes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/Cupcakes/c/IND001003007004
+               Cupcakes | Independent     product Level:
+          Pastries & Danishes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/Pastries-%26-Danishes/c/IND001003007005
+               Pastries & Danishes | Independent     product Level:
+          Pies & Tarts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Desserts-%26-Pastries/Pies-%26-Tarts/c/IND001003007007
+               Pies & Tarts | Independent     product Level:
+     Packaged Breads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Packaged-Breads/c/IND001003002000
+          Artisan & Specialty  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Packaged-Breads/Artisan-%26-Specialty/c/IND001003002002
+               Artisan & Specialty | Independent     product Level:
+          Rye & Pumpernickel  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Packaged-Breads/Rye-%26-Pumpernickel/c/IND001003002004
+               Rye & Pumpernickel | Independent     product Level:
+          White, Wheat & Grain  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Packaged-Breads/White%2C-Wheat-%26-Grain/c/IND001003002001
+               White, Wheat & Grain | Independent     product Level:
+          Crusty & European  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Packaged-Breads/Crusty-%26-European/c/IND001003002003
+               Crusty & European | Independent     product Level:
+     Baguettes, Buns & Rolls  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/c/IND001003004000
+          Savory & Sweet  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Savory-%26-Sweet/c/IND001003004007
+               Savory & Sweet | Independent     product Level:
+          Dinner Rolls  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Dinner-Rolls/c/IND001003004005
+               Dinner Rolls | Independent     product Level:
+          Hotdog & Hamburger  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Hotdog-%26-Hamburger/c/IND001003004003
+               Hotdog & Hamburger | Independent     product Level:
+          Sandwich Rolls  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Sandwich-Rolls/c/IND001003004006
+               Sandwich Rolls | Independent     product Level:
+          Baguettes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Baguettes/c/IND001003004001
+               Baguettes | Independent     product Level:
+     Freshly Baked Breads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Freshly-Baked-Breads/c/IND001003001000
+          Artisan & Specialty  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Freshly-Baked-Breads/Artisan-%26-Specialty/c/IND001003001002
+               Artisan & Specialty | Independent     product Level:
+          White, Wheat & Grain  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Freshly-Baked-Breads/White%2C-Wheat-%26-Grain/c/IND001003001001
+               White, Wheat & Grain | Independent     product Level:
+          Rye & Pumpernickel  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Freshly-Baked-Breads/Rye-%26-Pumpernickel/c/IND001003001004
+               Rye & Pumpernickel | Independent     product Level:
+          Crusty & European  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Freshly-Baked-Breads/Crusty-%26-European/c/IND001003001003
+               Crusty & European | Independent     product Level:
+     Bread Crumbs & Stuffing  --->  https://www.yourindependentgrocer.ca/Independent/Food/Bakery/Bread-Crumbs-%26-Stuffing/c/IND001003003000
+               Bread Crumbs & Stuffing | Independent     product Level:
+Fruits & Vegetables  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/c/IND001001000000
+     Packaged Salads  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Packaged-Salads/c/IND001001003000
+               Packaged Salads | Independent     product Level:
+     Fresh Herbs  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fresh-Herbs/c/IND001001004000
+               Fresh Herbs | Independent     product Level:
+     Fresh Cut Fruit & Veg  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fresh-Cut-Fruit-%26-Veg/c/IND001001007000
+               Fresh Cut Fruit & Veg | Independent     product Level:
+     Ethnic Vegetables  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Ethnic-Vegetables/c/IND001001008000
+               Ethnic Vegetables | Independent     product Level:
+     Dried Fruits & Nuts  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Dried-Fruits-%26-Nuts/c/IND001001010000
+               Dried Fruits & Nuts | Independent     product Level:
+     Fruit  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/c/IND001001001000
+          Grapes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Grapes/c/IND001001001007
+               Grapes | Independent     product Level:
+          Apples & Pears  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Apples-%26-Pears/c/IND001001001001
+               Apples & Pears | Independent     product Level:
+          Berries & Cherries  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Berries-%26-Cherries/c/IND001001001004
+               Berries & Cherries | Independent     product Level:
+          Peaches, Nectarines & Stone Fruit  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Peaches%2C-Nectarines-%26-Stone-Fruit/c/IND001001001009
+               Peaches, Nectarines & Stone Fruit | Independent     product Level:
+          Bananas & Plantains  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Bananas-%26-Plantains/c/IND001001001003
+               Bananas & Plantains | Independent     product Level:
+          Avocado & Tropical  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Avocado-%26-Tropical/c/IND001001001002
+               Avocado & Tropical | Independent     product Level:
+          Watermelons & Melons  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Watermelons-%26-Melons/c/IND001001001008
+               Watermelons & Melons | Independent     product Level:
+          Oranges & Citrus  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Oranges-%26-Citrus/c/IND001001001006
+               Oranges & Citrus | Independent     product Level:
+          Lemons & Limes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Fruit/Lemons-%26-Limes/c/IND001001001005
+               Lemons & Limes | Independent     product Level:
+     Vegetable  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/c/IND001001002000
+          Asparagus, Eggplant & Zucchini  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Asparagus%2C-Eggplant-%26-Zucchini/c/IND001001002004
+               Asparagus, Eggplant & Zucchini | Independent     product Level:
+          Broccoli, Cabbages & Cauliflower  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Broccoli%2C-Cabbages-%26-Cauliflower/c/IND001001002003
+               Broccoli, Cabbages & Cauliflower | Independent     product Level:
+          Potato, Onions & Carrots  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Potato%2C-Onions-%26-Carrots/c/IND001001002001
+               Potato, Onions & Carrots | Independent     product Level:
+          Peas, Beans & Corn  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Peas%2C-Beans-%26-Corn/c/IND001001002005
+               Peas, Beans & Corn | Independent     product Level:
+          Leeks, Cucumbers & Celery  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Leeks%2C-Cucumbers-%26-Celery/c/IND001001002007
+               Leeks, Cucumbers & Celery | Independent     product Level:
+          Squash & Pumpkins  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Squash-%26-Pumpkins/c/IND001001002002
+               Squash & Pumpkins | Independent     product Level:
+          Mushrooms & Truffles  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Mushrooms-%26-Truffles/c/IND001001002006
+               Mushrooms & Truffles | Independent     product Level:
+          Peppers & Tomatoes  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Peppers-%26-Tomatoes/c/IND001001002009
+               Peppers & Tomatoes | Independent     product Level:
+          Lettuce & Leafy Vegetables  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Lettuce-%26-Leafy-Vegetables/c/IND001001002008
+               Lettuce & Leafy Vegetables | Independent     product Level:
+          Ginger, Garlic & Sprout  --->  https://www.yourindependentgrocer.ca/Independent/Food/Fruits-%26-Vegetables/Vegetable/Ginger%2C-Garlic-%26-Sprout/c/IND001001002010
+               Ginger, Garlic & Sprout | Independent     product Level:

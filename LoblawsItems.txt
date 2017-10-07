@@ -4645,7 +4645,6 @@ https://www.loblaws.ca/Food/Drinks/c/LSL001006000000
      https://www.loblaws.ca/Food/Drinks/Sports-and-Energy-Drinks/c/LSL001006007000
           https://www.loblaws.ca/Food/Drinks/Sports-and-Energy-Drinks/Energy-Drinks/c/LSL001006007001
                Brisk Iced Tea, Lemon(568 mL)    price:  $0.99
-                   price:  
                Red Bull Blue Edition(250 mL)    price:  $2.99
                Monster Energy Mega Energy(710 mL)    price:  $3.99
                Monster Energy Ultra, Blue(473 mL)    price:  $2.99
@@ -4666,6 +4665,7 @@ https://www.loblaws.ca/Food/Drinks/c/LSL001006000000
                Monster Energy Mad Dog Drink(4x473mL)    price:  $11.99
                V8 Energy,Peach Mango(237 mL)    price:  $2.49
                Tim Hortons Iced Capp, Mocha(300 mL)    price:  $2.99
+               V8 Energy Drink, Peach Mango(237 mL)    price:  $7.99
                Monster Energy Assault(4x473mL)    price:  $11.99
                5-hour ENERGY Shot, Orange(59 mL)    price:  $3.29
                Red Rain Energy Drink, Sugar Free(4x250mL)    price:  $2.99
@@ -9587,6 +9587,7 @@ https://www.loblaws.ca/Food/Pantry/c/LSL001008000000
                No Name Microwave Popping Corn, Butter Flavour(6x99g)    price:  $2.99
                President's Choice Blue Menu Popcorn, Microwave Natural(6x80g)    price:  $4.99
           https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/Jerky%2C-Nuts-%26-Seeds/c/LSL001008010007
+                   price:  
                Johnvince Roasted Pepitas, Salted    price:  $0.94
                President's Choice Pistachios, Jalapeno(225 g)    price:  $8.99
                No Name Celebration Trial Mix(1 kg)    price:  $12.99
@@ -9641,7 +9642,6 @@ https://www.loblaws.ca/Food/Pantry/c/LSL001008000000
                President's Choice Trail Mix, Pineapple/Bananas/Cranberries/Almonds/Walnuts(700 g)    price:  $14.99
                Planters Natural Almonds, Sodium Free(225 g)    price:  $6.49
                Manhattan Mix(650 g)    price:  $8.49
-               Johnvince Roasted Pumpki    price:  
                Raw Pepitas(275 g)    price:  $6.79
                Johnvince Harvest Mix    price:  $0.49
                Sally Roasted Sunflower Seeds, Salted(200 g)    price:  $2.49
@@ -9802,7 +9802,7 @@ https://www.loblaws.ca/Food/Pantry/c/LSL001008000000
                President's Choice Chew Chocolate Chip Granola Bar(6x156g)    price:  $2.49
                Vega Snack Bar, Dark Chocolate Mixed Nuts and Sea Salt(42 g)    price:  $2.29
                Quaker Dipps Granola Bars, Chocolate Chip(156 g)    price:  $2.99
-               Quaker Trail Mix Bar, Greek Yogurt Cranberry Almond(175 g)    price:  
+               Quaker Trail Mix Bar, Greek Yogurt Cranberry Almond(175 g)    price:  $3.49
                No Name Mixed Fruit in Cherry Gel(4x123g)    price:  $2.69
                Whey Bar, Coconut(40 g)    price:  $2.99
                Nature Valley Double Chocolate Lunch Box Granola Bar(130 g)    price:  $2.49
@@ -10160,7 +10160,7 @@ https://www.loblaws.ca/Food/Pantry/c/LSL001008000000
                Johnvince Roasted Sunflower Seeds, Unsalted    price:  $0.35
                Johnvince Roasted Almonds, Unsalted    price:  $1.75
                Johnvince Dried Papaya Chunks    price:  $0.49
-               Johnvince Sour Fruit Salad    price:  $0.44
+               Johnvince Sour Fruit Salad    price:  
                Johnvince Dried Cherries    price:  $1.75
                Johnvince Roasted Pumpkin Seeds, Unsalted    price:  $1.15
                Johnvince Golden Raisins    price:  $0.49
@@ -10959,7 +10959,6 @@ https://www.loblaws.ca/Food/Natural-%26-Organic/c/LSL001009000000
                Pacific Organic Cashew Carrot Ginger Soup(1 L)    price:  $4.99
                Imagine Organic Low Sodium Broth, Vegetable(1 L)    price:  $3.99
                Imagine Organic Imagine, Potato Quinoa & Spinach(500 mL)    price:  $4.99
-                   price:  
                Yves Sweet Peas(398 mL)    price:  $2.69
                Amys Organic Chili with Vegetables, Medium(398 mL)    price:  $3.59
                Yves Golden Corn(398 mL)    price:  $2.69

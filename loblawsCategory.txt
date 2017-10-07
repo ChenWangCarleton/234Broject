@@ -1,0 +1,964 @@
+Fruits & Vegetables  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/c/LSL001001000000
+     Fruit  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/c/LSL001001001000
+          Apples & Pears  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Apples-%26-Pears/c/LSL001001001001
+               Apples & Pears | Loblaws     product Level:
+          Avocado & Tropical  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Avocado-%26-Tropical/c/LSL001001001002
+               Avocado & Tropical | Loblaws     product Level:
+          Bananas & Plantains  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Bananas-%26-Plantains/c/LSL001001001003
+               Bananas & Plantains | Loblaws     product Level:
+          Berries & Cherries  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Berries-%26-Cherries/c/LSL001001001004
+               Berries & Cherries | Loblaws     product Level:
+          Grapes  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Grapes/c/LSL001001001007
+               Grapes | Loblaws     product Level:
+          Lemons & Limes  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Lemons-%26-Limes/c/LSL001001001005
+               Lemons & Limes | Loblaws     product Level:
+          Oranges & Citrus  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Oranges-%26-Citrus/c/LSL001001001006
+               Oranges & Citrus | Loblaws     product Level:
+          Peaches, Nectarines & Stone Fruit  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Peaches%2C-Nectarines-%26-Stone-Fruit/c/LSL001001001009
+               Peaches, Nectarines & Stone Fruit | Loblaws     product Level:
+          Watermelons & Melons  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fruit/Watermelons-%26-Melons/c/LSL001001001008
+               Watermelons & Melons | Loblaws     product Level:
+     Vegetables  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/c/LSL001001002000
+          Local Produce  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Local-Produce/c/LSL001001001011
+               Local Produce | Loblaws     product Level:
+          Asparagus, Eggplant & Zucchini  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Asparagus%2C-Eggplant-%26-Zucchini/c/LSL001001002004
+               Asparagus, Eggplant & Zucchini | Loblaws     product Level:
+          Broccoli, Cabbages & Cauliflower  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Broccoli%2C-Cabbages-%26-Cauliflower/c/LSL001001002003
+               Broccoli, Cabbages & Cauliflower | Loblaws     product Level:
+          Ginger, Garlic & Sprout  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Ginger%2C-Garlic-%26-Sprout/c/LSL001001002010
+               Ginger, Garlic & Sprout | Loblaws     product Level:
+          Mushrooms & Truffles  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Mushrooms-%26-Truffles/c/LSL001001002006
+               Mushrooms & Truffles | Loblaws     product Level:
+          Leeks, Cucumbers & Celery  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Leeks%2C-Cucumbers-%26-Celery/c/LSL001001002007
+               Leeks, Cucumbers & Celery | Loblaws     product Level:
+          Lettuce & Leafy Vegetables  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Lettuce-%26-Leafy-Vegetables/c/LSL001001002008
+               Lettuce & Leafy Vegetables | Loblaws     product Level:
+          Peas, Beans & Corn  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Peas%2C-Beans-%26-Corn/c/LSL001001002005
+               Peas, Beans & Corn | Loblaws     product Level:
+          Peppers & Tomatoes  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Peppers-%26-Tomatoes/c/LSL001001002009
+               Peppers & Tomatoes | Loblaws     product Level:
+          Potato, Onions & Carrots  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Potato%2C-Onions-%26-Carrots/c/LSL001001002001
+               Potato, Onions & Carrots | Loblaws     product Level:
+          Squash & Pumpkins  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Vegetables/Squash-%26-Pumpkins/c/LSL001001002002
+               Squash & Pumpkins | Loblaws     product Level:
+     Salads  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Salads/c/LSL001001003000
+               Salads | Loblaws     product Level:
+     Fresh Herbs  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fresh-Herbs/c/LSL001001004000
+               Fresh Herbs | Loblaws     product Level:
+     Fresh Juices  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fresh-Juices/c/LSL001001012000
+               Fresh Juices | Loblaws     product Level:
+     Organic Fruit  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Organic-Fruit/c/LSL001001005000
+               Organic Fruit | Loblaws     product Level:
+     Organic Vegetables  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Organic-Vegetables/c/LSL001001006000
+               Organic Vegetables | Loblaws     product Level:
+     Fresh Cut Fruit & Veg  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Fresh-Cut-Fruit-%26-Veg/c/LSL001001007000
+               Fresh Cut Fruit & Veg | Loblaws     product Level:
+     International Vegetables  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/International-Vegetables/c/LSL001001008000
+               International Vegetables | Loblaws     product Level:
+     Dried Fruits & Nuts  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Dried-Fruits-%26-Nuts/c/LSL001001010000
+               Dried Fruits & Nuts | Loblaws     product Level:
+     In Season Fruits & Veg  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/In-Season-Fruits-%26-Veg/c/LSL001001011000
+          Fruits  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/In-Season-Fruits-%26-Veg/Fruits/c/LSL001001011001
+               Fruits | Loblaws     product Level:
+          Vegetables  --->  https://www.loblaws.ca/Food/Fruits-%26-Vegetables/In-Season-Fruits-%26-Veg/Vegetables/c/LSL001001011002
+               Vegetables | Loblaws     product Level:
+Deli & Ready Meals  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/c/LSL001002000000
+     Deli Meats  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/c/LSL001002001000
+          Beef  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Beef/c/LSL001002001002
+               Beef | Loblaws     product Level:
+          Turkey  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Turkey/c/LSL001002001001
+               Turkey | Loblaws     product Level:
+          Chicken  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Chicken/c/LSL001002001003
+               Chicken | Loblaws     product Level:
+          Ham & Pork  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Ham-%26-Pork/c/LSL001002001004
+               Ham & Pork | Loblaws     product Level:
+          Bologna, Liverwurst & Pastrami  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Bologna%2C-Liverwurst-%26-Pastrami/c/LSL001002001007
+               Bologna, Liverwurst & Pastrami | Loblaws     product Level:
+          Salami & Pepperoni  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Salami-%26-Pepperoni/c/LSL001002001005
+               Salami & Pepperoni | Loblaws     product Level:
+          Mortadella & Prosciutto  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Mortadella-%26-Prosciutto/c/LSL001002001006
+               Mortadella & Prosciutto | Loblaws     product Level:
+          Smoked & Cured Fish  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Smoked-%26-Cured-Fish/c/LSL001002001010
+               Smoked & Cured Fish | Loblaws     product Level:
+          Specialty Cold Cuts  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Meats/Specialty-Cold-Cuts/c/LSL001002001008
+               Specialty Cold Cuts | Loblaws     product Level:
+     Deli Cheese  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/c/LSL001002002000
+          Soft & Spreadable  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Soft-%26-Spreadable/c/LSL001002002008
+               Soft & Spreadable | Loblaws     product Level:
+          Firm Cheeses  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Firm-Cheeses/c/LSL001002002010
+               Firm Cheeses | Loblaws     product Level:
+          Parmaseans & Grating  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Parmaseans-%26-Grating/c/LSL001002002005
+               Parmaseans & Grating | Loblaws     product Level:
+          Blue Cheese  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Blue-Cheese/c/LSL001002002001
+               Blue Cheese | Loblaws     product Level:
+          Cheddars  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Cheddars/c/LSL001002002002
+               Cheddars | Loblaws     product Level:
+          Goat & Sheep  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Goat-%26-Sheep/c/LSL001002002007
+               Goat & Sheep | Loblaws     product Level:
+          Mozzarella & Semi-Soft  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Mozzarella-%26-Semi-Soft/c/LSL001002002009
+               Mozzarella & Semi-Soft | Loblaws     product Level:
+          Gouda & Other Swiss  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Gouda-%26-Other-Swiss/c/LSL001002002003
+               Gouda & Other Swiss | Loblaws     product Level:
+          Grated & Sliced  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Deli-Cheese/Grated-%26-Sliced/c/LSL001002002006
+               Grated & Sliced | Loblaws     product Level:
+     Antipastos, Dips & Spreads  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/c/LSL001002003000
+          Dips  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/Dips/c/LSL001002003002
+               Dips | Loblaws     product Level:
+          Hummus & Spreads  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/Hummus-%26-Spreads/c/LSL001002003001
+               Hummus & Spreads | Loblaws     product Level:
+          P?t¨¦ & Caviar  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/P%C3%A2t%C3%A9-%26-Caviar/c/LSL001002003005
+               P?t¨¦ & Caviar | Loblaws     product Level:
+          Olives & Antipasto  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Antipastos%2C-Dips-%26-Spreads/Olives-%26-Antipasto/c/LSL001002003003
+               Olives & Antipasto | Loblaws     product Level:
+     Vegan & Vegetarian  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Vegan-%26-Vegetarian/c/LSL001002004000
+          Meat Alternatives  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Vegan-%26-Vegetarian/Meat-Alternatives/c/LSL001002004002
+               Meat Alternatives | Loblaws     product Level:
+          Tofu  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Vegan-%26-Vegetarian/Tofu/c/LSL001002004003
+               Tofu | Loblaws     product Level:
+          Vegan or Vegetarian Cheese  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Vegan-%26-Vegetarian/Vegan-or-Vegetarian-Cheese/c/LSL001002004001
+               Vegan or Vegetarian Cheese | Loblaws     product Level:
+     Ready Meals & Sides  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/c/LSL001002005000
+          Appetizers & Sides  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Appetizers-%26-Sides/c/LSL001002005004
+               Appetizers & Sides | Loblaws     product Level:
+          Beef & Pork Meals  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Beef-%26-Pork-Meals/c/LSL001002005002
+               Beef & Pork Meals | Loblaws     product Level:
+          Breakfast  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Breakfast/c/LSL001002005008
+               Breakfast | Loblaws     product Level:
+          Chicken & Turkey Meals  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Chicken-%26-Turkey-Meals/c/LSL001002005001
+               Chicken & Turkey Meals | Loblaws     product Level:
+          Desserts & Snacks  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Desserts-%26-Snacks/c/LSL001002005009
+               Desserts & Snacks | Loblaws     product Level:
+          Pasta & Rice Meals  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Pasta-%26-Rice-Meals/c/LSL001002005003
+               Pasta & Rice Meals | Loblaws     product Level:
+          Quiche & Pies  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Quiche-%26-Pies/c/LSL001002005005
+               Quiche & Pies | Loblaws     product Level:
+          Salads  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Salads/c/LSL001002005010
+               Salads | Loblaws     product Level:
+          Sandwiches & Lunch Kits  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Sandwiches-%26-Lunch-Kits/c/LSL001002005011
+               Sandwiches & Lunch Kits | Loblaws     product Level:
+          Seafood Meals  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Seafood-Meals/c/LSL001002005006
+               Seafood Meals | Loblaws     product Level:
+          Soups & Stews  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Soups-%26-Stews/c/LSL001002005007
+               Soups & Stews | Loblaws     product Level:
+          Sushi & Bento  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Ready-Meals-%26-Sides/Sushi-%26-Bento/c/LSL001002005012
+               Sushi & Bento | Loblaws     product Level:
+     Fresh Pizza, Pasta & Sauces  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/c/LSL001002006000
+          Fresh Pasta  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/Fresh-Pasta/c/LSL001002006001
+               Fresh Pasta | Loblaws     product Level:
+          Fresh Pizzas  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/Fresh-Pizzas/c/LSL001002006004
+               Fresh Pizzas | Loblaws     product Level:
+          Fresh Pasta Sauces  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Fresh-Pizza%2C-Pasta-%26-Sauces/Fresh-Pasta-Sauces/c/LSL001002006003
+               Fresh Pasta Sauces | Loblaws     product Level:
+     Party Trays  --->  https://www.loblaws.ca/Food/Deli-%26-Ready-Meals/Party-Trays/c/LSL001002007000
+               Party Trays | Loblaws     product Level:
+Bakery  --->  https://www.loblaws.ca/Food/Bakery/c/LSL001003000000
+     Freshly Baked Breads  --->  https://www.loblaws.ca/Food/Bakery/Freshly-Baked-Breads/c/LSL001003001000
+          White, Wheat & Grain  --->  https://www.loblaws.ca/Food/Bakery/Freshly-Baked-Breads/White%2C-Wheat-%26-Grain/c/LSL001003001001
+               White, Wheat & Grain | Loblaws     product Level:
+          Rye & Pumpernickel  --->  https://www.loblaws.ca/Food/Bakery/Freshly-Baked-Breads/Rye-%26-Pumpernickel/c/LSL001003001004
+               Rye & Pumpernickel | Loblaws     product Level:
+          Crusty & European  --->  https://www.loblaws.ca/Food/Bakery/Freshly-Baked-Breads/Crusty-%26-European/c/LSL001003001003
+               Crusty & European | Loblaws     product Level:
+          Artisan & Specialty  --->  https://www.loblaws.ca/Food/Bakery/Freshly-Baked-Breads/Artisan-%26-Specialty/c/LSL001003001002
+               Artisan & Specialty | Loblaws     product Level:
+     Packaged Breads  --->  https://www.loblaws.ca/Food/Bakery/Packaged-Breads/c/LSL001003002000
+          White, Wheat & Grain  --->  https://www.loblaws.ca/Food/Bakery/Packaged-Breads/White%2C-Wheat-%26-Grain/c/LSL001003002001
+               White, Wheat & Grain | Loblaws     product Level:
+          Rye & Pumpernickel  --->  https://www.loblaws.ca/Food/Bakery/Packaged-Breads/Rye-%26-Pumpernickel/c/LSL001003002004
+               Rye & Pumpernickel | Loblaws     product Level:
+          Crusty & European  --->  https://www.loblaws.ca/Food/Bakery/Packaged-Breads/Crusty-%26-European/c/LSL001003002003
+               Crusty & European | Loblaws     product Level:
+          Artisan & Specialty  --->  https://www.loblaws.ca/Food/Bakery/Packaged-Breads/Artisan-%26-Specialty/c/LSL001003002002
+               Artisan & Specialty | Loblaws     product Level:
+          Dietary  --->  https://www.loblaws.ca/Food/Bakery/Packaged-Breads/Dietary/c/LSL001003002005
+               Dietary | Loblaws     product Level:
+     Baguettes, Buns & Rolls  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/c/LSL001003004000
+          Bagels  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Bagels/c/LSL001003004004
+               Bagels | Loblaws     product Level:
+          Baguettes  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Baguettes/c/LSL001003004001
+               Baguettes | Loblaws     product Level:
+          Dinner Rolls  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Dinner-Rolls/c/LSL001003004005
+               Dinner Rolls | Loblaws     product Level:
+          Hotdog & Hamburger  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Hotdog-%26-Hamburger/c/LSL001003004003
+               Hotdog & Hamburger | Loblaws     product Level:
+          Savory & Sweet  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Savory-%26-Sweet/c/LSL001003004007
+               Savory & Sweet | Loblaws     product Level:
+          Sandwich Rolls  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Sandwich-Rolls/c/LSL001003004006
+               Sandwich Rolls | Loblaws     product Level:
+          Thin & Dietary  --->  https://www.loblaws.ca/Food/Bakery/Baguettes%2C-Buns-%26-Rolls/Thin-%26-Dietary/c/LSL001003004002
+               Thin & Dietary | Loblaws     product Level:
+     Wraps, Pita & Flat Breads  --->  https://www.loblaws.ca/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/c/LSL001003005000
+          Tortillas and wraps  --->  https://www.loblaws.ca/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Tortillas-and-wraps/c/LSL001003005002
+               Tortillas and wraps | Loblaws     product Level:
+          Pizza Dough & Bases  --->  https://www.loblaws.ca/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Pizza-Dough-%26-Bases/c/LSL001003005001
+               Pizza Dough & Bases | Loblaws     product Level:
+          Naan & Roti  --->  https://www.loblaws.ca/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Naan-%26-Roti/c/LSL001003005004
+               Naan & Roti | Loblaws     product Level:
+          Pita Bread  --->  https://www.loblaws.ca/Food/Bakery/Wraps%2C-Pita-%26-Flat-Breads/Pita-Bread/c/LSL001003005003
+               Pita Bread | Loblaws     product Level:
+     Breakfast, Muffins, & Scones  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/c/LSL001003006000
+          Muffins  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Muffins/c/LSL001003006001
+               Muffins | Loblaws     product Level:
+          Scones & Biscuits  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Scones-%26-Biscuits/c/LSL001003006005
+               Scones & Biscuits | Loblaws     product Level:
+          Crumpets  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Crumpets/c/LSL001003006003
+               Crumpets | Loblaws     product Level:
+          Croissants  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Croissants/c/LSL001003006006
+               Croissants | Loblaws     product Level:
+          Donuts  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Donuts/c/LSL001003006008
+               Donuts | Loblaws     product Level:
+          Bagels  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/Bagels/c/LSL001003006007
+               Bagels | Loblaws     product Level:
+          English Muffins  --->  https://www.loblaws.ca/Food/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/English-Muffins/c/LSL001003006004
+               English Muffins | Loblaws     product Level:
+     Desserts & Pastries  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/c/LSL001003007000
+          Brownies & Slices  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Brownies-%26-Slices/c/LSL001003007001
+               Brownies & Slices | Loblaws     product Level:
+          Cakes  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Cakes/c/LSL001003007002
+               Cakes | Loblaws     product Level:
+          Cookies  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Cookies/c/LSL001003007003
+               Cookies | Loblaws     product Level:
+          Cupcakes  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Cupcakes/c/LSL001003007004
+               Cupcakes | Loblaws     product Level:
+          Frozen Baked Treats  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Frozen-Baked-Treats/c/LSL001003007009
+               Frozen Baked Treats | Loblaws     product Level:
+          Pastries & Danishes  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Pastries-%26-Danishes/c/LSL001003007005
+               Pastries & Danishes | Loblaws     product Level:
+          Pie Shells & Crusts  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Pie-Shells-%26-Crusts/c/LSL001003007006
+               Pie Shells & Crusts | Loblaws     product Level:
+          Pies & Tarts  --->  https://www.loblaws.ca/Food/Bakery/Desserts-%26-Pastries/Pies-%26-Tarts/c/LSL001003007007
+               Pies & Tarts | Loblaws     product Level:
+     Bread Crumbs & Stuffing  --->  https://www.loblaws.ca/Food/Bakery/Bread-Crumbs-%26-Stuffing/c/LSL001003003000
+               Bread Crumbs & Stuffing | Loblaws     product Level:
+     Gluten Free  --->  https://www.loblaws.ca/Food/Bakery/Gluten-Free/c/LSL001003008000
+          Sweet Treats  --->  https://www.loblaws.ca/Food/Bakery/Gluten-Free/Sweet-Treats/c/LSL001003008002
+               Sweet Treats | Loblaws     product Level:
+          Bread, Buns & Rolls  --->  https://www.loblaws.ca/Food/Bakery/Gluten-Free/Bread%2C-Buns-%26-Rolls/c/LSL001003008001
+               Bread, Buns & Rolls | Loblaws     product Level:
+Meat & Seafood  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/c/LSL001004000000
+     Beef & Veal  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/c/LSL001004001000
+          Steak Cuts  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Steak-Cuts/c/LSL001004001002
+               Steak Cuts | Loblaws     product Level:
+          Roasts & Ribs  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Roasts-%26-Ribs/c/LSL001004001003
+               Roasts & Ribs | Loblaws     product Level:
+          Stew, Cubes & Strips  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Stew%2C-Cubes-%26-Strips/c/LSL001004001004
+               Stew, Cubes & Strips | Loblaws     product Level:
+          Veal Cuts  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Veal-Cuts/c/LSL001004001008
+               Veal Cuts | Loblaws     product Level:
+          Ground Beef & Burgers  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Ground-Beef-%26-Burgers/c/LSL001004001001
+               Ground Beef & Burgers | Loblaws     product Level:
+          Offal & Other Cuts  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Beef-%26-Veal/Offal-%26-Other-Cuts/c/LSL001004001005
+               Offal & Other Cuts | Loblaws     product Level:
+     Chicken & Turkey  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/c/LSL001004002000
+          Breasts  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Breasts/c/LSL001004002001
+               Breasts | Loblaws     product Level:
+          Ground and Offal  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Ground-and-Offal/c/LSL001004002004
+               Ground and Offal | Loblaws     product Level:
+          Strips, Cubes & Bacon  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Strips%2C-Cubes-%26-Bacon/c/LSL001004002007
+               Strips, Cubes & Bacon | Loblaws     product Level:
+          Whole & Halved  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Whole-%26-Halved/c/LSL001004002003
+               Whole & Halved | Loblaws     product Level:
+          Drumsticks & Wings  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Drumsticks-%26-Wings/c/LSL001004002005
+               Drumsticks & Wings | Loblaws     product Level:
+          Thighs & Legs  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Chicken-%26-Turkey/Thighs-%26-Legs/c/LSL001004002002
+               Thighs & Legs | Loblaws     product Level:
+     Pork  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/c/LSL001004003000
+          Ham  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/Ham/c/LSL001004003001
+               Ham | Loblaws     product Level:
+          Ground Pork  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/Ground-Pork/c/LSL001004003006
+               Ground Pork | Loblaws     product Level:
+          Chops & Steaks  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/Chops-%26-Steaks/c/LSL001004003004
+               Chops & Steaks | Loblaws     product Level:
+          Bacon  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/Bacon/c/LSL001004003007
+               Bacon | Loblaws     product Level:
+          Ribs & Roasts  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/Ribs-%26-Roasts/c/LSL001004003002
+               Ribs & Roasts | Loblaws     product Level:
+          Tenderloin  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/Tenderloin/c/LSL001004003003
+               Tenderloin | Loblaws     product Level:
+          Offal  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Pork/Offal/c/LSL001004003005
+               Offal | Loblaws     product Level:
+     Lamb & Goat  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Lamb-%26-Goat/c/LSL001004004000
+          Ground and Offal  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Lamb-%26-Goat/Ground-and-Offal/c/LSL001004004001
+               Ground and Offal | Loblaws     product Level:
+          Roasts & Ribs  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Lamb-%26-Goat/Roasts-%26-Ribs/c/LSL001004004002
+               Roasts & Ribs | Loblaws     product Level:
+          Steaks & Loins  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Lamb-%26-Goat/Steaks-%26-Loins/c/LSL001004004003
+               Steaks & Loins | Loblaws     product Level:
+     Fish & Seafood  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/c/LSL001004006000
+          Salmon & Trout  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Salmon-%26-Trout/c/LSL001600100019
+               Salmon & Trout | Loblaws     product Level:
+          Tuna, Swordfish & Marlin  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Tuna%2C-Swordfish-%26-Marlin/c/LSL001600100030
+               Tuna, Swordfish & Marlin | Loblaws     product Level:
+          Cod & Haddock  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Cod-%26-Haddock/c/LSL001600100004
+               Cod & Haddock | Loblaws     product Level:
+          Tilapia, Sole & Basa  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Tilapia%2C-Sole-%26-Basa/c/LSL001600100028
+               Tilapia, Sole & Basa | Loblaws     product Level:
+          Pickerel, Rockfish & Perch  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Pickerel%2C-Rockfish-%26-Perch/c/LSL001600100015
+               Pickerel, Rockfish & Perch | Loblaws     product Level:
+          Lobster & Crab  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Lobster-%26-Crab/c/LSL001600100009
+               Lobster & Crab | Loblaws     product Level:
+          Mussels & Oysters  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Mussels-%26-Oysters/c/LSL001600100012
+               Mussels & Oysters | Loblaws     product Level:
+          Herring, Anchovies & Sardines  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Herring%2C-Anchovies-%26-Sardines/c/LSL001600100001
+               Herring, Anchovies & Sardines | Loblaws     product Level:
+          Salted Fish & Caviar  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Salted-Fish-%26-Caviar/c/LSL001600100020
+               Salted Fish & Caviar | Loblaws     product Level:
+          Other Fresh Fish  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fish-%26-Seafood/Other-Fresh-Fish/c/LSL001600100043
+               Other Fresh Fish | Loblaws     product Level:
+     Game Meats & Fowl  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/c/LSL001004010000
+          Duck  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/Duck/c/LSL001004010002
+               Duck | Loblaws     product Level:
+          Rabbit  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/Rabbit/c/LSL001004010003
+               Rabbit | Loblaws     product Level:
+          Cornish Hen  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Game-Meats-%26-Fowl/Cornish-Hen/c/LSL001004010004
+               Cornish Hen | Loblaws     product Level:
+     Prepped & Marinated  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Prepped-%26-Marinated/c/LSL001004009000
+          Seafood Cakes & Patties  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Seafood-Cakes-%26-Patties/c/LSL001004009001
+               Seafood Cakes & Patties | Loblaws     product Level:
+          Kebabs & Skewers  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Kebabs-%26-Skewers/c/LSL001004009005
+               Kebabs & Skewers | Loblaws     product Level:
+          Marinated Seafood  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Marinated-Seafood/c/LSL001004009002
+               Marinated Seafood | Loblaws     product Level:
+          Burgers & Meatballs  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Burgers-%26-Meatballs/c/LSL001004009008
+               Burgers & Meatballs | Loblaws     product Level:
+          Marinated Cubes & Steaks  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Marinated-Cubes-%26-Steaks/c/LSL001004009006
+               Marinated Cubes & Steaks | Loblaws     product Level:
+          Sausages & Hot Dogs  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Prepped-%26-Marinated/Sausages-%26-Hot-Dogs/c/LSL001004009009
+               Sausages & Hot Dogs | Loblaws     product Level:
+     Free From Meats  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Free-From-Meats/c/LSL001004005000
+               Free From Meats | Loblaws     product Level:
+     Frozen Meats & Seafood  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/c/LSL001004015000
+          Chicken Breasts  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Chicken-Breasts/c/LSL001004015002
+               Chicken Breasts | Loblaws     product Level:
+          Chicken Strips, Nuggets & More  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Chicken-Strips%2C-Nuggets-%26-More/c/LSL001004015003
+               Chicken Strips, Nuggets & More | Loblaws     product Level:
+          Chicken Wings  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Chicken-Wings/c/LSL001004015004
+               Chicken Wings | Loblaws     product Level:
+          Burgers  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Burgers/c/LSL001004015005
+               Burgers | Loblaws     product Level:
+          Hors D'Oeuvres & Meatballs  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Hors-D%27Oeuvres-%26-Meatballs/c/LSL001004015007
+               Hors D'Oeuvres & Meatballs | Loblaws     product Level:
+          Pies & Dinners  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Pies-%26-Dinners/c/LSL001004015008
+               Pies & Dinners | Loblaws     product Level:
+          Ribs & Sausage  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Ribs-%26-Sausage/c/LSL001004015009
+               Ribs & Sausage | Loblaws     product Level:
+          Shrimp  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Shrimp/c/LSL001600200024
+               Shrimp | Loblaws     product Level:
+          Boxed & Bagged Fillets  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Boxed-%26-Bagged-Fillets/c/LSL001600200019
+               Boxed & Bagged Fillets | Loblaws     product Level:
+          Lobster, Crab & Scallops  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Lobster%2C-Crab-%26-Scallops/c/LSL001600200009
+               Lobster, Crab & Scallops | Loblaws     product Level:
+          Smoked Fish  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Smoked-Fish/c/LSL001600200021
+               Smoked Fish | Loblaws     product Level:
+          Ready to Cook  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Frozen-Meats-%26-Seafood/Ready-to-Cook/c/LSL001600200015
+               Ready to Cook | Loblaws     product Level:
+     Fresh Meat Counter  --->  https://www.loblaws.ca/Food/Meat-%26-Seafood/Fresh-Meat-Counter/c/LSL001004007000
+               Fresh Meat Counter | Loblaws     product Level:
+Dairy and Eggs  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/c/LSL001005000000
+     Milk & Cream  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/c/LSL001005005000
+          2% & Whole Milk  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/2%25-%26-Whole-Milk/c/LSL001005005005
+               2% & Whole Milk | Loblaws     product Level:
+          1% & Skim Milk  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/1%25-%26-Skim-Milk/c/LSL001005005006
+               1% & Skim Milk | Loblaws     product Level:
+          Heavy Cream  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/Heavy-Cream/c/LSL001005005003
+               Heavy Cream | Loblaws     product Level:
+          Creamers  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/Creamers/c/LSL001005005001
+               Creamers | Loblaws     product Level:
+          Flavoured Milk  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/Flavoured-Milk/c/LSL001005005009
+               Flavoured Milk | Loblaws     product Level:
+          Lactose Free Milks  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/Lactose-Free-Milks/c/LSL001005005011
+               Lactose Free Milks | Loblaws     product Level:
+          Goat & Buffalo Milk  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Milk-%26-Cream/Goat-%26-Buffalo-Milk/c/LSL001005005007
+               Goat & Buffalo Milk | Loblaws     product Level:
+     Butter & Spreads  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Butter-%26-Spreads/c/LSL001005001000
+          Butter  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Butter-%26-Spreads/Butter/c/LSL001005001001
+               Butter | Loblaws     product Level:
+          Margarine & Spreads  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Butter-%26-Spreads/Margarine-%26-Spreads/c/LSL001005001002
+               Margarine & Spreads | Loblaws     product Level:
+     Egg & Egg Substitutes  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/c/LSL001005003000
+          Whole Eggs  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/Whole-Eggs/c/LSL001005003001
+               Whole Eggs | Loblaws     product Level:
+          Liquid Eggs & Whites  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/Liquid-Eggs-%26-Whites/c/LSL001005003002
+               Liquid Eggs & Whites | Loblaws     product Level:
+     Packaged Cheeses  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/c/LSL001005007000
+          Cheese Blocks  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/Cheese-Blocks/c/LSL001005007001
+               Cheese Blocks | Loblaws     product Level:
+          Shredded Cheese  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/Shredded-Cheese/c/LSL001005007006
+               Shredded Cheese | Loblaws     product Level:
+          String & Snack  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/String-%26-Snack/c/LSL001005007002
+               String & Snack | Loblaws     product Level:
+          Sliced Cheese  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/Sliced-Cheese/c/LSL001005007007
+               Sliced Cheese | Loblaws     product Level:
+          Cream Cheese  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/Cream-Cheese/c/LSL001005007003
+               Cream Cheese | Loblaws     product Level:
+          Cottage Cheese  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/Cottage-Cheese/c/LSL001005007004
+               Cottage Cheese | Loblaws     product Level:
+          Vegan & Lactose Free  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Packaged-Cheeses/Vegan-%26-Lactose-Free/c/LSL001005007005
+               Vegan & Lactose Free | Loblaws     product Level:
+     Yogurt  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/c/LSL001005009000
+          Greek Tub Yogurt  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Greek-Tub-Yogurt/c/LSL001005009010
+               Greek Tub Yogurt | Loblaws     product Level:
+          Greek Multi-Pack Yogurt  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Greek-Multi-Pack-Yogurt/c/LSL001005009012
+               Greek Multi-Pack Yogurt | Loblaws     product Level:
+          Greek Single Pack Yogurt  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Greek-Single-Pack-Yogurt/c/LSL001005009011
+               Greek Single Pack Yogurt | Loblaws     product Level:
+          Yogurt Tubs  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Yogurt-Tubs/c/LSL001005009005
+               Yogurt Tubs | Loblaws     product Level:
+          Multipacks  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Multipacks/c/LSL001005009006
+               Multipacks | Loblaws     product Level:
+          Single Yogurts  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Single-Yogurts/c/LSL001005009009
+               Single Yogurts | Loblaws     product Level:
+          Drinkable & Smoothies  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Drinkable-%26-Smoothies/c/LSL001005009003
+               Drinkable & Smoothies | Loblaws     product Level:
+          Probiotic  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Yogurt/Probiotic/c/LSL001005009007
+               Probiotic | Loblaws     product Level:
+     Sour Creams & Chip Dips  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/c/LSL001005008000
+          Sour Cream  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/Sour-Cream/c/LSL001005008001
+               Sour Cream | Loblaws     product Level:
+          Chilled Chip Dips  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/Chilled-Chip-Dips/c/LSL001005008002
+               Chilled Chip Dips | Loblaws     product Level:
+     Chilled Desserts & Doughs  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/c/LSL001005002000
+          Puddings & Mousse  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/Puddings-%26-Mousse/c/LSL001005002001
+               Puddings & Mousse | Loblaws     product Level:
+          Chilled Doughs  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/Chilled-Doughs/c/LSL001005002004
+               Chilled Doughs | Loblaws     product Level:
+          Whipped Cream  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Chilled-Desserts-%26-Doughs/Whipped-Cream/c/LSL001005002003
+               Whipped Cream | Loblaws     product Level:
+     Organic Dairy  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Organic-Dairy/c/LSL001005006000
+               Organic Dairy | Loblaws     product Level:
+     Lactose Free Dairy  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Lactose-Free-Dairy/c/LSL001005004000
+          Soy Beverages  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Lactose-Free-Dairy/Soy-Beverages/c/LSL001005004001
+               Soy Beverages | Loblaws     product Level:
+          Grain, Seed & Nut Drinks  --->  https://www.loblaws.ca/Food/Dairy-and-Eggs/Lactose-Free-Dairy/Grain%2C-Seed-%26-Nut-Drinks/c/LSL001005004002
+               Grain, Seed & Nut Drinks | Loblaws     product Level:
+Drinks  --->  https://www.loblaws.ca/Food/Drinks/c/LSL001006000000
+     Coffee  --->  https://www.loblaws.ca/Food/Drinks/Coffee/c/LSL001006001000
+          Instant Coffee  --->  https://www.loblaws.ca/Food/Drinks/Coffee/Instant-Coffee/c/LSL001006001007
+               Instant Coffee | Loblaws     product Level:
+          Coffee Pods  --->  https://www.loblaws.ca/Food/Drinks/Coffee/Coffee-Pods/c/LSL001006001002
+               Coffee Pods | Loblaws     product Level:
+          Coffee Whiteners  --->  https://www.loblaws.ca/Food/Drinks/Coffee/Coffee-Whiteners/c/LSL001006001003
+               Coffee Whiteners | Loblaws     product Level:
+          Ground Coffee  --->  https://www.loblaws.ca/Food/Drinks/Coffee/Ground-Coffee/c/LSL001006001004
+               Ground Coffee | Loblaws     product Level:
+          Filters & Accessories  --->  https://www.loblaws.ca/Food/Drinks/Coffee/Filters-%26-Accessories/c/LSL001006001009
+               Filters & Accessories | Loblaws     product Level:
+          Whole Bean  --->  https://www.loblaws.ca/Food/Drinks/Coffee/Whole-Bean/c/LSL001006001008
+               Whole Bean | Loblaws     product Level:
+          Coffee, Tea & Espresso Accessories  --->  https://www.loblaws.ca/Food/Drinks/Coffee/Coffee%2C-Tea-%26-Espresso-Accessories/c/LSL001006001010
+               Coffee, Tea & Espresso Accessories | Loblaws     product Level:
+     Drink Mixes  --->  https://www.loblaws.ca/Food/Drinks/Drink-Mixes/c/LSL001006002000
+          Liquid Drink Mix  --->  https://www.loblaws.ca/Food/Drinks/Drink-Mixes/Liquid-Drink-Mix/c/LSL001006002001
+               Liquid Drink Mix | Loblaws     product Level:
+          Powdered Drink Mixes  --->  https://www.loblaws.ca/Food/Drinks/Drink-Mixes/Powdered-Drink-Mixes/c/LSL001006002002
+               Powdered Drink Mixes | Loblaws     product Level:
+          Cocktail Mixes  --->  https://www.loblaws.ca/Food/Drinks/Drink-Mixes/Cocktail-Mixes/c/LSL001006002005
+               Cocktail Mixes | Loblaws     product Level:
+     Iced Teas & Coffees  --->  https://www.loblaws.ca/Food/Drinks/Iced-Teas-%26-Coffees/c/LSL001006003000
+          Iced Coffee  --->  https://www.loblaws.ca/Food/Drinks/Iced-Teas-%26-Coffees/Iced-Coffee/c/LSL001006003002
+               Iced Coffee | Loblaws     product Level:
+          Iced Tea Mix & Drinks  --->  https://www.loblaws.ca/Food/Drinks/Iced-Teas-%26-Coffees/Iced-Tea-Mix-%26-Drinks/c/LSL001006003001
+               Iced Tea Mix & Drinks | Loblaws     product Level:
+     Juice  --->  https://www.loblaws.ca/Food/Drinks/Juice/c/LSL001006004000
+          Chilled Juices  --->  https://www.loblaws.ca/Food/Drinks/Juice/Chilled-Juices/c/LSL001006004002
+               Chilled Juices | Loblaws     product Level:
+          Juice Boxes  --->  https://www.loblaws.ca/Food/Drinks/Juice/Juice-Boxes/c/LSL001006004005
+               Juice Boxes | Loblaws     product Level:
+          Coconut Water  --->  https://www.loblaws.ca/Food/Drinks/Juice/Coconut-Water/c/LSL001006004001
+               Coconut Water | Loblaws     product Level:
+          Shelf-Stable Juices  --->  https://www.loblaws.ca/Food/Drinks/Juice/Shelf-Stable-Juices/c/LSL001006004006
+               Shelf-Stable Juices | Loblaws     product Level:
+          Sparkling Juices  --->  https://www.loblaws.ca/Food/Drinks/Juice/Sparkling-Juices/c/LSL001006004011
+               Sparkling Juices | Loblaws     product Level:
+          Cranberry Juices  --->  https://www.loblaws.ca/Food/Drinks/Juice/Cranberry-Juices/c/LSL001006004003
+               Cranberry Juices | Loblaws     product Level:
+          Vegetable Juices  --->  https://www.loblaws.ca/Food/Drinks/Juice/Vegetable-Juices/c/LSL001006004010
+               Vegetable Juices | Loblaws     product Level:
+     Soft Drinks  --->  https://www.loblaws.ca/Food/Drinks/Soft-Drinks/c/LSL001006005000
+          1-Liter & Less  --->  https://www.loblaws.ca/Food/Drinks/Soft-Drinks/1-Liter-%26-Less/c/LSL001006005001
+               1-Liter & Less | Loblaws     product Level:
+          1.5 - 2 Liter  --->  https://www.loblaws.ca/Food/Drinks/Soft-Drinks/1-5---2-Liter/c/LSL001006005002
+               1.5 - 2 Liter | Loblaws     product Level:
+          4 - 6 Packs  --->  https://www.loblaws.ca/Food/Drinks/Soft-Drinks/4---6-Packs/c/LSL001006005003
+               4 - 6 Packs | Loblaws     product Level:
+          8 - 12 Packs  --->  https://www.loblaws.ca/Food/Drinks/Soft-Drinks/8---12-Packs/c/LSL001006005004
+               8 - 12 Packs | Loblaws     product Level:
+          18 & Up Packs  --->  https://www.loblaws.ca/Food/Drinks/Soft-Drinks/18-%26-Up-Packs/c/LSL001006005005
+               18 & Up Packs | Loblaws     product Level:
+          Specialty Soft Drinks  --->  https://www.loblaws.ca/Food/Drinks/Soft-Drinks/Specialty-Soft-Drinks/c/LSL001006005008
+               Specialty Soft Drinks | Loblaws     product Level:
+     Soy, Rice & Almond Drinks  --->  https://www.loblaws.ca/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/c/LSL001006006000
+          Rice Milk  --->  https://www.loblaws.ca/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Rice-Milk/c/LSL001006006003
+               Rice Milk | Loblaws     product Level:
+          Nut & Seed Milks  --->  https://www.loblaws.ca/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Nut-%26-Seed-Milks/c/LSL001006006002
+               Nut & Seed Milks | Loblaws     product Level:
+          Soy Milk  --->  https://www.loblaws.ca/Food/Drinks/Soy%2C-Rice-%26-Almond-Drinks/Soy-Milk/c/LSL001006006001
+               Soy Milk | Loblaws     product Level:
+     Sports and Energy Drinks  --->  https://www.loblaws.ca/Food/Drinks/Sports-and-Energy-Drinks/c/LSL001006007000
+          Energy Drinks  --->  https://www.loblaws.ca/Food/Drinks/Sports-and-Energy-Drinks/Energy-Drinks/c/LSL001006007001
+               Energy Drinks | Loblaws     product Level:
+          Sports Drinks  --->  https://www.loblaws.ca/Food/Drinks/Sports-and-Energy-Drinks/Sports-Drinks/c/LSL001006007003
+               Sports Drinks | Loblaws     product Level:
+          Meal Replacements  --->  https://www.loblaws.ca/Food/Drinks/Sports-and-Energy-Drinks/Meal-Replacements/c/LSL001006007004
+               Meal Replacements | Loblaws     product Level:
+     Tea & Hot Drinks  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/c/LSL001006008000
+          Black  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Black/c/LSL001006008001
+               Black | Loblaws     product Level:
+          Green  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Green/c/LSL001006008003
+               Green | Loblaws     product Level:
+          Herbal Teas  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Herbal-Teas/c/LSL001006008009
+               Herbal Teas | Loblaws     product Level:
+          Specialty Teas  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Specialty-Teas/c/LSL001006008005
+               Specialty Teas | Loblaws     product Level:
+          Hot Cider  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Hot-Cider/c/LSL001006008004
+               Hot Cider | Loblaws     product Level:
+          Hot Chocolate  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Hot-Chocolate/c/LSL001006008002
+               Hot Chocolate | Loblaws     product Level:
+          Variety Packs  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Variety-Packs/c/LSL001006008007
+               Variety Packs | Loblaws     product Level:
+          Tea Pods  --->  https://www.loblaws.ca/Food/Drinks/Tea-%26-Hot-Drinks/Tea-Pods/c/LSL001006008008
+               Tea Pods | Loblaws     product Level:
+     Water  --->  https://www.loblaws.ca/Food/Drinks/Water/c/LSL001006009000
+          Up to 1.5L Bottled Water  --->  https://www.loblaws.ca/Food/Drinks/Water/Up-to-1-5L-Bottled-Water/c/LSL001006009006
+               Up to 1.5L Bottled Water | Loblaws     product Level:
+          4L & Up Bottled Water  --->  https://www.loblaws.ca/Food/Drinks/Water/4L-%26-Up-Bottled-Water/c/LSL001006009007
+               4L & Up Bottled Water | Loblaws     product Level:
+          4 - 6 Pack Bottled Water  --->  https://www.loblaws.ca/Food/Drinks/Water/4---6-Pack-Bottled-Water/c/LSL001006009008
+               4 - 6 Pack Bottled Water | Loblaws     product Level:
+          8 - 15 Pack Bottled Water  --->  https://www.loblaws.ca/Food/Drinks/Water/8---15-Pack-Bottled-Water/c/LSL001006009009
+               8 - 15 Pack Bottled Water | Loblaws     product Level:
+          18 Pack & Up Bottled Water  --->  https://www.loblaws.ca/Food/Drinks/Water/18-Pack-%26-Up-Bottled-Water/c/LSL001006009010
+               18 Pack & Up Bottled Water | Loblaws     product Level:
+          Sparkling Water  --->  https://www.loblaws.ca/Food/Drinks/Water/Sparkling-Water/c/LSL001006009001
+               Sparkling Water | Loblaws     product Level:
+          Tonic Water  --->  https://www.loblaws.ca/Food/Drinks/Water/Tonic-Water/c/LSL001006009004
+               Tonic Water | Loblaws     product Level:
+          Coconut Water  --->  https://www.loblaws.ca/Food/Drinks/Water/Coconut-Water/c/LSL001006009002
+               Coconut Water | Loblaws     product Level:
+          Flavoured Water  --->  https://www.loblaws.ca/Food/Drinks/Water/Flavoured-Water/c/LSL001006009005
+               Flavoured Water | Loblaws     product Level:
+          Bottled Water  --->  https://www.loblaws.ca/Food/Drinks/Water/Bottled-Water/c/LSL001006009003
+               Bottled Water | Loblaws     product Level:
+     Alcohol Free Drinks  --->  https://www.loblaws.ca/Food/Drinks/Alcohol-Free-Drinks/c/LSL001006010000
+          Alcohol Free Drinks  --->  https://www.loblaws.ca/Food/Drinks/Alcohol-Free-Drinks/Alcohol-Free-Drinks/c/LSL001006010006
+               Alcohol Free Drinks | Loblaws     product Level:
+Frozen  --->  https://www.loblaws.ca/Food/Frozen/c/LSL001007000000
+     Appetizers & Snacks  --->  https://www.loblaws.ca/Food/Frozen/Appetizers-%26-Snacks/c/LSL001007001000
+          Hors d¡¯oeuvres  --->  https://www.loblaws.ca/Food/Frozen/Appetizers-%26-Snacks/Hors-d%E2%80%99oeuvres/c/LSL001007001003
+               Hors d¡¯oeuvres | Loblaws     product Level:
+          Pockets & Pies  --->  https://www.loblaws.ca/Food/Frozen/Appetizers-%26-Snacks/Pockets-%26-Pies/c/LSL001007001004
+               Pockets & Pies | Loblaws     product Level:
+          Corn Dogs & Burritos  --->  https://www.loblaws.ca/Food/Frozen/Appetizers-%26-Snacks/Corn-Dogs-%26-Burritos/c/LSL001007001002
+               Corn Dogs & Burritos | Loblaws     product Level:
+     Bakery & Fruit  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/c/LSL001007002000
+          Fruit  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/Fruit/c/LSL001007002007
+               Fruit | Loblaws     product Level:
+          Bread & Baked  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/Bread-%26-Baked/c/LSL001007002004
+               Bread & Baked | Loblaws     product Level:
+          Cheesecakes & Pies  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/Cheesecakes-%26-Pies/c/LSL001007002001
+               Cheesecakes & Pies | Loblaws     product Level:
+          Frozen Cakes  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/Frozen-Cakes/c/LSL001007002002
+               Frozen Cakes | Loblaws     product Level:
+          Dairy Free Desserts  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/Dairy-Free-Desserts/c/LSL001007002006
+               Dairy Free Desserts | Loblaws     product Level:
+          Pie Shells & Dough  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/Pie-Shells-%26-Dough/c/LSL001007002003
+               Pie Shells & Dough | Loblaws     product Level:
+          Dessert Toppings  --->  https://www.loblaws.ca/Food/Frozen/Bakery-%26-Fruit/Dessert-Toppings/c/LSL001007002005
+               Dessert Toppings | Loblaws     product Level:
+     Beverages & Ice  --->  https://www.loblaws.ca/Food/Frozen/Beverages-%26-Ice/c/LSL001007003000
+          Juices  --->  https://www.loblaws.ca/Food/Frozen/Beverages-%26-Ice/Juices/c/LSL001007003001
+               Juices | Loblaws     product Level:
+          Ice  --->  https://www.loblaws.ca/Food/Frozen/Beverages-%26-Ice/Ice/c/LSL001007003003
+               Ice | Loblaws     product Level:
+     Breakfast Foods  --->  https://www.loblaws.ca/Food/Frozen/Breakfast-Foods/c/LSL001007004000
+          Waffles, Pancakes & French Toast  --->  https://www.loblaws.ca/Food/Frozen/Breakfast-Foods/Waffles%2C-Pancakes-%26-French-Toast/c/LSL001007004001
+               Waffles, Pancakes & French Toast | Loblaws     product Level:
+          Hashbrowns  --->  https://www.loblaws.ca/Food/Frozen/Breakfast-Foods/Hashbrowns/c/LSL001007004005
+               Hashbrowns | Loblaws     product Level:
+          Toaster Pastries & Muffins  --->  https://www.loblaws.ca/Food/Frozen/Breakfast-Foods/Toaster-Pastries-%26-Muffins/c/LSL001007004002
+               Toaster Pastries & Muffins | Loblaws     product Level:
+          Breakfast Sandwiches  --->  https://www.loblaws.ca/Food/Frozen/Breakfast-Foods/Breakfast-Sandwiches/c/LSL001007004003
+               Breakfast Sandwiches | Loblaws     product Level:
+     Fish & Seafood  --->  https://www.loblaws.ca/Food/Frozen/Fish-%26-Seafood/c/LSL001007005000
+          Burgers & Fish Cakes  --->  https://www.loblaws.ca/Food/Frozen/Fish-%26-Seafood/Burgers-%26-Fish-Cakes/c/LSL001600200017
+               Burgers & Fish Cakes | Loblaws     product Level:
+          Hor D'oeuvres  --->  https://www.loblaws.ca/Food/Frozen/Fish-%26-Seafood/Hor-D%27oeuvres/c/LSL001600200035
+               Hor D'oeuvres | Loblaws     product Level:
+     Ice Cream & Treats  --->  https://www.loblaws.ca/Food/Frozen/Ice-Cream-%26-Treats/c/LSL001007006000
+          Ice Cream Tubs  --->  https://www.loblaws.ca/Food/Frozen/Ice-Cream-%26-Treats/Ice-Cream-Tubs/c/LSL001007006006
+               Ice Cream Tubs | Loblaws     product Level:
+          Frozen Yogurt & Gelato  --->  https://www.loblaws.ca/Food/Frozen/Ice-Cream-%26-Treats/Frozen-Yogurt-%26-Gelato/c/LSL001007006003
+               Frozen Yogurt & Gelato | Loblaws     product Level:
+          Sherbert & Sorbet  --->  https://www.loblaws.ca/Food/Frozen/Ice-Cream-%26-Treats/Sherbert-%26-Sorbet/c/LSL001007006002
+               Sherbert & Sorbet | Loblaws     product Level:
+          Ice Cream Bars & Treats  --->  https://www.loblaws.ca/Food/Frozen/Ice-Cream-%26-Treats/Ice-Cream-Bars-%26-Treats/c/LSL001007006005
+               Ice Cream Bars & Treats | Loblaws     product Level:
+          Popsicles & Fruit Bars  --->  https://www.loblaws.ca/Food/Frozen/Ice-Cream-%26-Treats/Popsicles-%26-Fruit-Bars/c/LSL001007006004
+               Popsicles & Fruit Bars | Loblaws     product Level:
+     Meals  --->  https://www.loblaws.ca/Food/Frozen/Meals/c/LSL001007007000
+          Soups & Sides  --->  https://www.loblaws.ca/Food/Frozen/Meals/Soups-%26-Sides/c/LSL001007007009
+               Soups & Sides | Loblaws     product Level:
+          Beef & Veal Meals  --->  https://www.loblaws.ca/Food/Frozen/Meals/Beef-%26-Veal-Meals/c/LSL001007007001
+               Beef & Veal Meals | Loblaws     product Level:
+          Chicken & Turkey Meals  --->  https://www.loblaws.ca/Food/Frozen/Meals/Chicken-%26-Turkey-Meals/c/LSL001007007003
+               Chicken & Turkey Meals | Loblaws     product Level:
+          Pork & Lamb Meals  --->  https://www.loblaws.ca/Food/Frozen/Meals/Pork-%26-Lamb-Meals/c/LSL001007007002
+               Pork & Lamb Meals | Loblaws     product Level:
+          Fish & Seafood Meals  --->  https://www.loblaws.ca/Food/Frozen/Meals/Fish-%26-Seafood-Meals/c/LSL001007007004
+               Fish & Seafood Meals | Loblaws     product Level:
+          Vegetarian Meals  --->  https://www.loblaws.ca/Food/Frozen/Meals/Vegetarian-Meals/c/LSL001007007008
+               Vegetarian Meals | Loblaws     product Level:
+     Meat & Poultry  --->  https://www.loblaws.ca/Food/Frozen/Meat-%26-Poultry/c/LSL001007008000
+          Chicken & Turkey  --->  https://www.loblaws.ca/Food/Frozen/Meat-%26-Poultry/Chicken-%26-Turkey/c/LSL001007008001
+               Chicken & Turkey | Loblaws     product Level:
+          Pork  --->  https://www.loblaws.ca/Food/Frozen/Meat-%26-Poultry/Pork/c/LSL001007008003
+               Pork | Loblaws     product Level:
+          Game Meat  --->  https://www.loblaws.ca/Food/Frozen/Meat-%26-Poultry/Game-Meat/c/LSL001007008007
+               Game Meat | Loblaws     product Level:
+          Burgers & Meatballs  --->  https://www.loblaws.ca/Food/Frozen/Meat-%26-Poultry/Burgers-%26-Meatballs/c/LSL001007008005
+               Burgers & Meatballs | Loblaws     product Level:
+          Sausages & Bacon  --->  https://www.loblaws.ca/Food/Frozen/Meat-%26-Poultry/Sausages-%26-Bacon/c/LSL001007008004
+               Sausages & Bacon | Loblaws     product Level:
+          Meatless Meat Options  --->  https://www.loblaws.ca/Food/Frozen/Meat-%26-Poultry/Meatless-Meat-Options/c/LSL001007008009
+               Meatless Meat Options | Loblaws     product Level:
+     Pizza, Pasta & Perogies  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/c/LSL001007009000
+          Meat Pizzas  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Meat-Pizzas/c/LSL001007009002
+               Meat Pizzas | Loblaws     product Level:
+          Chicken & Seafood Pizzas  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Chicken-%26-Seafood-Pizzas/c/LSL001007009004
+               Chicken & Seafood Pizzas | Loblaws     product Level:
+          Vegetarian Pizzas  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Vegetarian-Pizzas/c/LSL001007009003
+               Vegetarian Pizzas | Loblaws     product Level:
+          Cheese Pizzas  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Cheese-Pizzas/c/LSL001007009001
+               Cheese Pizzas | Loblaws     product Level:
+          Snack & Handheld Pizzas  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Snack-%26-Handheld-Pizzas/c/LSL001007009006
+               Snack & Handheld Pizzas | Loblaws     product Level:
+          Perogies  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Perogies/c/LSL001007009007
+               Perogies | Loblaws     product Level:
+          Frozen Pasta  --->  https://www.loblaws.ca/Food/Frozen/Pizza%2C-Pasta-%26-Perogies/Frozen-Pasta/c/LSL001007009005
+               Frozen Pasta | Loblaws     product Level:
+     Vegetables  --->  https://www.loblaws.ca/Food/Frozen/Vegetables/c/LSL001007010000
+          Vegetable Bags  --->  https://www.loblaws.ca/Food/Frozen/Vegetables/Vegetable-Bags/c/LSL001007010004
+               Vegetable Bags | Loblaws     product Level:
+          Hashbrowns & Patties  --->  https://www.loblaws.ca/Food/Frozen/Vegetables/Hashbrowns-%26-Patties/c/LSL001007010003
+               Hashbrowns & Patties | Loblaws     product Level:
+          Stirfry Blends & Edamame  --->  https://www.loblaws.ca/Food/Frozen/Vegetables/Stirfry-Blends-%26-Edamame/c/LSL001007010006
+               Stirfry Blends & Edamame | Loblaws     product Level:
+          French Fries & Onion Rings  --->  https://www.loblaws.ca/Food/Frozen/Vegetables/French-Fries-%26-Onion-Rings/c/LSL001007010002
+               French Fries & Onion Rings | Loblaws     product Level:
+          Broccoli & Cauliflower  --->  https://www.loblaws.ca/Food/Frozen/Vegetables/Broccoli-%26-Cauliflower/c/LSL001007010005
+               Broccoli & Cauliflower | Loblaws     product Level:
+          Spinach & Kale  --->  https://www.loblaws.ca/Food/Frozen/Vegetables/Spinach-%26-Kale/c/LSL001007010001
+               Spinach & Kale | Loblaws     product Level:
+Pantry  --->  https://www.loblaws.ca/Food/Pantry/c/LSL001008000000
+     Baby Food & Formula  --->  https://www.loblaws.ca/Food/Pantry/Baby-Food-%26-Formula/c/LSL001008001000
+          Baby Formulas  --->  https://www.loblaws.ca/Food/Pantry/Baby-Food-%26-Formula/Baby-Formulas/c/LSL001008001001
+               Baby Formulas | Loblaws     product Level:
+          Toddler Food  --->  https://www.loblaws.ca/Food/Pantry/Baby-Food-%26-Formula/Toddler-Food/c/LSL001008001006
+               Toddler Food | Loblaws     product Level:
+          Bibs & Bottles  --->  https://www.loblaws.ca/Food/Pantry/Baby-Food-%26-Formula/Bibs-%26-Bottles/c/LSL001008001008
+               Bibs & Bottles | Loblaws     product Level:
+          Organic Baby Food & Formula  --->  https://www.loblaws.ca/Food/Pantry/Baby-Food-%26-Formula/Organic-Baby-Food-%26-Formula/c/LSL001008001009
+               Organic Baby Food & Formula | Loblaws     product Level:
+     Baking Ingredients  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/c/LSL001008002000
+          Canned & Powdered Milk  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Canned-%26-Powdered-Milk/c/LSL001008002011
+               Canned & Powdered Milk | Loblaws     product Level:
+          Chocolate & Cocoa  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Chocolate-%26-Cocoa/c/LSL001008002003
+               Chocolate & Cocoa | Loblaws     product Level:
+          Decorations & Frosting  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Decorations-%26-Frosting/c/LSL001008002002
+               Decorations & Frosting | Loblaws     product Level:
+          Doughs & Crusts  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Doughs-%26-Crusts/c/LSL001008002007
+               Doughs & Crusts | Loblaws     product Level:
+          Extracts & Colouring  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Extracts-%26-Colouring/c/LSL001008002008
+               Extracts & Colouring | Loblaws     product Level:
+          Flour & Baking Aides  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Flour-%26-Baking-Aides/c/LSL001008002009
+               Flour & Baking Aides | Loblaws     product Level:
+          Fruit, Seeds & Nuts  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Fruit%2C-Seeds-%26-Nuts/c/LSL001008002010
+               Fruit, Seeds & Nuts | Loblaws     product Level:
+          Kits, Mixes & Filling  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Kits%2C-Mixes-%26-Filling/c/LSL001008002001
+               Kits, Mixes & Filling | Loblaws     product Level:
+          Meals & Grains  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Meals-%26-Grains/c/LSL001008002006
+               Meals & Grains | Loblaws     product Level:
+          Shortening & Fats  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Shortening-%26-Fats/c/LSL001008002004
+               Shortening & Fats | Loblaws     product Level:
+          Sugar & Sweeteners  --->  https://www.loblaws.ca/Food/Pantry/Baking-Ingredients/Sugar-%26-Sweeteners/c/LSL001008002005
+               Sugar & Sweeteners | Loblaws     product Level:
+     Canned & Jarred  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/c/LSL001008003000
+          Beans & Legumes  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Beans-%26-Legumes/c/LSL001008003001
+               Beans & Legumes | Loblaws     product Level:
+          Cooking Sauces  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Cooking-Sauces/c/LSL001008003011
+               Cooking Sauces | Loblaws     product Level:
+          Fish & Seafood  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Fish-%26-Seafood/c/LSL001008003006
+               Fish & Seafood | Loblaws     product Level:
+          Fruit  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Fruit/c/LSL001008003005
+               Fruit | Loblaws     product Level:
+          Meats  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Meats/c/LSL001008003007
+               Meats | Loblaws     product Level:
+          Pasta & Pasta Sauce  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Pasta-%26-Pasta-Sauce/c/LSL001008003002
+               Pasta & Pasta Sauce | Loblaws     product Level:
+          Condensed Soup  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Condensed-Soup/c/LSL001008003003
+               Condensed Soup | Loblaws     product Level:
+          Stews & Chili  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Stews-%26-Chili/c/LSL001008003004
+               Stews & Chili | Loblaws     product Level:
+          Tomatoes & Paste  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Tomatoes-%26-Paste/c/LSL001008003009
+               Tomatoes & Paste | Loblaws     product Level:
+          Vegetables  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Vegetables/c/LSL001008003008
+               Vegetables | Loblaws     product Level:
+          Ready To Serve Soup  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Ready-To-Serve-Soup/c/LSL001008003012
+               Ready To Serve Soup | Loblaws     product Level:
+          Broth  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Broth/c/LSL001008003013
+               Broth | Loblaws     product Level:
+          Dry Soup Mix  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Dry-Soup-Mix/c/LSL001008003014
+               Dry Soup Mix | Loblaws     product Level:
+          Instant Soups & Noodles  --->  https://www.loblaws.ca/Food/Pantry/Canned-%26-Jarred/Instant-Soups-%26-Noodles/c/LSL001008003015
+               Instant Soups & Noodles | Loblaws     product Level:
+     Breakfast  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/c/LSL001008004000
+          Family Cereals  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Family-Cereals/c/LSL001008004009
+               Family Cereals | Loblaws     product Level:
+          Adult Cereals  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Adult-Cereals/c/LSL001008004008
+               Adult Cereals | Loblaws     product Level:
+          Kids Cereals  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Kids-Cereals/c/LSL001008004007
+               Kids Cereals | Loblaws     product Level:
+          Muesli & Granola  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Muesli-%26-Granola/c/LSL001008004006
+               Muesli & Granola | Loblaws     product Level:
+          Oatmeal & Hot Cereals  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Oatmeal-%26-Hot-Cereals/c/LSL001008004010
+               Oatmeal & Hot Cereals | Loblaws     product Level:
+          Breakfast Bars & Pastries  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Breakfast-Bars-%26-Pastries/c/LSL001008004011
+               Breakfast Bars & Pastries | Loblaws     product Level:
+          Honey & Syrups  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Honey-%26-Syrups/c/LSL001008004002
+               Honey & Syrups | Loblaws     product Level:
+          Nut & Seed Butters  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Nut-%26-Seed-Butters/c/LSL001008004004
+               Nut & Seed Butters | Loblaws     product Level:
+          Jams, Jellies & Preserves  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Jams%2C-Jellies-%26-Preserves/c/LSL001008004003
+               Jams, Jellies & Preserves | Loblaws     product Level:
+          Chocolate & Sweet Spreads  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Chocolate-%26-Sweet-Spreads/c/LSL001008004005
+               Chocolate & Sweet Spreads | Loblaws     product Level:
+          Cheese & Savory Spreads  --->  https://www.loblaws.ca/Food/Pantry/Breakfast/Cheese-%26-Savory-Spreads/c/LSL001008004001
+               Cheese & Savory Spreads | Loblaws     product Level:
+     Condiments & Toppings  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/c/LSL001008005000
+          Mustard & Ketchup  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Mustard-%26-Ketchup/c/LSL001008005001
+               Mustard & Ketchup | Loblaws     product Level:
+          BBQ & Steak Sauces  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/BBQ-%26-Steak-Sauces/c/LSL001008005004
+               BBQ & Steak Sauces | Loblaws     product Level:
+          Mayonnaise & Sandwich Spreads  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Mayonnaise-%26-Sandwich-Spreads/c/LSL001008005003
+               Mayonnaise & Sandwich Spreads | Loblaws     product Level:
+          Relish, Chutney & Fruit Sauces  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Relish%2C-Chutney-%26-Fruit-Sauces/c/LSL001008005005
+               Relish, Chutney & Fruit Sauces | Loblaws     product Level:
+          Hot & Chili Sauces  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Hot-%26-Chili-Sauces/c/LSL001008005007
+               Hot & Chili Sauces | Loblaws     product Level:
+          Salad Dressing  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Salad-Dressing/c/LSL001008005002
+               Salad Dressing | Loblaws     product Level:
+          Croutons & Salad Toppings  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Croutons-%26-Salad-Toppings/c/LSL001008005010
+               Croutons & Salad Toppings | Loblaws     product Level:
+          Pickles & Antipasto  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Pickles-%26-Antipasto/c/LSL001008005008
+               Pickles & Antipasto | Loblaws     product Level:
+          Salsa & Guacamole  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Salsa-%26-Guacamole/c/LSL001008005009
+               Salsa & Guacamole | Loblaws     product Level:
+          Tartare & Seafood Sauces  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/Tartare-%26-Seafood-Sauces/c/LSL001008005006
+               Tartare & Seafood Sauces | Loblaws     product Level:
+          World Condiments  --->  https://www.loblaws.ca/Food/Pantry/Condiments-%26-Toppings/World-Condiments/c/LSL001008005011
+               World Condiments | Loblaws     product Level:
+     Herbs, Spices & Sauces  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/c/LSL001008006000
+          Spices  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Spices/c/LSL001008006002
+               Spices | Loblaws     product Level:
+          Herb & Spice Blends  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Herb-%26-Spice-Blends/c/LSL001008006004
+               Herb & Spice Blends | Loblaws     product Level:
+          Salt & Peppers  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Salt-%26-Peppers/c/LSL001008006001
+               Salt & Peppers | Loblaws     product Level:
+          Gravy, Stock & Stuffing  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Gravy%2C-Stock-%26-Stuffing/c/LSL001008006007
+               Gravy, Stock & Stuffing | Loblaws     product Level:
+          Cooking Pastes & Marinades  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Cooking-Pastes-%26-Marinades/c/LSL001008006008
+               Cooking Pastes & Marinades | Loblaws     product Level:
+          Cooking Sauces  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Cooking-Sauces/c/LSL001008006009
+               Cooking Sauces | Loblaws     product Level:
+          Packet Sauces & Seasonings  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Packet-Sauces-%26-Seasonings/c/LSL001008006005
+               Packet Sauces & Seasonings | Loblaws     product Level:
+          Breadings, Batters & Coatings  --->  https://www.loblaws.ca/Food/Pantry/Herbs%2C-Spices-%26-Sauces/Breadings%2C-Batters-%26-Coatings/c/LSL001008006006
+               Breadings, Batters & Coatings | Loblaws     product Level:
+     Oil, Vinegars & Cooking Wine  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/c/LSL001008007000
+          Olive Oils  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Olive-Oils/c/LSL001008007002
+               Olive Oils | Loblaws     product Level:
+          Vegetable Oils  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Vegetable-Oils/c/LSL001008007001
+               Vegetable Oils | Loblaws     product Level:
+          Nut & Seed Oils  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Nut-%26-Seed-Oils/c/LSL001008007003
+               Nut & Seed Oils | Loblaws     product Level:
+          Infused Oils  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Infused-Oils/c/LSL001008007004
+               Infused Oils | Loblaws     product Level:
+          Cooking Sprays  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Cooking-Sprays/c/LSL001008007006
+               Cooking Sprays | Loblaws     product Level:
+          White Vinegar  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/White-Vinegar/c/LSL001008007007
+               White Vinegar | Loblaws     product Level:
+          Balsamic Vinegar  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Balsamic-Vinegar/c/LSL001008007008
+               Balsamic Vinegar | Loblaws     product Level:
+          Cider Vinegar  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Cider-Vinegar/c/LSL001008007009
+               Cider Vinegar | Loblaws     product Level:
+          Specialty Vinegars  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Specialty-Vinegars/c/LSL001008007010
+               Specialty Vinegars | Loblaws     product Level:
+          Cooking Wine  --->  https://www.loblaws.ca/Food/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/Cooking-Wine/c/LSL001008007005
+               Cooking Wine | Loblaws     product Level:
+     Packaged Meals & Kits  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/c/LSL001008008000
+          Asian Kits & Mixes  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/Asian-Kits-%26-Mixes/c/LSL001008008003
+               Asian Kits & Mixes | Loblaws     product Level:
+          Indian Kits & Mixes  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/Indian-Kits-%26-Mixes/c/LSL001008008002
+               Indian Kits & Mixes | Loblaws     product Level:
+          Mexican Kits & Mixes  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/Mexican-Kits-%26-Mixes/c/LSL001008008001
+               Mexican Kits & Mixes | Loblaws     product Level:
+          Pasta Kits  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/Pasta-Kits/c/LSL001008008004
+               Pasta Kits | Loblaws     product Level:
+          Potato & Rice Side Kits  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/Potato-%26-Rice-Side-Kits/c/LSL001008008005
+               Potato & Rice Side Kits | Loblaws     product Level:
+          Slow Cooker Packets  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/Slow-Cooker-Packets/c/LSL001008008007
+               Slow Cooker Packets | Loblaws     product Level:
+          Sushi Kits & Ingredients  --->  https://www.loblaws.ca/Food/Pantry/Packaged-Meals-%26-Kits/Sushi-Kits-%26-Ingredients/c/LSL001008008006
+               Sushi Kits & Ingredients | Loblaws     product Level:
+     Pasta, Rice & Beans  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/c/LSL001008009000
+          Dried Beans  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Dried-Beans/c/LSL001008009008
+               Dried Beans | Loblaws     product Level:
+          Noodles  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Noodles/c/LSL001008009003
+               Noodles | Loblaws     product Level:
+          Pasta  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Pasta/c/LSL001008009001
+               Pasta | Loblaws     product Level:
+          Polenta & Couscous  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Polenta-%26-Couscous/c/LSL001008009006
+               Polenta & Couscous | Loblaws     product Level:
+          Quinoa  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Quinoa/c/LSL001008009007
+               Quinoa | Loblaws     product Level:
+          Rice  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Rice/c/LSL001008009004
+               Rice | Loblaws     product Level:
+          Specialty Grains  --->  https://www.loblaws.ca/Food/Pantry/Pasta%2C-Rice-%26-Beans/Specialty-Grains/c/LSL001008009005
+               Specialty Grains | Loblaws     product Level:
+     Chips & Salty Snacks  --->  https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/c/LSL001008011000
+          Potato Chips  --->  https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/Potato-Chips/c/LSL001008010001
+               Potato Chips | Loblaws     product Level:
+          Pretzels & Snack Mixes  --->  https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/Pretzels-%26-Snack-Mixes/c/LSL001008011009
+               Pretzels & Snack Mixes | Loblaws     product Level:
+          Tortilla Chips  --->  https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/Tortilla-Chips/c/LSL001008011008
+               Tortilla Chips | Loblaws     product Level:
+          Flatbreads & Rice Crisps  --->  https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/Flatbreads-%26-Rice-Crisps/c/LSL001008011006
+               Flatbreads & Rice Crisps | Loblaws     product Level:
+          Microwave Popcorn  --->  https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/Microwave-Popcorn/c/LSL001008011007
+               Microwave Popcorn | Loblaws     product Level:
+          Jerky, Nuts & Seeds  --->  https://www.loblaws.ca/Food/Pantry/Chips-%26-Salty-Snacks/Jerky%2C-Nuts-%26-Seeds/c/LSL001008010007
+               Jerky, Nuts & Seeds | Loblaws     product Level:
+     Cookies, Crackers & Candy  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/c/LSL001008010000
+          Cookies  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Cookies/c/LSL001008010008
+               Cookies | Loblaws     product Level:
+          Crackers  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Crackers/c/LSL001008010009
+               Crackers | Loblaws     product Level:
+          Granola & Snack Bars  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Granola-%26-Snack-Bars/c/LSL001008010003
+               Granola & Snack Bars | Loblaws     product Level:
+          Chocolate Bars  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Chocolate-Bars/c/LSL001008010004
+               Chocolate Bars | Loblaws     product Level:
+          Packaged Chocolate  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Packaged-Chocolate/c/LSL001008010018
+               Packaged Chocolate | Loblaws     product Level:
+          Candy & Gum  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Candy-%26-Gum/c/LSL001008010005
+               Candy & Gum | Loblaws     product Level:
+          Pudding & Jelly  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Pudding-%26-Jelly/c/LSL001008010010
+               Pudding & Jelly | Loblaws     product Level:
+          Ice Cream Toppings & Cones  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Ice-Cream-Toppings-%26-Cones/c/LSL001008010012
+               Ice Cream Toppings & Cones | Loblaws     product Level:
+          Single Serve Snacks  --->  https://www.loblaws.ca/Food/Pantry/Cookies%2C-Crackers-%26-Candy/Single-Serve-Snacks/c/LSL001008010011
+               Single Serve Snacks | Loblaws     product Level:
+     Bulk Foods  --->  https://www.loblaws.ca/Food/Pantry/Bulk-Foods/c/LSL001008012000
+          Packaged Bulk  --->  https://www.loblaws.ca/Food/Pantry/Bulk-Foods/Packaged-Bulk/c/LSL001008012001
+               Packaged Bulk | Loblaws     product Level:
+          Loose Bulk  --->  https://www.loblaws.ca/Food/Pantry/Bulk-Foods/Loose-Bulk/c/LSL001008012002
+               Loose Bulk | Loblaws     product Level:
+Natural & Organic  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/c/LSL001009000000
+     Fruits & Vegetables  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Fruits-%26-Vegetables/c/LSL001009001000
+          Fruit  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Fruits-%26-Vegetables/Fruit/c/LSL001009001001
+               Fruit | Loblaws     product Level:
+          Vegetable  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Fruits-%26-Vegetables/Vegetable/c/LSL001009001002
+               Vegetable | Loblaws     product Level:
+     Deli  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Deli/c/LSL001009002000
+          Deli Meats  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Deli/Deli-Meats/c/LSL001009002001
+               Deli Meats | Loblaws     product Level:
+          Vegan & Vegetarian  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Deli/Vegan-%26-Vegetarian/c/LSL001009002003
+               Vegan & Vegetarian | Loblaws     product Level:
+     Ready Meals & Sides  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Ready-Meals-%26-Sides/c/LSL001009003000
+          Ready Meals & Sides  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Ready-Meals-%26-Sides/Ready-Meals-%26-Sides/c/LSL-001009003002
+               Ready Meals & Sides | Loblaws     product Level:
+     Bakery  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Bakery/c/LSL001009004000
+          Bread Crumbs & Stuffing  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Bakery/Bread-Crumbs-%26-Stuffing/c/LSL001009004001
+               Bread Crumbs & Stuffing | Loblaws     product Level:
+          Baguettes, Buns & Rolls  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Bakery/Baguettes%2C-Buns-%26-Rolls/c/LSL001009004007
+               Baguettes, Buns & Rolls | Loblaws     product Level:
+          Wraps, Pita & Flat Breads  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Bakery/Wraps%2C-Pita-%26-Flat-Breads/c/LSL001009004004
+               Wraps, Pita & Flat Breads | Loblaws     product Level:
+          Breakfast, Muffins, & Scones  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Bakery/Breakfast%2C-Muffins%2C-%26-Scones/c/LSL001009004002
+               Breakfast, Muffins, & Scones | Loblaws     product Level:
+          Packaged Breads  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Bakery/Packaged-Breads/c/LSL001009004006
+               Packaged Breads | Loblaws     product Level:
+          Desserts & Pastries  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Bakery/Desserts-%26-Pastries/c/LSL001009004003
+               Desserts & Pastries | Loblaws     product Level:
+     Meat & Seafood  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Meat-%26-Seafood/c/LSL001009005000
+          Beef & Veal  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Meat-%26-Seafood/Beef-%26-Veal/c/LSL001009005001
+               Beef & Veal | Loblaws     product Level:
+          Chicken & Turkey  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Meat-%26-Seafood/Chicken-%26-Turkey/c/LSL001009005002
+               Chicken & Turkey | Loblaws     product Level:
+          Pork  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Meat-%26-Seafood/Pork/c/LSL001009005005
+               Pork | Loblaws     product Level:
+          Fish & Seafood  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Meat-%26-Seafood/Fish-%26-Seafood/c/LSL001009005006
+               Fish & Seafood | Loblaws     product Level:
+          Free From Meats  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Meat-%26-Seafood/Free-From-Meats/c/LSL001009005011
+               Free From Meats | Loblaws     product Level:
+     Dairy and Eggs  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Dairy-and-Eggs/c/LSL001009006000
+          Milk & Cream  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Dairy-and-Eggs/Milk-%26-Cream/c/LSL001009006002
+               Milk & Cream | Loblaws     product Level:
+          Butter & Spreads  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Dairy-and-Eggs/Butter-%26-Spreads/c/LSL001009006001
+               Butter & Spreads | Loblaws     product Level:
+          Packaged Cheeses  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Dairy-and-Eggs/Packaged-Cheeses/c/LSL001009006003
+               Packaged Cheeses | Loblaws     product Level:
+          Egg & Egg Substitutes  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Dairy-and-Eggs/Egg-%26-Egg-Substitutes/c/LSL001009006004
+               Egg & Egg Substitutes | Loblaws     product Level:
+          Yogurt  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Dairy-and-Eggs/Yogurt/c/LSL001009006006
+               Yogurt | Loblaws     product Level:
+          Sour Creams & Chip Dips  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Dairy-and-Eggs/Sour-Creams-%26-Chip-Dips/c/LSL001009006005
+               Sour Creams & Chip Dips | Loblaws     product Level:
+     Drinks  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Drinks/c/LSL001009007000
+          Coffee  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Drinks/Coffee/c/LSL001009007004
+               Coffee | Loblaws     product Level:
+          Juice  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Drinks/Juice/c/LSL001009007001
+               Juice | Loblaws     product Level:
+          Soft Drinks  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Drinks/Soft-Drinks/c/LSL001009007002
+               Soft Drinks | Loblaws     product Level:
+          Soy, Rice & Almond Drinks  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Drinks/Soy%2C-Rice-%26-Almond-Drinks/c/LSL001009007007
+               Soy, Rice & Almond Drinks | Loblaws     product Level:
+          Tea & Hot Drinks  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Drinks/Tea-%26-Hot-Drinks/c/LSL001009007006
+               Tea & Hot Drinks | Loblaws     product Level:
+          Water  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Drinks/Water/c/LSL001009007009
+               Water | Loblaws     product Level:
+     Frozen  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/c/LSL001009008000
+          Bakery & Fruit  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/Bakery-%26-Fruit/c/LSL001009008002
+               Bakery & Fruit | Loblaws     product Level:
+          Breakfast Foods  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/Breakfast-Foods/c/LSL001009008004
+               Breakfast Foods | Loblaws     product Level:
+          Ice Cream & Treats  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/Ice-Cream-%26-Treats/c/LSL001009008006
+               Ice Cream & Treats | Loblaws     product Level:
+          Meals  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/Meals/c/LSL001009008007
+               Meals | Loblaws     product Level:
+          Meat & Poultry  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/Meat-%26-Poultry/c/LSL001009008008
+               Meat & Poultry | Loblaws     product Level:
+          Pizza, Pasta & Perogies  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/Pizza%2C-Pasta-%26-Perogies/c/LSL001009008009
+               Pizza, Pasta & Perogies | Loblaws     product Level:
+          Vegetables  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Frozen/Vegetables/c/LSL001009008010
+               Vegetables | Loblaws     product Level:
+     Pantry  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/c/LSL001009009000
+          Baby Food & Formula  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Baby-Food-%26-Formula/c/LSL001009009001
+               Baby Food & Formula | Loblaws     product Level:
+          Baking Ingredients  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Baking-Ingredients/c/LSL001009009002
+               Baking Ingredients | Loblaws     product Level:
+          Canned & Jarred  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Canned-%26-Jarred/c/LSL001009009003
+               Canned & Jarred | Loblaws     product Level:
+          Cereal, Spreads & Syrups  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Cereal%2C-Spreads-%26-Syrups/c/LSL001009009004
+               Cereal, Spreads & Syrups | Loblaws     product Level:
+          Condiments & Toppings  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Condiments-%26-Toppings/c/LSL001009009005
+               Condiments & Toppings | Loblaws     product Level:
+          Herbs, Spices & Sauces  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Herbs%2C-Spices-%26-Sauces/c/LSL001009009006
+               Herbs, Spices & Sauces | Loblaws     product Level:
+          Oil, Vinegars & Cooking Wine  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Oil%2C-Vinegars-%26-Cooking-Wine/c/LSL001009009007
+               Oil, Vinegars & Cooking Wine | Loblaws     product Level:
+          Packaged Meals & Kits  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Packaged-Meals-%26-Kits/c/LSL001009009008
+               Packaged Meals & Kits | Loblaws     product Level:
+          Pasta, Rice & Beans  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Pasta%2C-Rice-%26-Beans/c/LSL001009009009
+               Pasta, Rice & Beans | Loblaws     product Level:
+          Snacks & Candy  --->  https://www.loblaws.ca/Food/Natural-%26-Organic/Pantry/Snacks-%26-Candy/c/LSL001009009010
+               Snacks & Candy | Loblaws     product Level:

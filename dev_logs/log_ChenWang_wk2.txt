@@ -1,3 +1,5 @@
 3/10 finished extracting all fruit in loblaws
 
-30/9 fixed one bug(products with same name but different quantifier or brand name) and finished extracting all food data in loblaws
+7/10 fixed one bug(products with same name but different quantifier or brand name) and finished extracting all food data in loblaws
+
+7/10 turns out though independent website looks like loblaws website. so i finished extracting independent data. still need to discuss with the database maintainer what format i should use to store data.
