@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -22,23 +22,26 @@ public class UserSearch {
 
 		File jsonInput=new File("D:\\LoblawsJson.json");
 		InputStream is;
-		Set<Items>  Itemss=new HashSet<>();
+		ArrayList<Items>  Itemss=new ArrayList<>();
 		try {
 			 is=new FileInputStream(jsonInput);
 			 JsonReader reader=Json.createReader(is);
 			 JsonObject itObj=reader.readObject();
 			 reader.close();
-			 JsonArray itsObj=itObj.getJsonArray("Bakery");
+			 JsonArray itsObj=itObj.getJsonArray("Deli & Ready Meals");
 			 for(JsonValue value: itsObj) {
 				 Itemss.add(mapper.readValue(value.toString(), Items.class));
 			 }
 			
-			 String inp="12 Grain Bread, Sliced";
-			Set<Items> answer=new HashSet<>();
+			 String inp="Spreadable Cheddar";
+			 Integer id=907;
+			ArrayList<Items> answer=new ArrayList<>();
 			for(Items i: Itemss) {
-				if(i.name.contains(inp)) {
+			//	System.out.println(i.toString());
+				if(i.name.equals(inp)) {
 					answer.add(i);
 				}
+				if(id.equals(i.productID))answer.add(i);
 			}
 			for(Items i:answer) {
 				System.out.println(i);
