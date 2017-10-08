@@ -2,4 +2,6 @@
     <string name="app_name">GroceryGo</string>
     <string name="edit_search">Search</string>
     <string name="button_cart">Cart</string>
+    <string name="request_shop">Find best store</string>
+    <string name="addItem">Add Item</string>
 </resources>

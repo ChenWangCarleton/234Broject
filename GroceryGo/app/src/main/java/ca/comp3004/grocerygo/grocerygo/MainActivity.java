@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,14 +18,19 @@ import java.util.Set;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     ListView myViewList;
+    Button cart;
     Map<String, String[]> myList = new HashMap<String, String[]>();
     ArrayAdapter<String> listAdapter;
     ArrayList<String> tempAL = new ArrayList<String>(); //Temporary Array List
+    MyDBHandler dbHandler;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        dbHandler = new MyDBHandler(this, null, null, 2);
 
         //Populating the map with products and categories from the database
         //Implementing retrevial from server
@@ -45,6 +51,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,tempAL);
         myViewList.setAdapter(listAdapter);
         myViewList.setOnItemClickListener(this);
+
+        //Creating cart
+        cart = (Button) findViewById(R.id.myList);
+        cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // View cart
+                Intent cartIntent = new Intent(MainActivity.this, CartPop.class);
+                startActivity(cartIntent);
+            }
+        });
 
     }
 
