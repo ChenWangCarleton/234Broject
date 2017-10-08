@@ -3,3 +3,5 @@
 7/10 fixed one bug(products with same name but different quantifier or brand name) and finished extracting all food data in loblaws
 
 7/10 turns out though independent website looks like loblaws website. so i finished extracting independent data. still need to discuss with the database maintainer what format i should use to store data.
+
+7/10 Bill didn't show up for today's meeting and he didn't tell us that he would not come. I stopped working on extracting data from walmart and started to work on how to write product data extracted from website to a json file and how to read data from the json file. I finished it just now.
