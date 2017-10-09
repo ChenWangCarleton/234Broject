@@ -7,7 +7,7 @@
     tools:context="ca.comp3004.grocerygo.grocerygo.MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/searchBar"
         android:layout_width="238dp"
         android:layout_height="48dp"
         android:layout_marginLeft="16dp"
@@ -30,7 +30,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/button_cart"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toRightOf="@+id/editText"
+        app:layout_constraintLeft_toRightOf="@+id/searchBar"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,6 +45,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/searchBar"
         app:layout_constraintVertical_bias="0.652" />
 </android.support.constraint.ConstraintLayout>

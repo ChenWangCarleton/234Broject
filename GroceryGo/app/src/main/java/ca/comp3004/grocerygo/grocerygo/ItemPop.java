@@ -51,7 +51,7 @@ public class ItemPop extends Activity {
 
                 public void onClick(View view) {
                     dbHandler.addProduct(new Product(product));
-                    Toast.makeText(ItemPop.this, "Added", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ItemPop.this,"Added", Toast.LENGTH_SHORT).show();
                 }
             });
         } else {

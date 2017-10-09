@@ -40,7 +40,7 @@ public class CartPop extends Activity{
         int height = dm.heightPixels;
 
         getWindow().setLayout((int) (width * 0.85), (int) (height * 0.6));
-        Toast.makeText(CartPop.this,"Click an item to remove from cart",Toast.LENGTH_LONG).show();
+        Toast.makeText(CartPop.this,"Click an item to remove from cart",Toast.LENGTH_SHORT).show();
 
 
 

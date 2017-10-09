@@ -8,6 +8,15 @@ public class Product {
 
     private int _id;
     private String _productName;
+    private int _productID;
+
+    public int get_productID() {
+        return _productID;
+    }
+
+    public void set_productID(int _productID) {
+        this._productID = _productID;
+    }
 
     //Empty Const
     public Product(){
@@ -15,6 +24,11 @@ public class Product {
 
     public Product(String productName) {
         this._productName = productName;
+        this._productID = 0;
+    }
+    public Product(String productName, int productID){
+        this._productName = productName;
+        this._productID = productID;
     }
 
     public void set_id(int _id) {
