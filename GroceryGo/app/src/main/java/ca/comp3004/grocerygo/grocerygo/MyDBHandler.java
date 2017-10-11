@@ -63,7 +63,7 @@ public class MyDBHandler extends SQLiteOpenHelper{
             ContentValues cv = new ContentValues();
             cv.put(COLUMN_QUANTITY, (cursor.getInt(cursor.getColumnIndex(COLUMN_QUANTITY)) + 1));
             cv.put(COLUMN_PRODUCTNAME, product.get_productName());
-            cv.put(COLUMN_PRODUCTID,product.get_productID());
+            //cv.put(COLUMN_PRODUCTID,product.get_productID());
             //Log.e(TAG,cursor.getString(cursor.getColumnIndex(COLUMN_QUANTITY)));
             db.update(TABLE_PRODUCTS, cv, COLUMN_ID + "=" + cursor.getString(cursor.getColumnIndex(COLUMN_ID)), null);
         }
@@ -79,7 +79,6 @@ public class MyDBHandler extends SQLiteOpenHelper{
             Log.e("Console:"," NO UPDATE");
         } else {
             cursor.moveToFirst();
-            //Log.e("data", ""+ cursor.getInt(cursor.getColumnIndex(COLUMN_QUANTITY)));
             if(cursor.getInt(cursor.getColumnIndex(COLUMN_QUANTITY)) <= 1){
                 db.execSQL("DELETE FROM " + TABLE_PRODUCTS + " WHERE "+ COLUMN_PRODUCTNAME + "=\"" + productName + "\";");
             } else {

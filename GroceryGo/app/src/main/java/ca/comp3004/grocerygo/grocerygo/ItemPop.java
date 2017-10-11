@@ -38,10 +38,14 @@ public class ItemPop extends Activity {
         //Filling up the window
         Bundle data = getIntent().getExtras();
         final String product;
+        final String productCat;
+        final int productID;
 
         TextView productName = (TextView) findViewById(R.id.pName);
         if (data != null) {
             product = data.getString("Product");
+            productID = data.getInt("ID");
+
             productName.setText("Product: " + product);
             //Individual request
 
@@ -50,17 +54,13 @@ public class ItemPop extends Activity {
             button.setOnClickListener(new View.OnClickListener() {
 
                 public void onClick(View view) {
-                    dbHandler.addProduct(new Product(product));
+                    dbHandler.addProduct(new Product(product, productID));
                     Toast.makeText(ItemPop.this,"Added", Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
             productName.setText("ERROR");
         }
-
-
-
-
-
+        dbHandler.close();
     }
 }

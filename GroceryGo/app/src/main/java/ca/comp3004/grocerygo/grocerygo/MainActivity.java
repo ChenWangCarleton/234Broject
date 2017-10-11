@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     Map<String, String[]> myList = new HashMap<String, String[]>();
     ArrayAdapter<String> listAdapter;
     ArrayList<String> tempAL = new ArrayList<String>(); //Temporary Array List
-    MyDBHandler dbHandler;
+    //MyDBHandler dbHandler; //NOT NEEDED ATM
+    // ADD a static current cat, to be able to access map and retreieve items ID, CHANGE map to take array of products instead of productNames only...
 
 
     @Override
@@ -30,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        dbHandler = new MyDBHandler(this, null, null, 2);
 
         //Populating the map with products and categories from the database
         //Implementing retrevial from server
@@ -87,10 +87,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         } else {
             Intent popIntent = new Intent(MainActivity.this, ItemPop.class);
             popIntent.putExtra("Product", selected.getText().toString());
+            popIntent.putExtra("ID", 5);
             startActivity(popIntent);
-
-            //Adding item into the CART
-
 
             //After leaving
             Set<String> myListKeys = myList.keySet();

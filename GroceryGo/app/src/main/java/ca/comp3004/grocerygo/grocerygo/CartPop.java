@@ -58,6 +58,7 @@ public class CartPop extends Activity{
                 }
             });
         }
+        dbHandler.close();
     }
 
 }
