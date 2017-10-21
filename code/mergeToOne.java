@@ -58,8 +58,10 @@ public class mergeToOne{
 							int storeId;
 							if(temp.store=="Loblaws")storeId=0;
 							else storeId=1;
-							items.get(z).price[storeId]=temp.price;
-							items.get(z).stores[storeId]=temp.store;
+							if(!items.get(z).toString().contains(temp.store)) {
+								items.get(z).price[storeId]=temp.price;
+								items.get(z).stores[storeId]=temp.store;
+							}
 						}
 					}
 					if(!has) {
