@@ -101,7 +101,12 @@ public class mergeToOne{
 				String brand=items.get(x).brand==null?"null":"\""+items.get(x).brand+"\"";
 				String quantifier=items.get(x).quantifier==null?"null":"\""+items.get(x).quantifier+"\"";
             	toPrint="{\"productID\":"+items.get(x).productID+",\"category\":\""+items.get(x).category+"\",\"name\":\""+items.get(x).name+"\",\"stores\":"+store+",\"price\":"+price+",\"brand\":"+brand+",\"quantifier\":"+quantifier+"}";
-				fw.println(toPrint);
+				if(x!=items.size()-1) {
+					fw.println(toPrint+",");
+				}
+				else {
+					fw.println(toPrint);
+				}
 				fw.flush();
 				
 				if(items.get(x).stores[0]!=null&&items.get(x).stores[1]!=null)
