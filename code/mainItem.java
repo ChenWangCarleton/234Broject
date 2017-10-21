@@ -9,6 +9,9 @@ public class mainItem{
 	public String name="";
 	public String[] stores=new String[2];
 	public int productID;
+	public mainItem() {
+		
+	}
 	public mainItem(Items i,int id) {
 		int temp;
 		if(i.store.equals("Loblaws"))temp=0;
