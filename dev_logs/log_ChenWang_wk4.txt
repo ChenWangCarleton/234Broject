@@ -1,0 +1,1 @@
+21/10 finished extracting data from each websites and merged them into one json file
