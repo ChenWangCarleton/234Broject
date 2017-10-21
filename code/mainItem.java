@@ -1,12 +1,37 @@
-public class Items{
+import java.util.ArrayList;
+
+public class mainItem{
 
 	public String category="";
 	public String brand="";
-	public String price="";
+	public String[] price=new String[2];
 	public String quantifier="";
 	public String name="";
-	public String store="";
-//	public int productID;
+	public String[] stores=new String[2];
+	public int productID;
+	public mainItem(Items i,int id) {
+		int temp;
+		if(i.store.equals("Loblaws"))temp=0;
+		else temp=1;
+		category=i.category;
+		brand=i.brand;
+		quantifier=i.quantifier;
+		name=i.name;
+		productID=id;
+		for(int x=0;x<stores.length;x++) {
+			if(x==temp) {
+				price[x]=i.price;
+				stores[x]=i.store;
+			}
+			else {
+				price[x]=null;
+				stores[x]=null;
+			}
+		}
+	}
+	public mainItem(int id) {
+		productID=id;
+	}
 	public boolean similiarTo(Items i) {
 		if(this.category.equals(i.category)) {
 			if(this.brand==null&&i.brand==null) {
@@ -16,13 +41,13 @@ public class Items{
 					int count=0;
 					int half=0;
 					if(thisI.length<iI.length) {
-						half=(int) Math.floor(thisI.length/2.0);
+						half=(int) Math.floor(thisI.length/1.0);
 						for(int x=0;x<thisI.length;x++) {
 							if(i.name.contains(thisI[x]))count++;
 						}
 					}
 					else {
-						half=(int) Math.floor(iI.length/2.0);
+						half=(int) Math.floor(iI.length/1.0);
 						for(int x=0;x<iI.length;x++) {
 							if(this.name.contains(iI[x]))count++;
 						}
@@ -36,13 +61,13 @@ public class Items{
 						int count=0;
 						int half=0;
 						if(thisI.length<iI.length) {
-							half=(int) Math.floor(thisI.length/2.0);
+							half=(int) Math.floor(thisI.length/1.0);
 							for(int x=0;x<thisI.length;x++) {
 								if(i.name.contains(thisI[x]))count++;			
 								}
 						}
 						else {
-							half=(int) Math.floor(iI.length/2.0);
+							half=(int) Math.floor(iI.length/1.0);
 							for(int x=0;x<iI.length;x++) {
 								if(this.name.contains(iI[x]))count++;
 							}
@@ -59,13 +84,13 @@ public class Items{
 							int count=0;
 							int half=0;
 							if(thisI.length<iI.length) {
-								half=(int) Math.floor(thisI.length/2.0);
+								half=(int) Math.floor(thisI.length/1.0);
 								for(int x=0;x<thisI.length;x++) {
 									if(i.name.contains(thisI[x]))count++;
 								}
 							}
 							else {
-								half=(int) Math.floor(iI.length/2.0);
+								half=(int) Math.floor(iI.length/1.0);
 								for(int x=0;x<iI.length;x++) {
 									if(this.name.contains(iI[x]))count++;
 								}
@@ -79,13 +104,13 @@ public class Items{
 								int count=0;
 								int half=0;
 								if(thisI.length<iI.length) {
-									half=(int) Math.floor(thisI.length/2.0);
+									half=(int) Math.floor(thisI.length/1.0);
 									for(int x=0;x<thisI.length;x++) {
 										if(i.name.contains(thisI[x]))count++;
 									}
 								}
 								else {
-									half=(int) Math.floor(iI.length/2.0);
+									half=(int) Math.floor(iI.length/1.0);
 									for(int x=0;x<iI.length;x++) {
 										if(this.name.contains(iI[x]))count++;
 									}
@@ -98,8 +123,17 @@ public class Items{
 			}
 		return false;
 	}
+	public String printStorePrice() {
+		String str="";
+		for(int x=0;x<2;x++) {
+			if(stores[x]!=null) {
+				str=str+"   store:"+stores[x]+"    price: "+price[x];
+			}
+		}
+		return str;
+	}
 	public String toString() {
-		//return "Product ID:"+productID+"   category: "+category+"  brand: "+brand+"  name: "+name+"  quantifier: "+quantifier+"    price: "+price;
-		return "   category: "+category+"  brand: "+brand+"  name: "+name+"  quantifier: "+quantifier+"    price: "+price+"   store:"+store;
+		return "Product ID:"+productID+"   category: "+category+"  brand: "+brand+"  name: "+name+"  quantifier: "+quantifier+printStorePrice();
+		//return "   category: "+category+"  brand: "+brand+"  name: "+name+"  quantifier: "+quantifier+"    price: "+price.toString()+"  stores:"+stores.toString();
 	}
 }
