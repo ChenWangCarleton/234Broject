@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class mergeToOne{
 	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
-	String[] storesOrder= {"Loblaws","Independent"};
+	String[] storesOrder= {"Loblaws","Independent","Walmart"};
 	public static int id=0;
 	public mergeToOne(ArrayList<String> source,String target) throws IOException {
 		ArrayList<File> sources=new ArrayList<>();
@@ -36,7 +36,11 @@ public class mergeToOne{
 			sources.add(new File(source.get(x)));
 			is.add(new FileInputStream(sources.get(x)));
 			reader.add(Json.createReader(is.get(x)));
+			try {
 			itObj.add(reader.get(x).readObject());
+			}catch(Exception e) {
+				System.out.println(x+"    "+source.get(x));
+			}
 		}
 		for(int y=0;y<categories.length;y++) {
 			if(y==0) {
@@ -55,9 +59,12 @@ public class mergeToOne{
 					for(int z=0;z<items.size();z++) {
 						if(items.get(z).similiarTo(temp)) {
 							has=true;
-							int storeId;
-							if(temp.store=="Loblaws")storeId=0;
-							else storeId=1;
+							int storeId=0;
+							for(int l=0;l<storesOrder.length;l++) {
+								if(temp.store.equals(storesOrder[l])) {
+									storeId=l;
+								}
+							}
 							if(!items.get(z).toString().contains(temp.store)) {
 								items.get(z).price[storeId]=temp.price;
 								items.get(z).stores[storeId]=temp.store;
@@ -76,19 +83,29 @@ public class mergeToOne{
 				String toPrint="";
 				String price="[";
 				String store="[";
-				for(int i=0;i<2;i++) {
+				for(int i=0;i<storesOrder.length;i++) {
 					if(items.get(x).stores[i]!=null) {
-						if(i!=1) {
-							price=price+"\""+items.get(x).price[i]+"\",";
+						if(i!=storesOrder.length-1) {
+							if(items.get(x).price[i]!=null) {
+								price=price+"\""+items.get(x).price[i]+"\",";
+							}
+							else {
+								price=price+"null,";
+							}
 							store=store+"\""+items.get(x).stores[i]+"\",";
 						}
 						else {
-							price=price+"\""+items.get(x).price[i]+"\"";
+							if(items.get(x).price[i]!=null) {
+								price=price+"\""+items.get(x).price[i]+"\"";
+							}
+							else {
+								price=price+"null";
+							}
 							store=store+"\""+items.get(x).stores[i]+"\"";							
 						}
 					}
 					else {
-						if(i!=1) {
+						if(i!=storesOrder.length-1) {
 							price=price+"null,";
 							store=store+"null,";
 						}
@@ -100,9 +117,9 @@ public class mergeToOne{
 				}
 				price+="]";
 				store+="]";
-				String brand=items.get(x).brand==null?"null":"\""+items.get(x).brand+"\"";
-				String quantifier=items.get(x).quantifier==null?"null":"\""+items.get(x).quantifier+"\"";
-            	toPrint="{\"productID\":"+items.get(x).productID+",\"category\":\""+items.get(x).category+"\",\"name\":\""+items.get(x).name+"\",\"stores\":"+store+",\"price\":"+price+",\"brand\":"+brand+",\"quantifier\":"+quantifier+"}";
+				//String brand=items.get(x).brand==null?"null":"\""+items.get(x).brand+"\"";
+				String description=items.get(x).description==null?"null":"\""+items.get(x).description+"\"";
+            	toPrint="{\"productID\":"+items.get(x).productID+",\"category\":\""+items.get(x).category+"\",\"name\":\""+items.get(x).name+"\",\"stores\":"+store+",\"price\":"+price+",\"description\":"+description+"}";
 				if(x!=items.size()-1) {
 					fw.println(toPrint+",");
 				}
@@ -111,7 +128,7 @@ public class mergeToOne{
 				}
 				fw.flush();
 				
-				if(items.get(x).stores[0]!=null&&items.get(x).stores[1]!=null)
+			//	if(items.get(x).stores[0]!=null&&items.get(x).stores[1]!=null)
 				System.out.println(items.get(x).toString());
 			}
 			itsObj=new ArrayList<>();
@@ -129,6 +146,7 @@ public class mergeToOne{
 		ArrayList<String> source = new ArrayList<>();
 		source.add("D:\\LoblawsJson.json");
 		source.add("D:\\IndependentJson.json");
+		source.add("D:\\WalmartJson.json");
 		String target="D:\\MainJson.json";
 		mergeToOne m=new mergeToOne(source,target);
 		

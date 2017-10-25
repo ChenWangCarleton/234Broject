@@ -39,24 +39,25 @@ public class independentTxtToJson{
           
             	}
             	String name=line.substring(0,line.indexOf("@b@"));
-            	name="\""+name.replaceAll("\"", "(in)")+"\"";
-            	String brand="null";
+            	String brand="";
             	if(line.indexOf("@b@")+3==line.indexOf("@q@")) {
             		
             	}
             	else {
             	//	System.out.println("b:"+line.indexOf("@b@")+3+"   q:"+line.indexOf("@q@"));
-            		brand="\""+line.substring(line.indexOf("@b@")+3,line.indexOf("@q@"))+"\"";
+            		brand=line.substring(line.indexOf("@b@")+3,line.indexOf("@q@"))+" ";
             	}
-            	String quantifier="null";
+            	String description="null";
             	if(line.indexOf("@q@")+3==line.indexOf("@p@")) {
             		
             	}
             	else {
-            		quantifier="\""+line.substring(line.indexOf("@q@")+3,line.indexOf("@p@"))+"\"";
+            		description="\""+line.substring(line.indexOf("@q@")+3,line.indexOf("@p@"))+"\"";
             	}
+            	name=brand+name;
+            	name="\""+name.replaceAll("\"", "'")+"\"";
             	String price="\""+line.substring(line.indexOf("@p@")+3,line.length())+"\"";
-            	toPrint="{\"category\":\""+cate+"\",\"name\":"+name+",\"price\":"+price+",\"brand\":"+brand+",\"quantifier\":"+quantifier+",\"store\":\"Independent\"}";
+            	toPrint="{\"category\":\""+cate+"\",\"name\":"+name+",\"price\":"+price+",\"description\":"+description+",\"store\":\"Independent\"}";
             	fw.print(toPrint);
             	isF=false;
             	//mapper.writeValue(target, obj);

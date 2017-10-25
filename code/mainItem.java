@@ -3,22 +3,28 @@ import java.util.ArrayList;
 public class mainItem{
 
 	public String category="";
-	public String brand="";
-	public String[] price=new String[2];
-	public String quantifier="";
+	public String[] price=new String[3];
+	public String description="";
 	public String name="";
-	public String[] stores=new String[2];
+	public String[] stores=new String[3];
 	public int productID;
 	public mainItem() {
 		
 	}
 	public mainItem(Items i,int id) {
+		String[] storesOrder= {"Loblaws","Independent","Walmart"};
 		int temp;
-		if(i.store.equals("Loblaws"))temp=0;
-		else temp=1;
+		for(temp=0;temp<storesOrder.length;temp++) {
+			if(i.store.equals(storesOrder[temp])) {
+				break;
+			}
+		}
+		if(temp<0||temp>=storesOrder.length) {
+			System.out.println("An ERROR occured in mainItem");
+			temp=2;
+		}
 		category=i.category;
-		brand=i.brand;
-		quantifier=i.quantifier;
+		description=i.description;
 		name=i.name;
 		productID=id;
 		for(int x=0;x<stores.length;x++) {
@@ -35,100 +41,50 @@ public class mainItem{
 	public mainItem(int id) {
 		productID=id;
 	}
-	public boolean similiarTo(Items i) {
-		if(this.category.equals(i.category)) {
-			if(this.brand==null&&i.brand==null) {
-				if(this.quantifier==null&&i.quantifier==null) {		
-					String[] thisI=this.name.split(" ");
-					String[] iI=i.name.split(" ");
-					int count=0;
-					int half=0;
-					if(thisI.length<iI.length) {
-						half=(int) Math.floor(thisI.length/1.0);
-						for(int x=0;x<thisI.length;x++) {
-							if(i.name.contains(thisI[x]))count++;
-						}
-					}
-					else {
-						half=(int) Math.floor(iI.length/1.0);
-						for(int x=0;x<iI.length;x++) {
-							if(this.name.contains(iI[x]))count++;
-						}
-					}
-					if(count>=half)return true;
-				}
-				else if(this.quantifier!=null&&i.quantifier!=null) {
-					if(this.quantifier.equals(i.quantifier)) {
-						String[] thisI=this.name.split(" ");
-						String[] iI=i.name.split(" ");
-						int count=0;
-						int half=0;
-						if(thisI.length<iI.length) {
-							half=(int) Math.floor(thisI.length/1.0);
-							for(int x=0;x<thisI.length;x++) {
-								if(i.name.contains(thisI[x]))count++;			
-								}
-						}
-						else {
-							half=(int) Math.floor(iI.length/1.0);
-							for(int x=0;x<iI.length;x++) {
-								if(this.name.contains(iI[x]))count++;
-							}
-						}
-						if(count>=half)return true;
-						}
-					}
-				}
-				else if(this.brand!=null&&i.brand!=null){					
-					if(this.brand.equals(i.brand)) {
-						if(this.quantifier==null&&i.quantifier==null) {			
-							String[] thisI=this.name.split(" ");
-							String[] iI=i.name.split(" ");
-							int count=0;
-							int half=0;
-							if(thisI.length<iI.length) {
-								half=(int) Math.floor(thisI.length/1.0);
-								for(int x=0;x<thisI.length;x++) {
-									if(i.name.contains(thisI[x]))count++;
-								}
-							}
-							else {
-								half=(int) Math.floor(iI.length/1.0);
-								for(int x=0;x<iI.length;x++) {
-									if(this.name.contains(iI[x]))count++;
-								}
-							}
-							if(count>=half)return true;
-						}
-						else if(this.quantifier!=null&&i.quantifier!=null) {
-							if(this.quantifier.equals(i.quantifier)) {
-								String[] thisI=this.name.split(" ");
-								String[] iI=i.name.split(" ");
-								int count=0;
-								int half=0;
-								if(thisI.length<iI.length) {
-									half=(int) Math.floor(thisI.length/1.0);
-									for(int x=0;x<thisI.length;x++) {
-										if(i.name.contains(thisI[x]))count++;
-									}
-								}
-								else {
-									half=(int) Math.floor(iI.length/1.0);
-									for(int x=0;x<iI.length;x++) {
-										if(this.name.contains(iI[x]))count++;
-									}
-								}
-								if(count>=half)return true;
-							}
-						}
-					}
+	public boolean match(String one, String two) {
+		if(one==null&&two==null)return true;
+		if((one==null&&two!=null)||(one!=null&&two==null))return false;
+		if(one.contains(two)||two.contains(one)) {
+			return true;
+		}
+		String[] oneA=one.split(" ");
+		String[] twoA=two.split(" ");
+		if(oneA.length<twoA.length) {
+			int count=0;
+			int portion=(int)Math.floor(oneA.length/1.0);//can be modified to fulfill the need of loosely exact or strictly exact
+			for(int x=0;x<oneA.length;x++) {
+				if(two.contains(oneA[x])) {
+					count++;
 				}
 			}
+			if(count>=portion)return true;
+		}
+		else {
+			int count=0;
+			int portion=(int)Math.floor(twoA.length/1.0);
+			for(int x=0;x<twoA.length;x++) {
+				if(one.contains(twoA[x])) {
+					count++;
+				}
+			}
+			if(count>=portion)return true;			
+		}
+		return false;
+	}
+	public boolean similiarTo(Items i) {
+		
+		if(category.equals(i.category)) {
+			if(match(name, i.name)) {
+				if(match(description,i.description)) {
+					return true;
+				}
+			}
+		}
 		return false;
 	}
 	public String printStorePrice() {
 		String str="";
-		for(int x=0;x<2;x++) {
+		for(int x=0;x<3;x++) {
 			if(stores[x]!=null) {
 				str=str+"   store:"+stores[x]+"    price: "+price[x];
 			}
@@ -136,7 +92,7 @@ public class mainItem{
 		return str;
 	}
 	public String toString() {
-		return "Product ID:"+productID+"   category: "+category+"  brand: "+brand+"  name: "+name+"  quantifier: "+quantifier+printStorePrice();
-		//return "   category: "+category+"  brand: "+brand+"  name: "+name+"  quantifier: "+quantifier+"    price: "+price.toString()+"  stores:"+stores.toString();
+		return "Product ID:"+productID+"   category: "+category+"  name: "+name+"  description: "+description+printStorePrice();
+		//return "   category: "+category+"  brand: "+brand+"  name: "+name+"  description: "+description+"    price: "+price.toString()+"  stores:"+stores.toString();
 	}
 }
