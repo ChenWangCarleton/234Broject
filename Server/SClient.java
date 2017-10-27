@@ -27,7 +27,7 @@ public class SClient {
 	public static void main(String args[]) throws Exception {
 		SClient client = new SClient();
 		try{
-			client.sendReq("Hello");
+			client.sendReq("GetAll");
 		} catch (IOException e) {
 			System.err.println("Caught IOException: " + e.getMessage());
 		}

@@ -1,3 +1,4 @@
+import UserSearch;
 import java.io.*;
 import java.net.*;
 
@@ -12,6 +13,7 @@ public class SServer {
 	}
 	public void listen() throws Exception {
 		while(true){
+			UserSearch data = new UserSearch();
 			System.out.println("Success!... Waiting for a client...\n");
 			// *** Retrevial of data ***
 			DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
@@ -25,7 +27,7 @@ public class SServer {
 					int port = receivePacket.getPort(); //Getting client port.
 					
 					//Get data
-					sendData = ; //Data we sending.
+					sendData = data.generalSearch().getBytes; //Data we sending.
 					//Get data
 					
 					DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port); //Creating packet to send data
@@ -35,8 +37,10 @@ public class SServer {
 					InetAddress IPAddress = receivePacket.getAddress(); // Client IPAdress.
 					int port = receivePacket.getPort(); //Getting client port.
 					
+					//TEST String
+					String test = "test";
 					//Get data
-					sendData = ; //Data we sending.
+					sendData = test.getBytes(); //Data we sending.
 					//Get data
 					
 					DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port); //Creating packet to send data
