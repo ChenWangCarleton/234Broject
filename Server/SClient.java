@@ -10,8 +10,8 @@ public class SClient {
 	public SClient() throws Exception {
 		this.clientSocket = new DatagramSocket(); //Client socket (Only 1 needed)
 		this.IPAddress = InetAddress.getByName("99.236.248.228"); //Server IP Address
-		this.sendData = new byte[1024]; //Amount of data we send to server
-		this.receiveData = new byte[1024]; //Amount expect to receive
+		this.sendData = new byte[65536]; //Amount of data we send to server
+		this.receiveData = new byte[65536]; //Amount expect to receive
 	}
 	
 	public void sendReq(String reqType) throws Exception {

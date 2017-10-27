@@ -7,8 +7,8 @@ public class SServer {
 	private byte[] sendData;
 	private SServer() throws Exception {
 		this.serverSocket = new DatagramSocket(60700);
-		this.receiveData = new byte[1024];
-		this.sendData = new byte[1024];
+		this.receiveData = new byte[65536];
+		this.sendData = new byte[65536];
 	}
 	public void listen() throws Exception {
 		while(true){
