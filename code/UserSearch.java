@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,9 +16,7 @@ public class UserSearch {
 	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
 	String source="D:\\MainJson.json";
 	String[] storesOrder= {"Loblaws","Independent","Walmart"};
-	public String generalSearch(String target) throws IOException {
-		File f=new File(target);
-		PrintWriter fw=new PrintWriter(new FileWriter(f));
+	public String generalSearch() throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		File jsonInput=new File(source);
 		InputStream is;
@@ -46,13 +43,10 @@ public class UserSearch {
 			 }
 		 }
 		 result=result+"]";
-		 fw.print(result);
-		 fw.flush();
-		 fw.close();
-		 return target;//return the path . if succeed. please check with the input path.
+		 return result;//return the result string
 	}
 
-	public String searchByID(int id,String target) throws IOException {
+	public String searchByID(int id) throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		File jsonInput=new File(source);
 		InputStream is;
@@ -107,12 +101,7 @@ public class UserSearch {
 						store+="]";
 						String description=Itemss.get(o).description==null?"null":"\""+Itemss.get(o).description+"\"";
 					 String result="{\"productID\":"+Itemss.get(o).productID+",\"category\":\""+Itemss.get(o).category+"\",\"name\":\""+Itemss.get(o).name+"\",\"stores\":"+store+",\"price\":"+price+",\"description\":"+description+"}";
-					 File tar=new File(target);
-					 PrintWriter fw=new PrintWriter(new FileWriter(tar));
-					 fw.print(result);
-					 fw.flush();
-					 fw.close();
-					 return target;
+					 return result;
 				 }
 			 }
 		}
@@ -120,14 +109,14 @@ public class UserSearch {
 	}
 	public static void main(String[] args) {
 		UserSearch us=new UserSearch();
-	/*	try {//getall
-			us.generalSearch( "D:\\GeneralSearch.json");
+		try {//getall
+			System.out.println(us.generalSearch());
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		}*/
+		}
 		try {//searchbyid
-			us.searchByID(49,	"D:\\ByID.json");
+			System.out.println(us.searchByID(49));
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
