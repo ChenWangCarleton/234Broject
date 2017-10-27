@@ -9,7 +9,6 @@ public class SServer {
 	private SServer() throws Exception {
 		this.serverSocket = new DatagramSocket(60700);
 		this.receiveData = new byte[64000];
-		this.sendData = new byte[64000];
 	}
 	public void listen() throws Exception {
 		while(true){
@@ -21,24 +20,49 @@ public class SServer {
 			String sentence = new String(receivePacket.getData()); //Retreving the data.
 			System.out.println("Got client!");
 			
-			switch(sentence){
-				case "GetAll":
-					InetAddress IPAddress = receivePacket.getAddress(); // Client IPAdress.
-					int port = receivePacket.getPort(); //Getting client port.
+			switch(sentence.charAt(0)){
+				case 'A':
+				{
+					String retData = data.generalSearch();
+					double packets = getNumOfPacket(retData.length());
 					
-					//Get data
-					sendData = data.generalSearch().getBytes; //Data we sending.
-					//Get data
-					
+					sendData = new byte[64000];
+					String strNum = "" + packets;
+					sendData = strNum.getBytes;
 					DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port); //Creating packet to send data
 					serverSocket.send(sendPacket); //Sending
+					
+					
+					InetAddress IPAddress = receivePacket.getAddress(); // Client IPAdress.
+					int port = receivePacket.getPort(); //Getting client port.
+					if(packets > 1){
+						for(double i=0; i < (packets - 1.0); i++){
+							//sendData = new byte[64000];
+							sendData = retData.substring((int)(64000*i),(int)(64000*(i+1))).getBytes();
+							
+							DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port); //Creating packet to send data
+							serverSocket.send(sendPacket); //Sending
+						}
+						//sendData = new byte[64000];
+						sendData = retData.substring((int)(64000*(i+1)));
+						DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port); //Creating packet to send data
+						serverSocket.send(sendPacket); //Sending
+					} else {
+						//sendData = new byte[64000];
+						sendData = retData.getBytes; //Data we sending.
+						DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port); //Creating packet to send data
+						serverSocket.send(sendPacket); //Sending
+					}
 					break;
+				}
 				default:
+				{
+					sendData = new byte[64000];
 					InetAddress IPAddress = receivePacket.getAddress(); // Client IPAdress.
 					int port = receivePacket.getPort(); //Getting client port.
 					
 					//TEST String
-					String test = "test";
+					String test = "Error";
 					//Get data
 					sendData = test.getBytes(); //Data we sending.
 					//Get data
@@ -46,7 +70,7 @@ public class SServer {
 					DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port); //Creating packet to send data
 					serverSocket.send(sendPacket); //Sending
 					break;
-				
+				}
 			}
 			
 			
@@ -59,6 +83,11 @@ public class SServer {
             serverSocket.send(sendPacket); //Sending*/
 		}
 	}
+	
+	private double getNumOfPacket(int length){
+		return Math.ceil(length/64000);
+	}
+	
 	public static void main(String args[]) throws Exception {
 		
 		//Running server
