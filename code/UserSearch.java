@@ -12,7 +12,7 @@ import javax.json.JsonValue;
 import org.codehaus.jackson.map.ObjectMapper;
 public class UserSearch {
 		String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
-	String source="D:\\test.json";
+	String source="D:\\MainJson.json";
 	String[] storesOrder= {"Loblaws","Independent","Walmart"};
 	public String generalSearch() throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
@@ -105,7 +105,7 @@ public class UserSearch {
 		}
 		return null;
 	}
-	/*public static void main(String[] args) {
+	 public static void main(String[] args){
 		UserSearch us=new UserSearch();
 		try {//getall
 			System.out.println(us.generalSearch());
@@ -120,6 +120,6 @@ public class UserSearch {
 		}
 
 
-	}*/
+	}
 
 }
