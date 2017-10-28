@@ -11,6 +11,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -30,6 +31,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TFTPClient c = new TFTPClient();
+        try {
+            c.sendAndReceive();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
 
 
         //Populating the map with products and categories from the database
