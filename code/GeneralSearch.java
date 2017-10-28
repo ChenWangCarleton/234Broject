@@ -52,9 +52,9 @@ public class GeneralSearch{
 			 fw.flush();
 			 for(int y=0;y<items.size();y++) {
 				 String toPrint="";
-				 String brand=items.get(y).brand==null?"null":"\""+items.get(y).brand+"\"";
-				 String quantifier=items.get(y).quantifier==null?"null":"\""+items.get(y).quantifier+"\"";
-	            toPrint="{\"productID\":"+items.get(y).productID+",\"name\":\""+items.get(y).name+"\",\"brand\":"+brand+",\"quantifier\":"+quantifier+"}";
+				// String brand=items.get(y).brand==null?"null":"\""+items.get(y).brand+"\"";
+				 String description=items.get(y).description==null?"null":"\""+items.get(y).description+"\"";
+	            toPrint="{\"productID\":"+items.get(y).productID+",\"name\":\""+items.get(y).name+"\",\"description\":"+description+"}";
 				if(y!=items.size()-1) {
 					fw.println(toPrint+",");
 				}

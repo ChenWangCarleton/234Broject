@@ -1,23 +1,12 @@
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import net.sourceforge.htmlunit.corejs.javascript.ast.Name;
-
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
@@ -30,8 +19,7 @@ public class Walmart{
 	String basic="https://www.walmart.ca/en/grocery";
 	static boolean  status=false;
 	ArrayList<String> fail=new ArrayList<>();
-	public Walmart(String tar) throws Exception {
-		status=false;
+	public void execute(String tar)  throws Exception{
 		target=new File(tar);
 		fw=new PrintWriter(new FileWriter(target));
 		DesiredCapabilities caps=new DesiredCapabilities();
@@ -41,11 +29,8 @@ public class Walmart{
 		WebDriver driver=new PhantomJSDriver(caps);
 		String parentUrl=basic+links[ca];
 		driver.get(parentUrl);
-	//	driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		System.out.println(parentUrl);
-		//WebDriverWait waitPage=new WebDriverWait(driver,20);
-		//waitPage.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("page-select")));
-		//waitPage.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.tagName("option")));
+
 		if(ca==0) {
 			fw.println("{\""+categories[ca]+"\":[");
 		}
@@ -53,23 +38,16 @@ public class Walmart{
 			fw.println("\""+categories[ca]+"\":[");
 		}
 		fw.flush();
-//		try {//check if there is multiple product page
 			WebElement e=driver.findElement(By.className("page-select"));
 			List<WebElement> c=e.findElements(By.tagName("option"));
 			String pre="/page-";
 			for(int x=0;x<c.size();x++) {
 
-		//		int loopCount=0;
-		//		while(nameNotNullCount<1||priceNotNullCount<1) {
-		//		loopCount++;
+
 				WebDriver dri=new PhantomJSDriver(caps);
-		//		if(loopCount>5) {
-		//			System.out.println("loooooooooooooop     count:"+ loopCount);
-					//dri.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		//		}
+
 				dri.get(parentUrl+pre+(x+1));
 				checkPageIsReady(dri);
-				//dri.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 				List<WebElement> products=dri.findElements(By.className("thumb-inner-wrap"));
 				System.out.println("Size of"+dri.getTitle()+" is: "+products.size());
 				int nameNotNullCount=0;
@@ -110,7 +88,6 @@ public class Walmart{
 					else {
 						price=products.get(y).findElement(By.cssSelector("div[class='price-current width-adjusted']")).getText();						
 					}
-					//price=products.get(y).findElement(By.cssSelector("div[data-bind='possibleRangedCurrencyText: { data: price, simpleFormatting: simpleFormatting } ']")).getText();
 					if(price.length()>1) {
 						if(!price.contains("$")) {
 							price=price.substring(0,price.length()-1);
@@ -175,11 +152,7 @@ public class Walmart{
 			fw.flush();
 			driver.quit();
 			status=true;
-//	}
-//		catch (NoSuchElementException b) {//only one page
-//			System.out.println("internet issue, please run this later");
 		}
-//	}
 	}
 	 public void checkPageIsReady(WebDriver driver) {
 		  
@@ -192,8 +165,7 @@ public class Walmart{
 		   return; 
 		  } 
 		  
-		  //This loop will rotate for 25 times to check If page Is ready after every 1 second.
-		  //You can replace your value with 25 If you wants to Increase or decrease wait time.
+		  //This loop will rotate for 40 times to check If page Is ready after every 1 second.
 		  for (int i=0; i<40; i++){ 
 		   try {
 		    Thread.sleep(1000);
@@ -203,14 +175,19 @@ public class Walmart{
 		    break; 
 		   }   
 		  }
-		 		
+	 }	 		
+	
+	
+	public Walmart() {
+		status=false;
 	}
 	public static void main(String[] args) throws Exception{
 		int count=0;
 		Walmart s = null;
 		do {
 		try {
-			s=new Walmart("D:\\WalmartJson.json");
+			s=new Walmart();
+			s.execute("D:\\WalmartJson.json");
 		}catch(Exception e) {
 			System.out.println("check the file path or internet connection and try again later");
 		}
@@ -223,29 +200,6 @@ public class Walmart{
 		for(int x=0;x<s.fail.size();x++) {
 			System.out.println(s.fail.get(x));
 		}
-	/*	WebDriver driver=new PhantomJSDriver(caps);
-		driver.get("https://www.walmart.ca/en/grocery/fruits-vegetables/fruits/N-3852");
-		System.out.println(driver.getTitle());
-		List<WebElement> e=driver.findElements(By.className("title"));
-		System.out.println(e.size());
-		for(int x=0;x<e.size();x++) {
-			System.out.println(e.get(x).getText());
-		}*/
-		
-		/*	driver.get("https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Salads/plp/LSL001001003000?filters=&sort=price-asc");
-		System.out.println("page title:"+driver.getTitle());
-		List<WebElement> e=driver.findElements(By.className("product-info"));
-		System.out.println(e.size());
-		for(int x=0;x<e.size();x++) {
-			System.out.println(e.get(x).findElement(By.className("js-product-entry-name")).getText());
-		}*/
-		//driver.get("https://www.walmart.ca/en/ip/apple-empire-bulk/6000197059537");
-	/*	driver.get("https://www.loblaws.ca/Food/Fruits-%26-Vegetables/Salads/plp/LSL001001003000");
-		System.out.println("page title:"+driver.getTitle());
-		List<WebElement> e=driver.findElements(By.className("product-info"));
-		System.out.println(e.size());
-		for(int x=0;x<e.size();x++) {
-			System.out.println(e.get(x).findElement(By.className("js-product-entry-name")).getText());
-		}*/
+	
 	}
 }

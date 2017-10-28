@@ -29,7 +29,7 @@ public class mergeToOne{
 		ArrayList<JsonArray> itsObj=new ArrayList<>();
 		ArrayList<mainItem> items=new ArrayList<>();
 		File tar=new File(target);
-		PrintWriter fw=new PrintWriter(new FileWriter(target));
+		PrintWriter fw=new PrintWriter(new FileWriter(tar));
 		//ArrayList<mainItem> itemsToPrint=new ArrayList<>();
 		ObjectMapper mapper = new ObjectMapper();
 		for(int x=0;x<source.size();x++) {
@@ -139,7 +139,7 @@ public class mergeToOne{
 			fw.flush();
 		}
 		
-		
+		fw.close();
 	}
 	
 	public static void main(String args[]) throws IOException {

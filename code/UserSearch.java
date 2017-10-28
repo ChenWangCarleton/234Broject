@@ -1,9 +1,7 @@
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import javax.json.Json;
 import javax.json.JsonArray;
@@ -13,8 +11,8 @@ import javax.json.JsonValue;
 
 import org.codehaus.jackson.map.ObjectMapper;
 public class UserSearch {
-	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
-	String source="D:\\MainJson.json";
+		String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
+	String source="D:\\test.json";
 	String[] storesOrder= {"Loblaws","Independent","Walmart"};
 	public String generalSearch() throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
@@ -107,7 +105,7 @@ public class UserSearch {
 		}
 		return null;
 	}
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		UserSearch us=new UserSearch();
 		try {//getall
 			System.out.println(us.generalSearch());
@@ -122,6 +120,6 @@ public class UserSearch {
 		}
 
 
-	}
+	}*/
 
 }
