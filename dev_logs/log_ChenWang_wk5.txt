@@ -1,0 +1,2 @@
+28/10 finished extracting data from Walmart. extraced data from loblaws using a new tool the day before yesterday. Finished functions relating to the database file yesterday, including functions for server to read data from database file and for client to transfer the result string to java objects.
+Still have issues on connection between app. I decided to put database file in app and hard code the server part, for deliverable 2. still will be working on server in the next two days.
