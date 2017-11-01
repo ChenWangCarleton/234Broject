@@ -1,8 +1,10 @@
 package ca.comp3004.grocerygo.grocerygo;
 
 import android.content.Intent;
+import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -18,6 +20,10 @@ import java.util.Map;
 import java.util.Set;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
+    //Server data *****
+    ArrayList<itemForGetAll> serverData;
+    //SERVER DATA ***********************************
+
     ListView myViewList;
     Button cart;
     Map<String, String[]> myList = new HashMap<String, String[]>();
@@ -32,13 +38,33 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+
+        StrictMode.setThreadPolicy(policy);
+
         TFTPClient c = new TFTPClient();
+
+
         try {
-            c.sendAndReceive();
+            serverData = c.initialize("all");
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
 
+        /*for(itemForGetAll e : serverData){
+            Log.e("Client", e.toString());
+        }*/
+
+        mainItem temp;
+
+        try {
+            temp = c.getItem(""+21403);
+        } catch (UnknownHostException e) {
+            temp = null;
+            e.printStackTrace();
+        }
+
+        Log.e("Client", temp.toString());
 
         //Populating the map with products and categories from the database
         //Implementing retrevial from server
