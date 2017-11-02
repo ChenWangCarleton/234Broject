@@ -102,7 +102,7 @@ public class MyDBHandler extends SQLiteOpenHelper{
         c.moveToFirst();
         while(!c.isAfterLast()){
             if(c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)) != null){
-                dbAS.add(c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)));
+                dbAS.add(c.getString(c.getColumnIndex(COLUMN_QUANTITY)) + "x - " + c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)));
             }
             c.moveToNext();
         }
@@ -123,6 +123,10 @@ public class MyDBHandler extends SQLiteOpenHelper{
             return cursor.getInt(cursor.getColumnIndex(COLUMN_PRODUCTID));
         }
         return 0;
+    }
+    public void removeAll(){
+        SQLiteDatabase db = getWritableDatabase();
+        db.execSQL("DELETE FROM "+ TABLE_PRODUCTS);;
     }
 
 }
