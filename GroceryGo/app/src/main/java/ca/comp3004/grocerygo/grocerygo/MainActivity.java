@@ -27,7 +27,7 @@ import java.util.Set;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     //Server data *****
-    ArrayList<itemForGetAll> serverData;
+    public ArrayList<itemForGetAll> serverData;
     //SERVER DATA ***********************************
 
     ListView myViewList;

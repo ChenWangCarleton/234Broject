@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ca.comp3004.grocerygo.grocerygo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,13 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ItemPop"
-            android:theme="@style/AppTheme.PopWindow"
-            ></activity>
-        <activity android:name=".CartPop"
-            android:theme="@style/AppTheme.PopWindow"
-            ></activity>
+        <activity
+            android:name=".ItemPop"
+            android:theme="@style/AppTheme.PopWindow" />
+        <activity
+            android:name=".CartPop"
+            android:theme="@style/AppTheme.PopWindow" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

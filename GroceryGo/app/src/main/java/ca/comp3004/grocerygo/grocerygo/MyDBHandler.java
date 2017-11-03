@@ -110,6 +110,25 @@ public class MyDBHandler extends SQLiteOpenHelper{
         db.close();
         return dbAS;
     }
+    public ArrayList<String> dbToASProductName(){
+        ArrayList<String> dbAS = new ArrayList<String>();
+        SQLiteDatabase db = getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE 1";
+
+        //Cursor pointer
+        Cursor c = db.rawQuery(query, null);
+        //move to first row
+        c.moveToFirst();
+        while(!c.isAfterLast()){
+            if(c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)) != null){
+                dbAS.add(c.getString(c.getColumnIndex(COLUMN_PRODUCTNAME)));
+            }
+            c.moveToNext();
+        }
+        c.close();
+        db.close();
+        return dbAS;
+    }
     public int getProductID(String productName){
         SQLiteDatabase db = getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE " + COLUMN_PRODUCTNAME + " = \"" + productName +"\";";
@@ -121,6 +140,19 @@ public class MyDBHandler extends SQLiteOpenHelper{
         } else {
             cursor.moveToNext();
             return cursor.getInt(cursor.getColumnIndex(COLUMN_PRODUCTID));
+        }
+        return 0;
+    }
+    public int getQuant(int id){
+        SQLiteDatabase db = getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE " + COLUMN_PRODUCTID + " = " + id +";";
+        Cursor cursor = db.rawQuery(query, null);
+
+        if(cursor.getCount() <= 0){
+            Log.e("ERROR","DOESN'T EXISTS");
+        } else {
+            cursor.moveToNext();
+            return cursor.getInt(cursor.getColumnIndex(COLUMN_QUANTITY));
         }
         return 0;
     }

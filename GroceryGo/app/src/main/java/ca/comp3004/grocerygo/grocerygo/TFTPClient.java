@@ -88,46 +88,81 @@ public class TFTPClient {
 
     private String receive(InetAddress serverAddress, int sendPort) {
 
-        // int packetNumber = 1;
+        int ackPacketNumber = 1;
+        int dataPacketNumber  = 0;
         String text = "";
         try {
-            byte[] fileData = new byte[64000];
+            byte[] fileData = new byte[64002];
 
             while (true) {
 
-                try {
 
-                    // sendReceiveSocket.setSoTimeout(5000);
-                    receivePacket = new DatagramPacket(fileData, fileData.length);
+                while(true) {
+                    try {
 
-                    sendReceiveSocket.receive(receivePacket);
+                        sendReceiveSocket.setSoTimeout(2000);
+                        receivePacket = new DatagramPacket(fileData, fileData.length);
+                        sendReceiveSocket.receive(receivePacket);
 
-                    byte[] data = Arrays.copyOfRange(receivePacket.getData(), 0, receivePacket.getLength());
 
-                    String modifiedSentence = new String(data); // Turn data
-                    // into STRING
 
-                    text += modifiedSentence;
+                        dataPacketNumber  = (((int) (receivePacket.getData()[0] & 0xFF)) << 8) + (((int) receivePacket.getData()[1]) & 0xFF);
 
-                    // out.write(fileData, 4, receivePacket.getLength() - 4);
-                    byte dataACKPacket[] = { 0, 4, receivePacket.getData()[2], receivePacket.getData()[3] };
-                    sendPacket = new DatagramPacket(dataACKPacket, dataACKPacket.length, serverAddress, receivePacket.getPort());
-                    sendReceiveSocket.send(sendPacket);
 
-                } catch (SocketTimeoutException e) {
-                    // Send the ACK packet via send/receive socket.
-                    sendReceiveSocket.send(sendPacket);
+
+                        if (dataPacketNumber < ackPacketNumber) {
+
+
+
+                            continue;
+
+                        }
+
+
+                    } catch (SocketTimeoutException e) {
+                        // Send the ACK packet via send/receive socket.
+
+
+
+                        sendReceiveSocket.send(sendPacket);
+                        continue;
+
+                    }
+                    break;
 
                 }
 
-                // packetNumber++;
 
-                if (receivePacket.getLength() < 64000) {
+                byte[] data = Arrays.copyOfRange(receivePacket.getData(), 2, receivePacket.getLength());
+
+
+
+                String modifiedSentence = new String(data); // Turn datas																// into STRIN
+                text += modifiedSentence;
+
+
+                byte dataACKPacket[] = new byte[4];
+                byte byteA = (byte) (ackPacketNumber >>> 8);
+                byte byteB = (byte) (ackPacketNumber);
+                dataACKPacket[0] = byteA;
+                dataACKPacket[1] = byteB;
+
+
+                sendPacket = new DatagramPacket(dataACKPacket, dataACKPacket.length, serverAddress,
+                        receivePacket.getPort());
+                sendReceiveSocket.send(sendPacket);
+
+
+                ackPacketNumber++;
+
+
+
+                if (receivePacket.getLength() < 64002) {
+
                     break;
                 }
             }
         }
-
         catch (IOException ioe) {
             Log.e("Client", "Error");
         }

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.comp3004.grocerygo.grocerygo.Main2Activity">
+
+    <TextView
+        android:id="@+id/ind"
+        android:layout_width="356dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="181dp"
+        android:layout_below="@+id/indList"
+        android:layout_alignRight="@+id/indList"
+        android:layout_alignEnd="@+id/indList"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/wal"
+        android:layout_width="356dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="343dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/labList"
+        android:layout_alignLeft="@+id/labList"
+        android:layout_alignStart="@+id/labList"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/lab"
+        android:layout_width="356dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/walList"
+        android:layout_width="356dp"
+        android:layout_height="115dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="380dp"
+        android:layout_below="@+id/ind"
+        android:layout_alignLeft="@+id/ind"
+        android:layout_alignStart="@+id/ind"
+        android:layout_marginTop="12dp" />
+
+    <ListView
+        android:id="@+id/indList"
+        android:layout_width="357dp"
+        android:layout_height="115dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="218dp"
+        android:layout_below="@+id/wal"
+        android:layout_alignLeft="@+id/wal"
+        android:layout_alignStart="@+id/wal"
+        android:layout_marginTop="11dp" />
+
+    <ListView
+        android:id="@+id/labList"
+        android:layout_width="356dp"
+        android:layout_height="115dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="54dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lab"
+        android:layout_alignLeft="@+id/lab"
+        android:layout_alignStart="@+id/lab" />
+</RelativeLayout>

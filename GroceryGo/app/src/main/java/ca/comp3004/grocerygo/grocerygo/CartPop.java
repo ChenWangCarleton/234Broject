@@ -1,6 +1,7 @@
 package ca.comp3004.grocerygo.grocerygo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -29,8 +30,6 @@ public class CartPop extends Activity{
     Button process;
     @Override
     protected void onCreate(@Nullable final Bundle savedInstanceState) {
-        Button button;
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pop_cart);
         dbHandler = new MyDBHandler(this, null, null, 2);
@@ -71,14 +70,7 @@ public class CartPop extends Activity{
         process.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View view) {
-                                           Random r = new Random();
-                                           int chance = r.nextInt(4 - 1) + 1;
-                                           if(chance < 1) Toast.makeText(CartPop.this,"The best store to buy from is Walmart",Toast.LENGTH_LONG).show();
-                                           else if(chance < 2) Toast.makeText(CartPop.this,"The best store to buy from is Loblaws",Toast.LENGTH_LONG).show();
-                                           else Toast.makeText(CartPop.this,"The best store to buy from is Independent",Toast.LENGTH_LONG).show();
-
-                                           dbHandler.removeAll();
-                                           onCreate(savedInstanceState);
+                                           startActivity(new Intent(getApplicationContext(),Main2Activity.class));
                                        }
                                    });
 
