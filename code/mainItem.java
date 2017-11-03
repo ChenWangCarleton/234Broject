@@ -91,6 +91,19 @@ public class mainItem{
 		}
 		return str;
 	}
+	public double[] getPrices(){
+		double[] prices=new double[price.length];
+		for(int x=0;x<price.length;x++){
+			if(price[x]==null){
+				prices[x]=-1;
+			}
+			else{
+				prices[x]=Double.parseDouble(price[x].substring(1,price[x].length));
+			}
+		}
+		return prices;
+		
+	}
 	public String toString() {
 		return "Product ID:"+productID+"   category: "+category+"  name: "+name+"  description: "+description+printStorePrice();
 		//return "   category: "+category+"  brand: "+brand+"  name: "+name+"  description: "+description+"    price: "+price.toString()+"  stores:"+stores.toString();
