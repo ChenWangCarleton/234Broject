@@ -1,0 +1,1 @@
+14/11  add brand to db system and refined the db system
