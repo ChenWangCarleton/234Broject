@@ -18,7 +18,7 @@ public class Independent{
 	TreeSet<String> secondLevel=new TreeSet<>();
 	TreeSet<String> thirdLevel=new TreeSet<>();
 	PrintWriter pw;
-	String head="https://www.yourindependentgrocer.ca";
+	String url="https://www.yourindependentgrocer.ca";
 	static boolean status=false;
 	public Independent() {
 		status=false;
@@ -32,7 +32,7 @@ public class Independent{
 		status=true;
 	}
 	public void FirstLevel(String source,String first) throws Exception {
-		Document doc=Jsoup.connect(head+source).get();
+		Document doc=Jsoup.connect(url+source).get();
 		Elements e=doc.select("li[data-level=1]");
 		ArrayList<String> firstl=new ArrayList<>();;
 		ArrayList<String> text=new ArrayList<>();
@@ -66,13 +66,13 @@ public class Independent{
 				pw.println("\""+text.get(x)+"\":[");
 			}
 			pw.flush();
-			System.out.println(firstl.get(x)+"  --->  "+head+fl);
+			System.out.println(firstl.get(x)+"  --->  "+url+fl);
 			String second=fl.substring(0,fl.indexOf("/c/"));
 			SecondLevel(firstl.get(x),second,text.get(x));
 			firstS=false;
 		}
 		String fl=firstl.get(fru);
-		System.out.println(firstl.get(fru)+"  --->  "+head+fl);
+		System.out.println(firstl.get(fru)+"  --->  "+url+fl);
 		String second=fl.substring(0,fl.indexOf("/c/"));
 		pw.println("],");
 		pw.println("\""+text.get(fru)+"\":[");
@@ -88,7 +88,7 @@ public class Independent{
 		
 	}
 	public void SecondLevel(String source, String second,String cate) throws Exception {
-		Document doc=Jsoup.connect(head+source).get();
+		Document doc=Jsoup.connect(url+source).get();
 		ArrayList<String> sle=new ArrayList<>();
 		ArrayList<String> text=new ArrayList<>();
 		Elements e=doc.select("li[data-level=2]");
@@ -103,7 +103,7 @@ public class Independent{
 		}
 		for(int x=0;x<sle.size();x++) {
 			String sl=sle.get(x);
-			System.out.println(blank+sle.get(x)+"  --->  "+head+sl);
+			System.out.println(blank+sle.get(x)+"  --->  "+url+sl);
 			String third=sl.substring(0,sl.indexOf("/c/"));
 			if(x==sle.size()-1) {
 				ThirdLevel(sle.get(x),third,true,cate);
@@ -114,7 +114,7 @@ public class Independent{
 		}
 	}
 	public void ThirdLevel(String source, String third, boolean isLast,String cate) throws Exception {
-		Document doc=Jsoup.connect(head+source).get();
+		Document doc=Jsoup.connect(url+source).get();
 		boolean hasPro=true;
 		Elements e=doc.select("li[data-level=3]");
 		ArrayList<String> tle=new ArrayList<>();
@@ -141,7 +141,7 @@ public class Independent{
 		else {
 			for(int x=0;x<tle.size();x++) {
 				String tl=tle.get(x);
-				System.out.println(blank+blank+text.get(x)+"  --->  "+head+tl);
+				System.out.println(blank+blank+text.get(x)+"  --->  "+url+tl);
 				if(isLast&&x==tle.size()-1) {
 					productLevel(tl,true,cate);
 				}
@@ -184,7 +184,7 @@ public class Independent{
 		brands.add(brand);
 	}
 	public void productLevel(String source,boolean isLast,String cate) throws Exception {
-		Document doc=Jsoup.connect(head+source).get();
+		Document doc=Jsoup.connect(url+source).get();
 		ArrayList<String> n=new ArrayList<>();
 		ArrayList<String> d=new ArrayList<>();
 		ArrayList<String> pr=new ArrayList<>();

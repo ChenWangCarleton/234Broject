@@ -19,7 +19,7 @@ public class Walmart{
 	String[] links= {"/fruits-and-vegetables/N-3799","/deli/N-3792","/bakery/N-3796","/meat-seafood/N-3793","/dairy-eggs/N-3798","/drinks/N-3791","/frozen-food/N-3795","/pantry-food/N-3794"};
 	String[] linksBrand= {"/bakery/bagels-buns-rolls/N-3954","/bakery/desserts/N-3846","/bakery/sliced-bread/N-3845","/bakery/wraps-pita-flatbread/N-3955","/dairy-eggs/eggs/N-3850","/dairy-eggs/milk-cream/N-3851","/dairy-eggs/cheese/N-3849","/dairy-eggs/yogurt/N-3853","/deli/hummus-spreads/N-3953","/deli/deli-cheese/N-3817","/deli/deli-meat/N-3818","/grocery/produce/tofu-soy-products/N-4523","/drinks/coffee/N-3815","/drinks/tea-hot-drinks/N-3812","/drinks/water/N-3813","/drinks/juice/N-3810","/frozen-food/ice-cream-treats/N-3828","/frozen-food/meals-sides/N-3826","/frozen-food/pizza/N-3832","/frozen-food/vegetables/N-3825","/fruits/N-3852","/vegetables/N-3854","/salad-greens-herbs/N-4524","/meat-seafood/seafood/N-3824","/meat-seafood/beef/N-3820","/meat-seafood/pork/N-3822","/meat-seafood/poultry/N-3821","/pantry-food/pasta-rice-beans/N-3835","/pantry-food/baking-needs/N-3833","/pantry-food/canned-food/N-3839","/pantry-food/chips-snacks/N-3842","/natural-organic-food/N-3992"};
 	
-	String basic="https://www.walmart.ca/en/grocery";
+	String url="https://www.walmart.ca/en/grocery";
 	String head="https://www.walmart.ca";
 	static boolean  status=false;
 	ArrayList<String> brands=new ArrayList<>();//////
@@ -98,7 +98,7 @@ public class Walmart{
 			caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "D:/phantomjs-2.1.1-windows/bin/phantomjs.exe");
 		for(int ca=0;ca<linksBrand.length;ca++){
 			WebDriver driver=new PhantomJSDriver(caps);
-			String parentUrl=basic+linksBrand[ca];
+			String parentUrl=url+linksBrand[ca];
 			driver.get(parentUrl);
 			checkPageIsReady(driver);
 			System.out.println(parentUrl);
@@ -106,7 +106,7 @@ public class Walmart{
 			if(hasMoreBrand(rmBrand)) {
 				WebElement a=rmBrand.findElement(By.className("moreLess"));
 				WebDriver temp=new PhantomJSDriver(caps);
-				temp.get(basic+a.getAttribute("link"));
+				temp.get(url+a.getAttribute("link"));
 				a=temp.findElement(By.id("rm-Brand"));
 				List<WebElement> lis=a.findElements(By.tagName("li"));
 				for(int x=0;x<lis.size()-1;x++) {
@@ -149,7 +149,7 @@ public class Walmart{
 		caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "D:/phantomjs-2.1.1-windows/bin/phantomjs.exe");
 	for(int ca=0;ca<categories.length;ca++){
 		WebDriver driver=new PhantomJSDriver(caps);
-		String parentUrl=basic+links[ca];
+		String parentUrl=url+links[ca];
 		driver.get(parentUrl);
 		checkPageIsReady(driver);
 		System.out.println(parentUrl);

@@ -30,7 +30,7 @@ public class Loblaws{
 	File target;
 	PrintWriter fw;
 	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
-	String head="https://www.loblaws.ca";
+	String url="https://www.loblaws.ca";
 	static boolean  status=false;
 	ArrayList<String> fail=new ArrayList<>();
 	
@@ -52,7 +52,7 @@ public class Loblaws{
 		status=true;
 	}
 	public void FirstLevel(String source,String first) throws Exception {
-		Document doc=Jsoup.connect(head+source).get();
+		Document doc=Jsoup.connect(url+source).get();
 		Elements e=doc.select("li[data-level=1]");
 		ArrayList<String> firstl=new ArrayList<>();;
 		ArrayList<String> text=new ArrayList<>();
@@ -86,13 +86,13 @@ public class Loblaws{
 				fw.println("\""+text.get(x)+"\":[");
 			}
 			fw.flush();
-			System.out.println(firstl.get(x)+"  --->  "+head+fl);
+			System.out.println(firstl.get(x)+"  --->  "+url+fl);
 			String second=fl.substring(0,fl.indexOf("/c/"));
 			SecondLevel(firstl.get(x),second,text.get(x));
 			firstS=false;
 		}
 		String fl=firstl.get(fru);
-		System.out.println(firstl.get(fru)+"  --->  "+head+fl);
+		System.out.println(firstl.get(fru)+"  --->  "+url+fl);
 		String second=fl.substring(0,fl.indexOf("/c/"));
 		fw.println("],");
 		fw.println("\""+text.get(fru)+"\":[");
@@ -108,7 +108,7 @@ public class Loblaws{
 		
 	}
 	public void SecondLevel(String source, String second,String cate) throws Exception {
-		Document doc=Jsoup.connect(head+source).get();
+		Document doc=Jsoup.connect(url+source).get();
 		ArrayList<String> sle=new ArrayList<>();
 		ArrayList<String> text=new ArrayList<>();
 		Elements e=doc.select("li[data-level=2]");
@@ -123,7 +123,7 @@ public class Loblaws{
 		}
 		for(int x=0;x<sle.size();x++) {
 			String sl=sle.get(x);
-			System.out.println(blank+sle.get(x)+"  --->  "+head+sl);
+			System.out.println(blank+sle.get(x)+"  --->  "+url+sl);
 			String third=sl.substring(0,sl.indexOf("/c/"));
 			if(x==sle.size()-1) {
 				ThirdLevel(sle.get(x),third,true,cate);
@@ -134,7 +134,7 @@ public class Loblaws{
 		}
 	}
 	public void ThirdLevel(String source, String third, boolean isLast,String cate) throws Exception {
-		Document doc=Jsoup.connect(head+source).get();
+		Document doc=Jsoup.connect(url+source).get();
 		boolean hasPro=true;
 		Elements e=doc.select("li[data-level=3]");
 		ArrayList<String> tle=new ArrayList<>();
@@ -161,7 +161,7 @@ public class Loblaws{
 		else {
 			for(int x=0;x<tle.size();x++) {
 				String tl=tle.get(x);
-				System.out.println(blank+blank+text.get(x)+"  --->  "+head+tl);
+				System.out.println(blank+blank+text.get(x)+"  --->  "+url+tl);
 				if(isLast&&x==tle.size()-1) {
 					productLevel(tl,true,cate);
 				}
@@ -178,7 +178,7 @@ public class Loblaws{
 		caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "D:/phantomjs-2.1.1-windows/bin/phantomjs.exe");
 		WebDriver web=new PhantomJSDriver(caps);
 		//checkPageIsReady(web);
-		web.get(head+source);
+		web.get(url+source);
 		checkPageIsReady(web);
 		List<WebElement> e=web.findElements(By.className("product-info"));
 		System.out.println(e.size());
@@ -207,7 +207,7 @@ public class Loblaws{
 					e=web.findElements(By.className("product-info"));
 					t.stop();
 					if(t.elapsedSeconds()>360) {
-						fail.add(head+source);
+						fail.add(url+source);
 						break;//track time, break after 11mins
 					}
 				}
@@ -330,7 +330,7 @@ public class Loblaws{
 			System.out.println(n+"   "+d+"    "+p);
 		}
 		if(e.size()==0) {
-			fail.add(head+source);
+			fail.add(url+source);
 		}
 		web.quit();
 	}
