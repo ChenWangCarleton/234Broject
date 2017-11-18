@@ -20,6 +20,7 @@ public class Independent{
 	PrintWriter pw;
 	String url="https://www.yourindependentgrocer.ca";
 	static boolean status=false;
+	ArrayList<String> failUrl=new ArrayList<>();
 	public Independent() {
 		status=false;
 	}

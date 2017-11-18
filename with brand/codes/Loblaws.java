@@ -32,7 +32,7 @@ public class Loblaws{
 	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
 	String url="https://www.loblaws.ca";
 	static boolean  status=false;
-	ArrayList<String> fail=new ArrayList<>();
+	ArrayList<String> failUrl=new ArrayList<>();
 	
 	public Loblaws() {
 		status=false;
@@ -207,7 +207,7 @@ public class Loblaws{
 					e=web.findElements(By.className("product-info"));
 					t.stop();
 					if(t.elapsedSeconds()>360) {
-						fail.add(url+source);
+						failUrl.add(url+source);
 						break;//track time, break after 11mins
 					}
 				}
@@ -330,7 +330,7 @@ public class Loblaws{
 			System.out.println(n+"   "+d+"    "+p);
 		}
 		if(e.size()==0) {
-			fail.add(url+source);
+			failUrl.add(url+source);
 		}
 		web.quit();
 	}
@@ -437,8 +437,8 @@ public class Loblaws{
 
 		}
 	//	}while(!Loblaws.status);
-		for(int x=0;x<s.fail.size();x++) {
-			System.out.println(s.fail.get(x));
+		for(int x=0;x<s.failUrl.size();x++) {
+			System.out.println(s.failUrl.get(x));
 	}
 	}
 }

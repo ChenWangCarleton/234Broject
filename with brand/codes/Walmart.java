@@ -23,7 +23,7 @@ public class Walmart{
 	String head="https://www.walmart.ca";
 	static boolean  status=false;
 	ArrayList<String> brands=new ArrayList<>();//////
-	ArrayList<String> fail=new ArrayList<>();
+	ArrayList<String> failUrl=new ArrayList<>();
 	private static String[][] UMLAUT_REPLACEMENTS = { { new String("Ä"), "A" }, { new String("Ü"), "U" }, { new String("Ö"), "O" }, { new String("ä"), "a" }, { new String("ü"), "u" }, { new String("ö"), "o" }, { new String("ß"), "ss" },{new String("é"),"e"} ,{new String("É"),"E"}};
 	public static String replaceUmlaute(String orig) {
 	    String result = orig;
@@ -295,7 +295,7 @@ public class Walmart{
 					fw.flush();					
 				}
 				if(nameNotNullCount==0||priceNotNullCount==0||products.size()==0) {
-					fail.add(parentUrl+pre+(x+1));
+					failUrl.add(parentUrl+pre+(x+1));
 				}
 				}
 			//}
@@ -357,8 +357,8 @@ public class Walmart{
 			
 		}
 	//	}while(!Walmart.status);
-		for(int x=0;x<s.fail.size();x++) {
-			System.out.println(s.fail.get(x));
+		for(int x=0;x<s.failUrl.size();x++) {
+			System.out.println(s.failUrl.get(x));
 		}
 	
 	}
