@@ -43,8 +43,8 @@ public class Loblaws{
 	TreeSet<String> firstLevel=new TreeSet<>();
 	TreeSet<String> secondLevel=new TreeSet<>();
 	TreeSet<String> thirdLevel=new TreeSet<>();
-	public void execute(String tar) throws Exception {
-		target=new File(tar);
+	public void execute(String targetFile) throws Exception {
+		target=new File(targetFile);
 		fw=new PrintWriter(new FileWriter(target));
 		String first="/Food/";
 		String source= "";

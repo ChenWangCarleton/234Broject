@@ -140,9 +140,9 @@ public class Walmart{
 			driver.quit();
 		}
 	 }
-	public void execute(String tar)  throws Exception{
+	public void execute(String targetFile)  throws Exception{
 		addBrand();
-		target=new File(tar);
+		target=new File(targetFile);
 		fw=new PrintWriter(new FileWriter(target));
 		DesiredCapabilities caps=new DesiredCapabilities();
 		caps.setJavascriptEnabled(true);

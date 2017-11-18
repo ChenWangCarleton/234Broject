@@ -24,8 +24,8 @@ public class Independent{
 	public Independent() {
 		status=false;
 	}
-	public void execute(String tar) throws Exception {
-		target=new File(tar);
+	public void execute(String targetFile) throws Exception {
+		target=new File(targetFile);
 		pw=new PrintWriter(new FileWriter(target));
 		String first="/Independent/Food";
 		String source= "";
