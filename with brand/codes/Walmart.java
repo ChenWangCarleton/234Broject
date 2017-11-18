@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
-public class test{
+public class Walmart{
 	File target;
 	PrintWriter fw;
 	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
@@ -337,16 +337,16 @@ public class test{
         r = r.replaceAll(  "\u00B0" ,"").replaceAll("\u00a9","").replaceAll(  "\u00AE" ,"").replaceAll( "\u2122" ,"");
 		return r;
 	}
-	public test() {
+	public Walmart() {
 		status=false;
 	}
 	public static void main(String[] args) throws Exception{
 		int count=0;
-		test s = null;
+		Walmart s = null;
 	//	do {
 		try {
-			s=new test();
-			s.execute("D:\\testJsonv3.json");
+			s=new Walmart();
+			s.execute("D:\\WalmartJsonv3.json");
 		}catch(Exception e) {
 			System.out.println("check the file path or internet connection and try again later");
 			e.printStackTrace();
@@ -356,7 +356,7 @@ public class test{
 		//	TimeUnit.SECONDS.sleep(40);
 			
 		}
-	//	}while(!test.status);
+	//	}while(!Walmart.status);
 		for(int x=0;x<s.fail.size();x++) {
 			System.out.println(s.fail.get(x));
 		}
