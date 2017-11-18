@@ -20,7 +20,6 @@ public class Walmart{
 	String[] linksBrand= {"/bakery/bagels-buns-rolls/N-3954","/bakery/desserts/N-3846","/bakery/sliced-bread/N-3845","/bakery/wraps-pita-flatbread/N-3955","/dairy-eggs/eggs/N-3850","/dairy-eggs/milk-cream/N-3851","/dairy-eggs/cheese/N-3849","/dairy-eggs/yogurt/N-3853","/deli/hummus-spreads/N-3953","/deli/deli-cheese/N-3817","/deli/deli-meat/N-3818","/grocery/produce/tofu-soy-products/N-4523","/drinks/coffee/N-3815","/drinks/tea-hot-drinks/N-3812","/drinks/water/N-3813","/drinks/juice/N-3810","/frozen-food/ice-cream-treats/N-3828","/frozen-food/meals-sides/N-3826","/frozen-food/pizza/N-3832","/frozen-food/vegetables/N-3825","/fruits/N-3852","/vegetables/N-3854","/salad-greens-herbs/N-4524","/meat-seafood/seafood/N-3824","/meat-seafood/beef/N-3820","/meat-seafood/pork/N-3822","/meat-seafood/poultry/N-3821","/pantry-food/pasta-rice-beans/N-3835","/pantry-food/baking-needs/N-3833","/pantry-food/canned-food/N-3839","/pantry-food/chips-snacks/N-3842","/natural-organic-food/N-3992"};
 	
 	String url="https://www.walmart.ca/en/grocery";
-	String head="https://www.walmart.ca";
 	static boolean  status=false;
 	ArrayList<String> brands=new ArrayList<>();//////
 	ArrayList<String> failUrl=new ArrayList<>();
