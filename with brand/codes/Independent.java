@@ -18,6 +18,7 @@ public class Independent{
 	TreeSet<String> secondLevel=new TreeSet<>();
 	TreeSet<String> thirdLevel=new TreeSet<>();
 	PrintWriter pw;
+	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
 	String url="https://www.yourindependentgrocer.ca";
 	static boolean status=false;
 	ArrayList<String> failUrl=new ArrayList<>();
