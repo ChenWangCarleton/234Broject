@@ -13,6 +13,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 public class UserSearch {
 		String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
 	String source;//="D:\\MainJsonWithBrand.json";
+	String sourceForUpdating;
 	String[] storesOrder= {"Loblaws","Independent","Walmart"};
 	ArrayList<String> toStoreStores;
 	/*
@@ -26,11 +27,15 @@ public class UserSearch {
 	mergeToOne mto;
 	public UserSearch(ArrayList<String> to,String sou) {
 		toStoreStores=to;
+		sourceForUpdating=sou;
 		source=sou;
 	}
-	public void inilDB() {
-		mto=new mergeToOne(toStoreStores,source);
+	public void inilDB(String sour) throws Exception {
+		sourceForUpdating=sour;
+		mto=new mergeToOne(toStoreStores,sourceForUpdating);
 		mto.collectData();
+		mto.merge();
+		source=sourceForUpdating;
 	}
 	public String generalSearch() throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
@@ -131,7 +136,7 @@ public class UserSearch {
 			source.add("D:\\WalmartWithBrand.json");
 			String target="D:\\MainJsonWithBrand.json";
 		UserSearch us=new UserSearch(source,target);
-		//us.inilDB();
+		//us.inilDB("D:\\MainJsonUpdate.json");
 		
 		try {//getall
 			System.out.println(us.generalSearch());
