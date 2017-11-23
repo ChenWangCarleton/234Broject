@@ -131,12 +131,14 @@ public class UserSearch {
 			source.add("D:\\WalmartWithBrand.json");
 			String target="D:\\MainJsonWithBrand.json";
 		UserSearch us=new UserSearch(source,target);
-	/*	try {//getall
+		//us.inilDB();
+		
+		try {//getall
 			System.out.println(us.generalSearch());
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		}*/
+		}
 		try {//searchbyid
 			System.out.println(us.searchByID(2));
 		}catch(Exception e) {
