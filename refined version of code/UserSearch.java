@@ -27,7 +27,6 @@ public class UserSearch {
 	mergeToOne mto;
 	public UserSearch(ArrayList<String> to,String sou) {
 		toStoreStores=to;
-		sourceForUpdating=sou;
 		source=sou;
 	}
 	public void inilDB(String sour) throws Exception {
