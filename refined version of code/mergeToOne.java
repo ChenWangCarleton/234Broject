@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 public class mergeToOne{
 	String[] categories= {"Fruits & Vegetables","Deli & Ready Meals","Bakery","Meat & Seafood","Dairy and Eggs","Drinks","Frozen","Pantry"};
@@ -28,37 +29,68 @@ public class mergeToOne{
 		this.target=tar;
 		this.source=sou;
 	}
-	public void collectData() {
+	public void collectData() throws Exception {
 		dataCollected=false;
 		Loblaws lob=new Loblaws();
 		Independent ind=new Independent();
 		Walmart wal=new Walmart();
-		do {
-			try {
-				ind.execute(source.get(1));
-			}catch(Exception e) {
-				e.printStackTrace();
-			}
-		}while(!Independent.status);
-		do {
-			try {
-				wal.execute(source.get(2));
-			}catch(Exception e) {
-				wal.ABdriver.quit();
-				wal.tempDri.quit();
-				wal.dri.quit();
-				wal.driver.quit();
-				e.printStackTrace();
-			}
-		}while(!Walmart.status);
-		do {
-			try {
-				lob.execute(source.get(0));
-			}catch(Exception e) {
-				lob.web.close();
-				e.printStackTrace();
-			}
-		}while(!Loblaws.status);
+		Thread thread = new Thread(new Runnable() {
+
+		    @Override
+		    public void run() {
+		    	do {
+					try {
+						ind.execute(source.get(1));
+					}catch(Exception e) {
+						e.printStackTrace();
+					}
+				}while(!Independent.status); 
+		    }
+		            
+		});
+		        
+		thread.start();
+		Thread thread1 = new Thread(new Runnable() {
+
+		    @Override
+		    public void run() {
+				do {
+					try {
+						wal.execute(source.get(2));
+					}catch(Exception e) {
+						wal.ABdriver.quit();
+						wal.tempDri.quit();
+						wal.dri.quit();
+						wal.driver.quit();
+						e.printStackTrace();
+					}
+				}while(!Walmart.status);      
+		    }
+		            
+		});
+		        
+		thread1.start();
+		Thread thread2 = new Thread(new Runnable() {
+
+		    @Override
+		    public void run() {
+				do {
+					try {
+						lob.execute(source.get(0));
+					}catch(Exception e) {
+						lob.web.close();
+						e.printStackTrace();
+					}
+				}while(!Loblaws.status);  
+		    }
+		            
+		});
+		        
+		thread2.start();
+
+		while(!Walmart.status||!Independent.status||!Loblaws.status) {
+			TimeUnit.MINUTES.sleep(5);
+		}
 		dataCollected=true;
 	}
 	public void merge() throws IOException {
@@ -94,6 +126,8 @@ public class mergeToOne{
 				itsObj.add(itObj.get(x).getJsonArray(categories[y]));
 				for(JsonValue value: itsObj.get(x)) {
 					Items temp=mapper.readValue(value.toString(), Items.class);
+					if(temp.price!=null&&temp.price.startsWith("$999"))
+						break;
 					//write a compare function
 					boolean has=false;
 					for(int z=0;z<items.size();z++) {
@@ -185,11 +219,19 @@ public class mergeToOne{
 	
 	public static void main(String args[]) throws IOException {
 		ArrayList<String> source = new ArrayList<>();
+		source.add("D:\\WalmartWithBrand.json");
 		source.add("D:\\LoblawsWithBrand.json");
 		source.add("D:\\IndependentWithBrand.json");
-		source.add("D:\\WalmartWithBrand.json");
-		String target="D:\\MainJsonWithBrand.json";
+		String target="D:\\t.json";
 		mergeToOne m=new mergeToOne(source,target);
+		try {
+			//m.collectData();
+			m.merge();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//m.
 		
 	}
 }
