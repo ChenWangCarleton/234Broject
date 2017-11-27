@@ -1,1 +1,2 @@
 14/11  add brand to db system and refined the db system
+19/11  finished all the diagrams for D3 document
