@@ -199,7 +199,17 @@ public class Walmart{
 					String description="";
 					String price="";
 					String img="";
-					img=products.get(y).findElement(By.className("centered-img-wrap")).getAttribute("src");
+			//		int count=0;
+			//		do {
+					if(products.get(y).findElement(By.className("centered-img-wrap")).findElement(By.tagName("img")).getAttribute("class").equals("image"))
+						img=products.get(y).findElement(By.className("centered-img-wrap")).findElement(By.tagName("img")).getAttribute("src");
+					else img="https:"+products.get(y).findElement(By.className("centered-img-wrap")).findElement(By.tagName("img")).getAttribute("data-original");
+					//			count++;
+				//		if(count==51) {
+				//			img=noImg;
+				//			break;
+				//		}
+				//	}while(!img.startsWith("http"));
 					if(img==null||img.equals("")||img.length()<5)img=noImg;
 					img="\""+img+"\"";
 					name=products.get(y).findElement(By.className("details")).findElement(By.className("thumb-header")).getText();

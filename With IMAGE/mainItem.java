@@ -48,7 +48,7 @@ public class mainItem{
 	public boolean match(String one, String two) {
 		if(one==null&&two==null)return true;
 		if((one==null&&two!=null)||(one!=null&&two==null))return false;
-		if(one.contains(two)||two.contains(one)) {
+		if(one.toLowerCase().contains(two.toLowerCase())||two.toLowerCase().contains(one.toLowerCase())) {
 			return true;
 		}
 		String[] oneA=one.split(" ");
@@ -57,7 +57,7 @@ public class mainItem{
 			int count=0;
 			int portion=(int)Math.floor(oneA.length/1.0);//can be modified to fulfill the need of loosely exact or strictly exact
 			for(int x=0;x<oneA.length;x++) {
-				if(two.contains(oneA[x])) {
+				if(two.toLowerCase().contains(oneA[x].toLowerCase())) {
 					count++;
 				}
 			}
@@ -67,7 +67,7 @@ public class mainItem{
 			int count=0;
 			int portion=(int)Math.floor(twoA.length/1.0);
 			for(int x=0;x<twoA.length;x++) {
-				if(one.contains(twoA[x])) {
+				if(one.toLowerCase().contains(twoA[x].toLowerCase())) {
 					count++;
 				}
 			}
@@ -84,22 +84,22 @@ public class mainItem{
 				if(brandMatch(i)) {//before  19689   after 21936   i&w 375
 					if(nameMatch(i)) {//after 21864    i&w 387
 					//	if(match(description,i.description)) {
-					//	if(descriptionMatch(i))	{//after 21849   i&w  393     //if ignore descriptionMatch  18705   658
+						if(descriptionMatch(i))	{//after 21849   i&w  393     //if ignore descriptionMatch  18705   658
 						if(!sameStore(i))//after sameStore   24326    i&w  1340
 							return true;
-					//	}
-						//}
 					}
-				}
+						}
+					}
+	//			}
 		//	}
 		}
 		return false;
 	}
 	public boolean sameStore(Items i) {
 		int ind=-1;
-		if(i.store.equals("Loblaws"))ind=0;
-		if(i.store.equals("Independent"))ind=1;
-		if(i.store.equals("Walmart"))ind=2;
+		if(i.store.toLowerCase().equals("loblaws"))ind=0;
+		if(i.store.toLowerCase().equals("independent"))ind=1;
+		if(i.store.toLowerCase().equals("walmart"))ind=2;
 		if(ind>=0)
 			if(stores[ind]==null) {
 				return false;
@@ -108,8 +108,16 @@ public class mainItem{
 	}
 	public boolean descriptionMatch(Items i) {
 		if(description==null&&i.description==null)return true;
-		if((description==null&&i.description!=null)||(description!=null&&i.description==null))return false;
-		if(description.contains(i.description)||i.description.contains(description)||description.contains(i.description.toLowerCase())||i.description.contains(description.toLowerCase())||description.contains(i.description.toUpperCase())||i.description.contains(description.toUpperCase())) {
+		if((description==null&&i.description!=null)||(description!=null&&i.description==null)) {
+			if(description!=null) {
+				if(i.name.toLowerCase().contains(description.toLowerCase()))return true;
+			}
+			if(i.description!=null) {
+				if(name.toLowerCase().contains(i.description.toLowerCase()))return true;
+			}
+			return false;
+		}
+		if(description.toLowerCase().contains(i.description.toLowerCase())||i.description.toLowerCase().contains(description.toLowerCase())) {
 			return true;
 		}
 		String[] oneA=description.split(" ");
@@ -118,7 +126,7 @@ public class mainItem{
 			int count=0;
 			int portion=(int)Math.floor(oneA.length/1.0);//can be modified to fulfill the need of loosely exact or strictly exact
 			for(int x=0;x<oneA.length;x++) {
-				if(i.description.contains(oneA[x])||i.description.contains(oneA[x].toLowerCase())||i.description.contains(oneA[x].toUpperCase())) {
+				if(i.description.toLowerCase().contains(oneA[x].toLowerCase())) {
 					count++;
 				}
 			}
@@ -128,7 +136,7 @@ public class mainItem{
 			int count=0;
 			int portion=(int)Math.floor(twoA.length/1.0);
 			for(int x=0;x<twoA.length;x++) {
-				if(description.contains(twoA[x])||description.contains(twoA[x].toLowerCase())||description.contains(twoA[x].toUpperCase())) {
+				if(description.toLowerCase().contains(twoA[x].toLowerCase())) {
 					count++;
 				}
 			}
@@ -139,16 +147,16 @@ public class mainItem{
 	public boolean nameMatch(Items i) {
 		if(name==null&&i.name==null)return true;
 		if((name==null&&i.name!=null)||(name!=null&&i.name==null))return false;
-		if(name.contains(i.name)||i.name.contains(name)||name.contains(i.name.toLowerCase())||i.name.contains(name.toLowerCase())||name.contains(i.name.toUpperCase())||i.name.contains(name.toUpperCase())) {
+		if(name.toLowerCase().contains(i.name.toLowerCase())||i.name.toLowerCase().contains(name.toLowerCase())) {
 			return true;
 		}
 		String[] oneA=name.split(" ");
 		String[] twoA=i.name.split(" ");
 		if(oneA.length<twoA.length) {
 			int count=0;
-			int portion=(int)Math.floor(oneA.length/1.0);//can be modified to fulfill the need of loosely exact or strictly exact
+			int portion=(int)Math.floor(oneA.length/2.0);//can be modified to fulfill the need of loosely exact or strictly exact
 			for(int x=0;x<oneA.length;x++) {
-				if(i.name.contains(oneA[x])||i.name.contains(oneA[x].toLowerCase())||i.name.contains(oneA[x].toUpperCase())) {
+				if(i.name.toLowerCase().contains(oneA[x].toLowerCase())) {
 					count++;
 				}
 			}
@@ -156,9 +164,9 @@ public class mainItem{
 		}
 		else {
 			int count=0;
-			int portion=(int)Math.floor(twoA.length/1.0);
+			int portion=(int)Math.floor(twoA.length/2.0);
 			for(int x=0;x<twoA.length;x++) {
-				if(name.contains(twoA[x])||name.contains(twoA[x].toLowerCase())||name.contains(twoA[x].toUpperCase())) {
+				if(name.toLowerCase().contains(twoA[x].toLowerCase())) {
 					count++;
 				}
 			}
@@ -171,15 +179,23 @@ public class mainItem{
 			if(i.brand==null||i.brand.length()==0||i.brand.equals("null"))
 				return true;
 			else {
+				if(name.toLowerCase().contains(i.brand.toLowerCase()))return true;
+				if(description!=null)
+					if(description.toLowerCase().contains(i.brand.toLowerCase()))return true;
 				return false;
 			}
 		}
-		if(i.brand==null||i.brand.length()==0||i.brand.equals("null"))
+		if(i.brand==null||i.brand.length()==0||i.brand.equals("null")) {
+			if(i.name.toLowerCase().contains(brand.toLowerCase()))return true;
+			if(i.description!=null)
+				if(i.description.toLowerCase().contains(brand.toLowerCase()))return true;
 			return false;
+		}
 		
 		if(brand.equalsIgnoreCase(i.brand))
 			return true;
-		
+		if(i.name.toLowerCase().contains(brand.toLowerCase()))return true;
+		if(name.toLowerCase().contains(i.brand.toLowerCase()))return true;
 		return false;
 	}
 	public String printStorePrice() {

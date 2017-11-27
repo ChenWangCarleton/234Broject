@@ -182,7 +182,7 @@ public class Loblaws{
 		//checkPageIsReady(web);
 		web.get(url+source);
 		checkPageIsReady(web);
-		List<WebElement> e=web.findElements(By.className("product-info"));
+		List<WebElement> e=web.findElements(By.className("product-page-hotspot"));
 		System.out.println(e.size());
 		ArrayList<String> names=new ArrayList<>();
 		ArrayList<String> descriptions=new ArrayList<>();
@@ -219,7 +219,15 @@ public class Loblaws{
 					String name="";
 					String brand="";
 					String img="";
-					img=e.get(x).findElement(By.className("product-image ")).findElement(By.tagName("img")).getAttribute("src");
+					
+					try
+					{
+						img=e.get(x).findElement(By.className("product-image ")).findElement(By.tagName("img")).getAttribute("src");
+					}catch(Exception e1) {
+						e1.printStackTrace();
+						img=noImg;
+					}
+					if(img==null||img.length()<5)img=noImg;
 					imgs.add(img);
 					if(hasBrand(forName)) {
 						brand=forName.findElement(By.className("js-product-entry-brand")).getText();
@@ -251,7 +259,14 @@ public class Loblaws{
 				String name="";
 				String brand="";
 				String img="";
-				img=e.get(x).findElement(By.className("product-image ")).findElement(By.tagName("img")).getAttribute("src");
+				try
+				{
+					img=e.get(x).findElement(By.className("product-image ")).findElement(By.tagName("img")).getAttribute("src");
+				}catch(Exception e1) {
+					e1.printStackTrace();
+					img=noImg;
+				}
+				if(img==null||img.length()<5)img=noImg;
 				imgs.add(img);
 				if(hasBrand(forName)) {
 					brand=forName.findElement(By.className("js-product-entry-brand")).getText();
@@ -283,7 +298,14 @@ public class Loblaws{
 			String name="";
 			String brand="";
 			String img="";
-			img=e.get(x).findElement(By.className("product-image ")).findElement(By.tagName("img")).getAttribute("src");
+			try
+			{
+				img=e.get(x).findElement(By.className("product-image ")).findElement(By.tagName("img")).getAttribute("src");
+			}catch(Exception e1) {
+				e1.printStackTrace();
+				img=noImg;
+			}
+			if(img==null||img.length()<5)img=noImg;
 			imgs.add(img);
 			if(hasBrand(forName)) {
 				brand=forName.findElement(By.className("js-product-entry-brand")).getText();

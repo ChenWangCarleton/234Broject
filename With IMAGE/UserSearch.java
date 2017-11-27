@@ -202,21 +202,27 @@ public class UserSearch {
 	}
 	 public static void main(String[] args){
 			ArrayList<String> source = new ArrayList<>();
-			source.add("D:\\Walmart.json");
+
 			source.add("D:\\Loblaws.json");
 			source.add("D:\\Independent.json");
+			source.add("D:\\Walmart.json");
 			String target="D:\\Main.json";
 		UserSearch us=new UserSearch(source,target);
-		//us.inilDB("D:\\MainJsonUpdate.json");
+		try {
+		//	us.inilDB("D:\\MainJsonUpdate.json");
+		} catch (Exception e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
 		
 		try {//getall
 			
 			ArrayList<Integer> ids=new ArrayList<Integer>();
 			ids.add(100);
-		//	ids.add(5);
-		//	ids.add(1000);
-		//	ids.add(10000);
-		//	ids.add(2000);
+			ids.add(5);
+			ids.add(1000);
+			ids.add(10000);
+			ids.add(2000);
 			
 			
 			System.out.println(us.searchByID(ids));
@@ -229,7 +235,11 @@ public class UserSearch {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-
+		try {
+			System.out.println(us.generalSearch());
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 
 	}
 

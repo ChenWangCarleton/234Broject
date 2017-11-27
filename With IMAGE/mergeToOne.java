@@ -7,6 +7,7 @@ import javax.json.JsonValue;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -42,6 +43,9 @@ public class mergeToOne{
 					try {
 						ind.execute(source.get(1));
 					}catch(Exception e) {
+					//	if(ind.forP!=null)ind.forP.quit();
+					//	if(ind.web!=null)ind.web.quit();
+					//	if(ind.getFirst!=null)ind.getFirst.quit();
 						e.printStackTrace();
 					}
 				}while(!Independent.status); 
@@ -58,10 +62,10 @@ public class mergeToOne{
 					try {
 						wal.execute(source.get(2));
 					}catch(Exception e) {
-						wal.ABdriver.quit();
-						wal.tempDri.quit();
-						wal.dri.quit();
-						wal.driver.quit();
+						if(wal.ABdriver!=null)wal.ABdriver.quit();
+						if(wal.tempDri!=null)wal.tempDri.quit();
+						if(wal.dri!=null)wal.dri.quit();
+						if(wal.driver!=null)wal.driver.quit();
 						e.printStackTrace();
 					}
 				}while(!Walmart.status);      
@@ -78,7 +82,7 @@ public class mergeToOne{
 					try {
 						lob.execute(source.get(0));
 					}catch(Exception e) {
-						lob.web.close();
+						if(lob.web!=null)lob.web.close();
 						e.printStackTrace();
 					}
 				}while(!Loblaws.status);  
