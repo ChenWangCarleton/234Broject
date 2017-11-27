@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.concurrent.TimeUnit;
 
 import javax.json.Json;
 import javax.json.JsonArray;
@@ -36,9 +35,6 @@ public class UserSearch {
 		sourceForUpdating=sour;
 		mto=new mergeToOne(toStoreStores,sourceForUpdating);
 		mto.collectData();
-		while(!mto.dataCollected) {
-			TimeUnit.MINUTES.sleep(5);
-		}
 		mto.merge();
 		source=sourceForUpdating;
 	}
@@ -206,17 +202,12 @@ public class UserSearch {
 	}
 	 public static void main(String[] args){
 			ArrayList<String> source = new ArrayList<>();
-			source.add("D:\\tt.json");
-			source.add("D:\\ttt.json");
-			source.add("D:\\tttt.json");
-			String target="D:\\t.json";
+			source.add("D:\\LoblawsWithBrand.json");
+			source.add("D:\\IndependentWithBrand.json");
+			source.add("D:\\WalmartWithBrand.json");
+			String target="D:\\MainJsonWithBrand.json";
 		UserSearch us=new UserSearch(source,target);
-		try {
-			us.inilDB("D:\\MainJsonUpdate.json");
-		} catch (Exception e2) {
-			// TODO Auto-generated catch block
-			e2.printStackTrace();
-		}
+		//us.inilDB("D:\\MainJsonUpdate.json");
 		
 		try {//getall
 			
