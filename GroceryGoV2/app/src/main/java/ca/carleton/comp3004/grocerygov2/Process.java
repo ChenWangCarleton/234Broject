@@ -294,7 +294,7 @@ public class Process extends AppCompatActivity {
 
 
 
-                //userList.removeAll();
+                userList.removeAll();
                 userList.close();
 
             } catch (JSONException e) {

@@ -29,8 +29,12 @@ public class MyList extends AppCompatActivity {
         list = findViewById(R.id.userList);
         //list.setBackgroundColor(Color.WHITE);
         //list.getBackground().setAlpha(175);
-        listValues = userList.userProductsList();
+        //listValues = userList.userProductsList();
 
+        update();
+    }
+    private void update(){
+        listValues = userList.userProductsList();
         if(listValues != null){
             Log.e("Error: ", "HERE");
             listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listValues);
@@ -44,14 +48,10 @@ public class MyList extends AppCompatActivity {
 
                     userList.deleteProduct(deleted.substring(deleted.lastIndexOf("-")+2));
 
-                    //onCreate(savedInstanceState); //----- FIX FAGGOT
+                    update();
                 }
             });
         }
-
-
-
-
 
     }
 }
