@@ -124,7 +124,28 @@ public class Process extends AppCompatActivity {
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        //locMan.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 500, locationListener);
+        /*locMan.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+                userLit =location.getLatitude();
+                userLong=location.getLongitude();
+            }
+
+            @Override
+            public void onStatusChanged(String s, int i, Bundle bundle) {
+
+            }
+
+            @Override
+            public void onProviderEnabled(String s) {
+
+            }
+
+            @Override
+            public void onProviderDisabled(String s) {
+
+            }
+        });*/
         Location location = locMan.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
         //Log.e("Test", ""+location.getLatitude());
@@ -132,6 +153,9 @@ public class Process extends AppCompatActivity {
 
         userLit =location.getLatitude();
         userLong=location.getLongitude();
+
+        /*userLit = 45.3833400;
+        userLong = -75.6988720;*/
 
 
         String walURL = getUrl(userLit,userLong,"Walmart");
@@ -242,8 +266,27 @@ public class Process extends AppCompatActivity {
                 walBut.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        //saddr="+userLit+","+userLong +"& *****
                         Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                                Uri.parse("http://maps.google.com/maps?saddr="+userLit+","+userLong +"&daddr="+walLat+","+walLong));
+                                Uri.parse("http://maps.google.com/maps?daddr="+walLat+","+walLong));
+                        startActivity(intent);
+                    }
+                });
+                labBut.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //saddr="+userLit+","+userLong +"&
+                        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                                Uri.parse("http://maps.google.com/maps?daddr="+labLat+","+labLong));
+                        startActivity(intent);
+                    }
+                });
+                indBut.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //saddr="+userLit+","+userLong +"&
+                        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                                Uri.parse("http://maps.google.com/maps?daddr="+indLat +","+indLong));
                         startActivity(intent);
                     }
                 });
@@ -264,28 +307,6 @@ public class Process extends AppCompatActivity {
         }
     }
 
-    private final LocationListener locationListener = new LocationListener() {
-        @Override
-        public void onLocationChanged(Location location) {
-            userLit = location.getLatitude();
-            userLong = location.getLongitude();
-        }
-
-        @Override
-        public void onStatusChanged(String s, int i, Bundle bundle) {
-
-        }
-
-        @Override
-        public void onProviderEnabled(String s) {
-
-        }
-
-        @Override
-        public void onProviderDisabled(String s) {
-
-        }
-    };
 
     private void requestPermission() {
         if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
