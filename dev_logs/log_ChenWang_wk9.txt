@@ -1,1 +1,3 @@
 24/11  had the oral exam.
+26/11 decided to display image of items on app, the database system is changed to also extract image url
+      each webscraper is wrapped in one thread. thus decreased the time needed for scraping all the stores
