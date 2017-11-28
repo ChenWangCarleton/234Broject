@@ -1,6 +1,7 @@
 package ca.carleton.comp3004.grocerygov2;
 
 import android.content.Intent;
+import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,10 +15,14 @@ public class MainPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
 
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+
+        StrictMode.setThreadPolicy(policy);
+
         //***Layout***
-        Button my_list = (Button)findViewById(R.id.my_list_button);
-        Button store = (Button)findViewById(R.id.store_button);
-        Button process = (Button)findViewById(R.id.process_button);
+        Button my_list = findViewById(R.id.my_list_button);
+        Button store = findViewById(R.id.store_button);
+        final Button process = findViewById(R.id.process_button);
 
         my_list.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,14 +34,14 @@ public class MainPage extends AppCompatActivity {
         store.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainPage.this, StoreList.class));
             }
         });
 
         process.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainPage.this, Process.class));
             }
         });
 

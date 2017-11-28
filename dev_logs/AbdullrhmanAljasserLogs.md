@@ -2,7 +2,6 @@ Abdullrhman Aljasser Logs
 Student #: 100988128  
 
 **[09/23/2017 - 1:30] Meeting 5**  
-Abdullrhman came 20 minutes late (Reason: Had to return home to get laptop Charger)  
 Discussed the order of work:  
 1. Filling up Database
 2. Build a UI
@@ -35,3 +34,14 @@ Chen will work on web crawler
 Completed rough UI  
 Completed rough Server  
 Completed rough Web Crawler  
+
+**[10/11/2017 - 1:30] Meeting 10**
+Discussed situation about Bill's absences
+
+**[10/21/2017 - 1:30] Meeting 11**
+Chen - finished web scraper
+Hanad - finished server
+Me (Abdullrhman) - finished a draft copy of App
+
+**[10/28/2017 - 1:30] Meeting 12**
+Worked on D2

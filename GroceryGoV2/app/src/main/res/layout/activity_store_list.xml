@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="ca.carleton.comp3004.grocerygov2.MyList">
-
+    tools:context="ca.carleton.comp3004.grocerygov2.StoreList">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -14,30 +13,30 @@
         android:background="@android:color/black"
         android:alpha="0.5"></FrameLayout>
 
-
-    <TextView
-        android:textColor="#ffffff"
-        android:id="@+id/textView"
-        android:layout_width="238dp"
-        android:layout_height="20dp"
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="16dp"
-        android:text="To remove items just click on the item"
-        app:layout_constraintBottom_toTopOf="@+id/userList"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/productList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/userList"
+        android:id="@+id/productList"
         android:layout_width="0dp"
-        android:layout_height="459dp"
+        android:layout_height="441dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
