@@ -10,6 +10,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+//this is just for displaying all the items. a comparison to loblaws.java 
 public class Independent{
 	File target;
 	String blank="     ";
@@ -25,6 +26,8 @@ public class Independent{
 	public Independent() {
 		status=false;
 	}
+	
+	//function used to start webscraping
 	public void execute(String targetFile) throws Exception {
 		target=new File(targetFile);
 		pw=new PrintWriter(new FileWriter(target));
@@ -33,6 +36,8 @@ public class Independent{
 		FirstLevel(source,first);
 		status=true;
 	}
+	
+	//to get first level means the [data-level=1]  on the web page. the header categories of the store
 	public void FirstLevel(String source,String first) throws Exception {
 		Document doc=Jsoup.connect(url+source).get();
 		Elements e=doc.select("li[data-level=1]");
@@ -89,6 +94,7 @@ public class Independent{
 
 		
 	}
+	//to get sub categories for the first level.
 	public void SecondLevel(String source, String second,String cate) throws Exception {
 		Document doc=Jsoup.connect(url+source).get();
 		ArrayList<String> sle=new ArrayList<>();
@@ -115,6 +121,7 @@ public class Independent{
 			}
 		}
 	}
+	//to get sub categories for the second level (in some second categories there're no sub categories but only the product.
 	public void ThirdLevel(String source, String third, boolean isLast,String cate) throws Exception {
 		Document doc=Jsoup.connect(url+source).get();
 		boolean hasPro=true;
@@ -153,6 +160,7 @@ public class Independent{
 			}
 		}
 	}
+	//method used to convert Germany characters to English. 
 	private static String[][] UMLAUT_REPLACEMENTS = { { new String("Ä"), "A" }, { new String("Ü"), "U" }, { new String("Ö"), "O" }, { new String("ä"), "a" }, { new String("ü"), "u" }, { new String("ö"), "o" }, { new String("ß"), "ss" },{new String("é"),"e"} ,{new String("É"),"E"}};
 	public static String replaceUmlaute(String orig) {
 	    String result = orig;
@@ -163,7 +171,7 @@ public class Independent{
 
 	    return result;
 	}
-	ArrayList<String> brands=new ArrayList<>();//////
+	ArrayList<String> brands=new ArrayList<>();//////used for testing
 
 	public void addToBrands(String brand) {
 		if(brand.length()==0||brand.equals("")||brand==null)return;
@@ -185,6 +193,8 @@ public class Independent{
 		}
 		brands.add(brand);
 	}
+	
+	//to webscrape the pages that contains product and write to a json file waiting to be merged after all the webscrapers are done
 	public void productLevel(String source,boolean isLast,String cate) throws Exception {
 		Document doc=Jsoup.connect(url+source).get();
 		ArrayList<String> n=new ArrayList<>();

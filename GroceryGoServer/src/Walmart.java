@@ -29,6 +29,8 @@ public class Walmart{
 	static boolean  status=false;
 	ArrayList<String> brands=new ArrayList<>();//////
 	ArrayList<String> failUrl=new ArrayList<>();
+	
+	//method used to convert Germany characters to English.
 	private static String[][] UMLAUT_REPLACEMENTS = { { new String("Ä"), "A" }, { new String("Ü"), "U" }, { new String("Ö"), "O" }, { new String("ä"), "a" }, { new String("ü"), "u" }, { new String("ö"), "o" }, { new String("ß"), "ss" },{new String("é"),"e"} ,{new String("É"),"E"}};
 	public static String replaceUmlaute(String orig) {
 	    String result = orig;
@@ -39,6 +41,9 @@ public class Walmart{
 
 	    return result;
 	}
+	
+	//in walmart to avoid go to each item's web page to collect data, we first get the all the brands and then check if an item belongs to one brand. 
+	// this func is used to check if there are hiding brands in each web page
 	public boolean hasMoreBrand(WebElement w) {
 		try {
 			WebElement m=w.findElement(By.className("moreLess"));
@@ -53,6 +58,8 @@ public class Walmart{
 				return false;
 		}
 	}
+	
+	//this func is used to collect all the brands in one web page
 	public String getBrand(ArrayList<String> brands,String name) {// set brand as an attribute.  read and store all the brand first.!!!
 		for(int x=0;x<brands.size();x++) {
 			if(name.contains(brands.get(x))||name.contains(brands.get(x).toLowerCase())||name.contains(brands.get(x).toUpperCase())) {//startsWith or Contains
@@ -62,6 +69,8 @@ public class Walmart{
 		
 		return null;
 	}
+	
+	//this func is used to separate brand from item's displaying name. (just to check if the name contains brand from the brands that are already collected
 	public String removeBrand(String name, String brand) {
 		if(name.contains(brand)) {
 			name=name.replace(brand, "");
@@ -81,8 +90,10 @@ public class Walmart{
 		}
 		return name;
 	}
+	
+	//this func is used to add brands to brand list. need to filter the special cases
 	public void addToBrands(String brand) {
-		HashSet<String> notBrand=new HashSet<>();
+		HashSet<String> notBrand=new HashSet<>();//considered brand in walmart but not in loblaws and independent
 		notBrand.add("Coca-Cola");
 		notBrand.add("Pepsi");
 		notBrand.add("Dr. Pepper");
@@ -97,6 +108,8 @@ public class Walmart{
 		}
 		brands.add(brand);
 	}
+	 
+	 //func used to run before actually collecting items' data. goes through each major subcategories and collects all the brand
 	 public void addBrand() {
 			DesiredCapabilities caps=new DesiredCapabilities();
 			caps.setJavascriptEnabled(true);
@@ -145,6 +158,9 @@ public class Walmart{
 			ABdriver.quit();
 		}
 	 }
+	
+	
+	//function used to start webscraping
 	public void execute(String targetFile)  throws Exception{
 		status=false;
 		addBrand();
@@ -333,6 +349,8 @@ public class Walmart{
 			status=true;
 		}
 	}
+	
+	//check if the page is loaded successfully
 	 public void checkPageIsReady(WebDriver driver) {
 		  
 		  JavascriptExecutor js = (JavascriptExecutor)driver;
@@ -356,6 +374,7 @@ public class Walmart{
 		  }
 	 }	 		
 	
+	//remove mark symbol 
 	public String removeMarkSymbol(String r) {
         r = r.replaceAll(  "\u00B0" ,"").replaceAll("\u00a9","").replaceAll(  "\u00AE" ,"").replaceAll( "\u2122" ,"");
 		return r;

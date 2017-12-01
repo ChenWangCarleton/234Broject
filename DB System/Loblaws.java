@@ -11,7 +11,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.TreeSet;
 import java.util.concurrent.TimeUnit;
-
+//this is the version meets all the requirements. but takes lots of time to finish.
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -44,6 +44,8 @@ public class Loblaws{
 	TreeSet<String> firstLevel=new TreeSet<>();
 	TreeSet<String> secondLevel=new TreeSet<>();
 	TreeSet<String> thirdLevel=new TreeSet<>();
+		
+		//function used to start webscraping
 	public void execute(String targetFile) throws Exception {
 		status=false;
 		target=new File(targetFile);
@@ -53,6 +55,8 @@ public class Loblaws{
 		FirstLevel(source,first);
 		status=true;
 	}
+	
+	//to get first level means the [data-level=1]  on the web page. the header categories of the store
 	public void FirstLevel(String source,String first) throws Exception {
 		Document doc=Jsoup.connect(url+source).get();
 		Elements e=doc.select("li[data-level=1]");
@@ -109,6 +113,8 @@ public class Loblaws{
 
 		
 	}
+	
+	//to get sub categories for the first level.
 	public void SecondLevel(String source, String second,String cate) throws Exception {
 		Document doc=Jsoup.connect(url+source).get();
 		ArrayList<String> sle=new ArrayList<>();
@@ -135,6 +141,8 @@ public class Loblaws{
 			}
 		}
 	}
+	
+	//to get sub categories for the second level (in some second categories there're no sub categories but only the product.
 	public void ThirdLevel(String source, String third, boolean isLast,String cate) throws Exception {
 		Document doc=Jsoup.connect(url+source).get();
 		boolean hasPro=true;
@@ -173,6 +181,8 @@ public class Loblaws{
 			}
 		}
 	}
+	
+	//to webscrape the pages that contains product and write to a json file waiting to be merged after all the webscrapers are done
 	public void productLevel(String source,boolean isLast,String cate) throws Exception {
 
 		DesiredCapabilities caps=new DesiredCapabilities();
@@ -372,6 +382,8 @@ public class Loblaws{
 		}
 		web.quit();
 	}
+	
+	//before webscraping the specific data we needed, check if it contains that.(for brand
 	public boolean hasBrand(WebElement pro ) {
 		try {
 			pro.findElement(By.className("js-product-entry-brand"));
@@ -381,6 +393,7 @@ public class Loblaws{
 			return false;
 		}
 	}
+	//before webscraping the specific data we needed, check if it contains that.(for description
 	public boolean hasDescription(WebElement pro ) {
 		try {
 			pro.findElement(By.className("js-product-entry-size-detail"));
@@ -390,6 +403,7 @@ public class Loblaws{
 			return false;
 		}
 	}
+	//before webscraping the specific data we needed, check if it contains that.(for hiding elements
 	public boolean isElementPresent(By by, WebDriver driver){
         try{
             driver.findElement(by);
@@ -399,6 +413,8 @@ public class Loblaws{
             return false;
         }
     }
+	
+	//method used to convert Germany characters to English. 
 	private static String[][] UMLAUT_REPLACEMENTS = { { new String("Ä"), "A" }, { new String("Ü"), "U" }, { new String("Ö"), "O" }, { new String("ä"), "a" }, { new String("ü"), "u" }, { new String("ö"), "o" }, { new String("ß"), "ss" },{new String("é"),"e"} ,{new String("É"),"E"}};
 	public static String replaceUmlaute(String orig) {
 	    String result = orig;
@@ -409,7 +425,9 @@ public class Loblaws{
 
 	    return result;
 	}
-	ArrayList<String> brands=new ArrayList<>();//////
+	
+	//used for testing
+	ArrayList<String> brands=new ArrayList<>();
 
 	public void addToBrands(String brand) {
 		if(brand.length()==0||brand.equals("")||brand==null)return;
@@ -431,6 +449,8 @@ public class Loblaws{
 		}
 		brands.add(brand);
 	}
+	
+	//check if the page is loaded successfully
 	public void checkPageIsReady(WebDriver driver) {
 		  
 		  JavascriptExecutor js = (JavascriptExecutor)driver;

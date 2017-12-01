@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//this is the class needed for storing object converted from database json file. ( or stored in this object to write in database json file) in android client, there is a class called product contains all the attrs of this
 public class mainItem{
 
 	public String category="";
@@ -45,6 +45,8 @@ public class mainItem{
 	public mainItem(int id) {
 		productID=id;
 	}
+	
+	//simply check if two strings match
 	public boolean match(String one, String two) {
 		if(one==null&&two==null)return true;
 		if((one==null&&two!=null)||(one!=null&&two==null))return false;
@@ -75,17 +77,24 @@ public class mainItem{
 		}
 		return false;
 	}
+	
+	//func used to check if two grocery items are the same items
+	/*
+		just want to complain about how walmart naming their product and showing the brand or descriptions.
+		have to put many efforts on "special cases" for items from walmart
+		this project would be so much easier if there are some universal rules for naming products and descripting products
+	*/
 	public boolean similiarTo(Items i) {
 		
 		if(category.equals(i.category)) {
 			
 			
 			//if(match(name, i.name)) {
-				if(brandMatch(i)) {//before  19689   after 21936   i&w 375
-					if(nameMatch(i)) {//after 21864    i&w 387
+				if(brandMatch(i)) {
+					if(nameMatch(i)) {
 					//	if(match(description,i.description)) {
-						if(descriptionMatch(i))	{//after 21849   i&w  393     //if ignore descriptionMatch  18705   658
-						if(!sameStore(i))//after sameStore   24326    i&w  1340
+						if(descriptionMatch(i))	{
+						if(!sameStore(i))
 							return true;
 					}
 						}
@@ -95,6 +104,8 @@ public class mainItem{
 		}
 		return false;
 	}
+	
+	//make sure its not from the same store
 	public boolean sameStore(Items i) {
 		int ind=-1;
 		if(i.store.toLowerCase().equals("loblaws"))ind=0;
@@ -106,6 +117,8 @@ public class mainItem{
 			}
 		return true;
 	}
+	
+	//check if two item's description match. using blur matching. 
 	public boolean descriptionMatch(Items i) {
 		if(description==null&&i.description==null)return true;
 		if((description==null&&i.description!=null)||(description!=null&&i.description==null)) {
@@ -144,6 +157,8 @@ public class mainItem{
 		}
 		return false;
 	}
+	
+	//check if two item's name match. using blur matching. 
 	public boolean nameMatch(Items i) {
 		if(name==null&&i.name==null)return true;
 		if((name==null&&i.name!=null)||(name!=null&&i.name==null))return false;
@@ -174,6 +189,8 @@ public class mainItem{
 		}
 		return false;
 	}
+	
+	//check if two item's brand match. using blur matching. 
 	public boolean brandMatch(Items i) {
 		if(brand==null||brand.length()==0||brand.equals("null")) {
 			if(i.brand==null||i.brand.length()==0||i.brand.equals("null"))

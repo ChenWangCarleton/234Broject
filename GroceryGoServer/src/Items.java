@@ -1,5 +1,5 @@
 public class Items{
-
+//this is an entity class needed for one of the steps in merging. when the json file created by each webscraper is read using jackson, this class is used to store the data temporarily.
 	public String category="";
 	public String price="";
 	public String description="";

@@ -31,6 +31,8 @@ public class UserSearch {
 		toStoreStores=to;
 		source=sou;
 	}
+	
+	//when the server starts, this is the func should be called by server to set up everthing. and after the inil, the server just need to call collectData func in mergeToOne to update the data
 	public void inilDB(String sour) throws Exception {
 		sourceForUpdating=sour;
 		mto=new mergeToOne(toStoreStores,sourceForUpdating);
@@ -38,6 +40,8 @@ public class UserSearch {
 		mto.merge();
 		source=sourceForUpdating;
 	}
+	
+	//return a json string contains every items' name, id, categoreis, needed for app inil
 	public String generalSearch() throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		File jsonInput=new File(source);
@@ -67,6 +71,8 @@ public class UserSearch {
 		 result=result+"]";
 		 return result;//return the result string
 	}
+	
+	//takes integer or arraylist of integer, returns all the informations related to the ids
 	public String searchByID(ArrayList<Integer> ids)throws IOException {
 		Collections.sort(ids);
 		int index=0;//index for tracking which id is searching

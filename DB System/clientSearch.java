@@ -7,7 +7,7 @@ import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.type.TypeFactory;
-
+//this class contains three functions used in android client for converting json string from databse to objects. each function is placed in proper place. and they should all use a class called product, that contains all the attrs from itemForGetAll.java and mainItem.java
 public class clientSearch{
 	public ArrayList<itemForGetAll> readGetAll(String jsonStr) throws  Exception{
 	//	ArrayList<itemForGetAll> result=new ArrayList<>();
