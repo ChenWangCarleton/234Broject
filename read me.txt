@@ -1,0 +1,3 @@
+the DB System folder contains all the files from database system.
+the GroceryGoServer folder contains all the files needed for server, including all the files from database system.
+the GroceryGoClient folder contains all the files needed for android app.
