@@ -22,7 +22,7 @@ public class ServerRequset {
 
     public ServerRequset() throws UnknownHostException {
         //this.clientSocket = bind();
-        serverAddress = InetAddress.getByName("174.114.84.112");
+        serverAddress = InetAddress.getByName("192.168.0.14");
         try {
             clientSocket = new Socket(serverAddress, SERVER_RECV_PORT);
         } catch (IOException e) {

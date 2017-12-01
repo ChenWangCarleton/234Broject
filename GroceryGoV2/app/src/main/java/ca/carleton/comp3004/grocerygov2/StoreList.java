@@ -1,5 +1,6 @@
 package ca.carleton.comp3004.grocerygov2;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -24,13 +25,17 @@ public class StoreList extends AppCompatActivity implements AdapterView.OnItemCl
     ArrayList<String> cats = new ArrayList<String>();
     ListView store;
     ArrayAdapter<String> storeAdapter;
+    ServerRequset request = null;
+    ProgressDialog pd = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_list);
+        pd = ProgressDialog.show(this, "Processing...", "Retrieving store products.", true, false);
 
-        ServerRequset request = null;
+
+
         try {
             request = new ServerRequset();
         } catch (UnknownHostException e) {
@@ -38,20 +43,40 @@ public class StoreList extends AppCompatActivity implements AdapterView.OnItemCl
         }
 
         //********************************** Retrieve data
-        try {
-            rawData = request.initialize("all");
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
-        }
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    rawData = request.initialize("all");
+                } catch (UnknownHostException e) {
+                    e.printStackTrace();
+                }
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if(rawData != null) {
+                            try {
+                                data = request.readGetAll(rawData);
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                        }
+
+                        if(pd.isShowing()){
+                            pd.dismiss();
+                        }
+                    }
+                });
+
+            }
+        });
+        thread.start();
+
+
 
         //********************************** Translate raw data
-        if(rawData != null) {
-            try {
-                data = request.readGetAll(rawData);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+
         //********************************** Adding Categories
         cats.add("Fruits & Vegetables");
         cats.add("Deli & Ready Meals");

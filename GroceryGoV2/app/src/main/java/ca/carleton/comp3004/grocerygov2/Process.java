@@ -1,5 +1,6 @@
 package ca.carleton.comp3004.grocerygov2;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -15,6 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.Manifest;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -74,6 +76,15 @@ public class Process extends AppCompatActivity {
     private double indTotal = 0;
     private double labTotal = 0;
 
+    private String walURL;
+    private String walRaw = null;
+    private String labURL;
+    private String labRaw = null;
+    private String indURL;
+    private String indRaw = null;
+
+    ProgressDialog pd = null;
+
 
     //*****************
     private boolean fin = false;
@@ -84,11 +95,16 @@ public class Process extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_process);
 
+        pd = ProgressDialog.show(this, "Processing...", "Finding best store.", true, false);
+
         requestPermission();
 
         walList = (ListView) findViewById(R.id.walList);
+        //walList.setVisibility(View.INVISIBLE);
         labList = (ListView) findViewById(R.id.lobList);
+        //labList.setVisibility(View.INVISIBLE);
         indList = (ListView) findViewById(R.id.indList);
+        //indList.setVisibility(View.INVISIBLE);
         /*walList.setBackgroundColor(Color.WHITE);
         labList.setBackgroundColor(Color.WHITE);
         indList.setBackgroundColor(Color.WHITE);
@@ -110,8 +126,6 @@ public class Process extends AppCompatActivity {
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
-        ObjectMapper mapper = new ObjectMapper();
-
 
         locMan = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -124,28 +138,6 @@ public class Process extends AppCompatActivity {
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        /*locMan.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, new LocationListener() {
-            @Override
-            public void onLocationChanged(Location location) {
-                userLit =location.getLatitude();
-                userLong=location.getLongitude();
-            }
-
-            @Override
-            public void onStatusChanged(String s, int i, Bundle bundle) {
-
-            }
-
-            @Override
-            public void onProviderEnabled(String s) {
-
-            }
-
-            @Override
-            public void onProviderDisabled(String s) {
-
-            }
-        });*/
         Location location = locMan.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
         //Log.e("Test", ""+location.getLatitude());
@@ -158,153 +150,177 @@ public class Process extends AppCompatActivity {
         userLong = -75.6988720;*/
 
 
-        String walURL = getUrl(userLit,userLong,"Walmart");
-        String walRaw = null;
-        String labURL = getUrl(userLit,userLong,"Loblaws");
-        String labRaw = null;
-        String indURL = getUrl(userLit,userLong,"Independent");
-        String indRaw = null;
+        walURL = getUrl(userLit,userLong,"Walmart");
+        labURL = getUrl(userLit,userLong,"Loblaws");
+        indURL = getUrl(userLit,userLong,"Independent");
 
         Log.e("User- ", ""+userLit + " " + userLong);
 
-        try {
-            walRaw = readUrl(walURL);
-            labRaw = readUrl(labURL);
-            indRaw = readUrl(indURL);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        JSONObject walJSON = null;
-        JSONArray walArray = null;
-        JSONObject labJSON = null;
-        JSONArray labArray = null;
-        JSONObject indJSON = null;
-        JSONArray indArray = null;
-
-        if(walRaw != null){
-            try {
-                walJSON = new JSONObject(walRaw);
-                labJSON = new JSONObject(labRaw);
-                indJSON = new JSONObject(indRaw);
-
-                walArray = walJSON.getJSONArray("results");
-                labArray = labJSON.getJSONArray("results");
-                indArray = indJSON.getJSONArray("results");
-
-                walLat = walArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lat");
-                walLong = walArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lng");
-                indLat = indArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lat");
-                indLong = indArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lng");
-                labLat = labArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lat");
-                labLong = labArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lng");
-
-                //Eval distance ----****----
-                walDis = getNewUrl(userLit, userLong, walLat, walLong);
-
-                indDis = getNewUrl(userLit,userLong,indLat,indLong);
-
-                labDis = getNewUrl(userLit,userLong,labLat,labLong);
-
-
-
-                Log.e("Walmart -", "Lat: "+walLat+", Long: "+walLong +", Distance: "+walDis);
-                Log.e("Loblaws -","Lat: "+labLat+", Long: "+labLong + ", Distance: "+labDis);
-                Log.e("Independent -","Lat: "+indLat+", Long: "+indLong + ", Distance: " + indDis);
-
-                ArrayList<Integer> proID = userList.userProductsID();
-                ArrayList<Product> pros = new ArrayList<Product>();
-                String rawData = "";
-
-                for(int p: proID){
-                    rawData = rawData + p +",";
-                }
-                if(!rawData.equals("")) {
-                    pros = request.readProcess(request.initialize(rawData));
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    walRaw = readUrl(walURL);
+                    labRaw = readUrl(labURL);
+                    indRaw = readUrl(indURL);
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
 
 
-                for(Product e: pros){
-                    int quant = userList.getQuant(e.productID);
-                    //rawData = request.initialize(""+e);
+                JSONObject walJSON = null;
+                JSONArray walArray = null;
+                JSONObject labJSON = null;
+                JSONArray labArray = null;
+                JSONObject indJSON = null;
+                JSONArray indArray = null;
 
-                    //Log.e("Raw data: ", ""+rawData);
+                if(walRaw != null){
+                    try {
+                        walJSON = new JSONObject(walRaw);
+                        labJSON = new JSONObject(labRaw);
+                        indJSON = new JSONObject(indRaw);
 
-                    //curProduct = request.readSearchID(rawData);
+                        walArray = walJSON.getJSONArray("results");
+                        labArray = labJSON.getJSONArray("results");
+                        indArray = indJSON.getJSONArray("results");
 
-                    //curProduct = request.getItem(e);
+                        walLat = walArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lat");
+                        walLong = walArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lng");
+                        indLat = indArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lat");
+                        indLong = indArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lng");
+                        labLat = labArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lat");
+                        labLong = labArray.getJSONObject(0).getJSONObject("geometry").getJSONObject("location").getDouble("lng");
 
-                    double[] prices = e.getPrices();
+                        //Eval distance ----****----
+                        walDis = getNewUrl(userLit, userLong, walLat, walLong);
 
-                    if(prices[0] != -1){
-                        labTotal += (prices[0] * quant);
-                        labAL.add(quant + "x - " +e.name);
-                    }
-                    if(prices[1] != -1){
-                        indTotal += (prices[1] * quant);
-                        indAL.add(quant + "x - " +e.name);
-                    }
-                    if(prices[2] != -1){
-                        walTotal += (prices[2] * quant);
-                        walAL.add(quant + "x - " +e.name);
+                        indDis = getNewUrl(userLit,userLong,indLat,indLong);
+
+                        labDis = getNewUrl(userLit,userLong,labLat,labLong);
+
+
+
+                        Log.e("Walmart -", "Lat: "+walLat+", Long: "+walLong +", Distance: "+walDis);
+                        Log.e("Loblaws -","Lat: "+labLat+", Long: "+labLong + ", Distance: "+labDis);
+                        Log.e("Independent -","Lat: "+indLat+", Long: "+indLong + ", Distance: " + indDis);
+
+                        ArrayList<Integer> proID = userList.userProductsID();
+                        ArrayList<Product> pros = new ArrayList<Product>();
+                        String rawData = "";
+
+                        for(int p: proID){
+                            rawData = rawData + p +",";
+                        }
+                        if(!rawData.equals("")) {
+                            pros = request.readProcess(request.initialize(rawData));
+                        }
+
+
+                        for(Product e: pros){
+                            int quant = userList.getQuant(e.productID);
+                            //rawData = request.initialize(""+e);
+
+                            //Log.e("Raw data: ", ""+rawData);
+
+                            //curProduct = request.readSearchID(rawData);
+
+                            //curProduct = request.getItem(e);
+
+                            double[] prices = e.getPrices();
+
+                            if(prices[0] != -1){
+                                labTotal += (prices[0] * quant);
+                                labAL.add(quant + "x - " +e.name);
+                            }
+                            if(prices[1] != -1){
+                                indTotal += (prices[1] * quant);
+                                indAL.add(quant + "x - " +e.name);
+                            }
+                            if(prices[2] != -1){
+                                walTotal += (prices[2] * quant);
+                                walAL.add(quant + "x - " +e.name);
+                            }
+                        }
+
+                        //walTxt.setHeight(convertDpToPixels(90, this));
+
+                        //walTxt.setText("Walmart: \n" + "Total Grocery: $" + round(walTotal,2) + "\nGas price: $" + round((walDis * 0.53),2));
+                        //labTxt.setText("Loblaws: \n" + "Total Grocery: $" + round(labTotal,2) + "\nGas price: $" + round((labDis * 0.53),2));
+                        //indTxt.setText("Independent: \n" + "Total Grocery: $" + round(indTotal,2) + "\nGas price: $" + round((indTotal * 0.53),2));
+
+
+
+
+
+
+
+
+                        userList.removeAll();
+                        userList.close();
+
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    } catch (Exception e) {
+                        e.printStackTrace();
                     }
                 }
 
-                walTxt.setText("Walmart: $" + round(walTotal,2) + " + $" + round((walDis * 0.53),2));
-                labTxt.setText("Loblaws: $" + round(labTotal,2) + " + $" + round((labDis * 0.53), 2));
-                indTxt.setText("Independent: $" + round(indTotal,2) + " + $" + round((indDis * 0.53), 2));
-
-                ArrayAdapter<String> labAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, labAL);
-                labList.setAdapter(labAdapter);
-                ArrayAdapter<String> indAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, indAL);
-                indList.setAdapter(indAdapter);
-                ArrayAdapter<String> walAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, walAL);
-                walList.setAdapter(walAdapter);
-
-
-                walBut.setOnClickListener(new View.OnClickListener() {
+                runOnUiThread(new Runnable() {
                     @Override
-                    public void onClick(View view) {
-                        //saddr="+userLit+","+userLong +"& *****
-                        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                                Uri.parse("http://maps.google.com/maps?daddr="+walLat+","+walLong));
-                        startActivity(intent);
+                    public void run() {
+                        walTxt.setText("Walmart: $" + round(walTotal,2) + " + $" + round((walDis * 0.53),2));
+                        labTxt.setText("Loblaws: $" + round(labTotal,2) + " + $" + round((labDis * 0.53), 2));
+                        indTxt.setText("Independent: $" + round(indTotal,2) + " + $" + round((indDis * 0.53), 2));
+                        ArrayAdapter<String> labAdapter = new ArrayAdapter<String>(Process.this, android.R.layout.simple_list_item_1, labAL);
+                        labList.setAdapter(labAdapter);
+                        ArrayAdapter<String> indAdapter = new ArrayAdapter<String>(Process.this, android.R.layout.simple_list_item_1, indAL);
+                        indList.setAdapter(indAdapter);
+                        ArrayAdapter<String> walAdapter = new ArrayAdapter<String>(Process.this, android.R.layout.simple_list_item_1, walAL);
+                        walList.setAdapter(walAdapter);
+                        walBut.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                //saddr="+userLit+","+userLong +"& *****
+                                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                                        Uri.parse("http://maps.google.com/maps?daddr="+walLat+","+walLong));
+                                startActivity(intent);
+                            }
+                        });
+                        labBut.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                //saddr="+userLit+","+userLong +"&
+                                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                                        Uri.parse("http://maps.google.com/maps?daddr="+labLat+","+labLong));
+                                startActivity(intent);
+                            }
+                        });
+                        indBut.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                //saddr="+userLit+","+userLong +"&
+                                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                                        Uri.parse("http://maps.google.com/maps?daddr="+indLat +","+indLong));
+                                startActivity(intent);
+                            }
+                        });
+                        if(pd.isShowing()){
+                            pd.dismiss();
+                        }
                     }
                 });
-                labBut.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        //saddr="+userLit+","+userLong +"&
-                        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                                Uri.parse("http://maps.google.com/maps?daddr="+labLat+","+labLong));
-                        startActivity(intent);
-                    }
-                });
-                indBut.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        //saddr="+userLit+","+userLong +"&
-                        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                                Uri.parse("http://maps.google.com/maps?daddr="+indLat +","+indLong));
-                        startActivity(intent);
-                    }
-                });
 
-
-
-
-                userList.removeAll();
-                userList.close();
-
-            } catch (JSONException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (Exception e) {
-                e.printStackTrace();
             }
-        }
+        });
+        thread.start();
+
+
+
+
     }
 
 
@@ -421,5 +437,7 @@ public class Process extends AppCompatActivity {
         long tmp = Math.round(value);
         return (double) tmp / factor;
     }
+
+
 
 }
