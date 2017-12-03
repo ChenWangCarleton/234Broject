@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Grocery Go</string>
-    <string name="my_list">My Grocery List</string>
-    <string name="store">Store</string>
-    <string name="process">Find Best Store</string>
-</resources>
