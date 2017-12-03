@@ -1,0 +1,213 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\GroceryGoV2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.6.0.aar\\fce3608448cdb1f951adfe20bcbe0ab6\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,387,599,727,834,1064,1195,1333,1570,1680,1896,2030,2249,2454,2553,2646",
+                        "endColumns": "103,211,127,106,229,130,137,236,109,215,133,218,204,98,92,108",
+                        "endOffsets": "386,598,726,833,1063,1194,1332,1569,1679,1895,2029,2248,2453,2552,2645,2754"
+                    },
+                    "to": {
+                        "startLines": "57,58,59,60,61,62,63,65,66,67,68,69,70,71,72,73",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5897,6005,6217,6349,6460,6690,6825,7191,7428,7542,7758,7896,8115,8324,8427,8524",
+                        "endColumns": "107,211,131,110,229,134,141,236,113,215,137,218,208,102,96,112",
+                        "endOffsets": "6000,6212,6344,6455,6685,6820,6962,7423,7537,7753,7891,8110,8319,8422,8519,8632"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.6.0.aar\\eaf84fd25e1ad1fa0378b1b9ef14c2b8\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "240",
+                        "endColumns": "103",
+                        "endOffsets": "343"
+                    },
+                    "to": {
+                        "startLines": "107",
+                        "startColumns": "4",
+                        "startOffsets": "11873",
+                        "endColumns": "107",
+                        "endOffsets": "11976"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.6.0.aar\\ba7d517fbbe4137f2d8165561b7a6d2b\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "298,374,482,569,682,809,891,1051,1162,1276,1397,1496,1597,1672,1765,1858,1962,2040,2115,2184,2265,2364,2463,2561,2658,2757,2829,2936,3038,3134,3243,3404,3496,3588,3691",
+                        "endColumns": "75,107,86,112,126,81,159,110,113,120,98,100,74,92,92,103,77,74,68,80,98,98,97,96,98,71,106,101,95,108,160,91,91,102,82",
+                        "endOffsets": "373,481,568,681,808,890,1050,1161,1275,1396,1495,1596,1671,1764,1857,1961,2039,2114,2183,2264,2363,2462,2560,2657,2756,2828,2935,3037,3133,3242,3403,3495,3587,3690,3773"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1917,1997,2109,2200,2317,2444,2530,2694,2809,2927,3052,3155,3260,3339,3436,3533,3641,4095,4174,4247,4332,4435,4538,4640,4741,4844,4920,5031,5137,5237,5350,5511,5607,5703,5810",
+                        "endColumns": "79,111,90,116,126,85,163,114,117,124,102,104,78,96,96,107,81,78,72,84,102,102,101,100,102,75,110,105,99,112,160,95,95,106,86",
+                        "endOffsets": "1992,2104,2195,2312,2439,2525,2689,2804,2922,3047,3150,3255,3334,3431,3528,3636,3718,4169,4242,4327,4430,4533,4635,4736,4839,4915,5026,5132,5232,5345,5506,5602,5698,5805,5892"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.6.0.aar\\e97596976322e40fc09ac1987824ae99\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "233,340",
+                        "endColumns": "106,95",
+                        "endOffsets": "339,435"
+                    },
+                    "to": {
+                        "startLines": "96,97",
+                        "startColumns": "4,4",
+                        "startOffsets": "10847,10958",
+                        "endColumns": "110,99",
+                        "endOffsets": "10953,11053"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-11.6.0.aar\\1962765893023e8f390a6a2cb9678acd\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "288,423,561",
+                        "endColumns": "134,137,94",
+                        "endOffsets": "422,560,655"
+                    },
+                    "to": {
+                        "startLines": "36,37,38",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3723,3858,3996",
+                        "endColumns": "134,137,98",
+                        "endOffsets": "3853,3991,4090"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\e826c2834a114d977cf509939b33a464\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "106",
+                        "startColumns": "4",
+                        "startOffsets": "11772",
+                        "endColumns": "100",
+                        "endOffsets": "11868"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\57e1d519b2b6925986d7e054d4e0714f\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,524,630,760,843,923,1009,1119,1231,1334,1445,1552,1659,1818,1917",
+                        "endColumns": "110,114,110,81,105,129,82,79,85,109,111,102,110,106,106,158,98,85",
+                        "endOffsets": "211,326,437,519,625,755,838,918,1004,1114,1226,1329,1440,1547,1654,1813,1912,1998"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,105",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,524,630,760,843,923,1009,1119,1231,1334,1445,1552,1659,1818,11686",
+                        "endColumns": "110,114,110,81,105,129,82,79,85,109,111,102,110,106,106,158,98,85",
+                        "endOffsets": "211,326,437,519,625,755,838,918,1004,1114,1226,1329,1440,1547,1654,1813,1912,11767"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.6.0.aar\\53f9f85784298bc6d1229a75bcedfcae\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "243",
+                        "endColumns": "100",
+                        "endOffsets": "343"
+                    },
+                    "to": {
+                        "startLines": "74",
+                        "startColumns": "4",
+                        "startOffsets": "8637",
+                        "endColumns": "104",
+                        "endOffsets": "8737"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-11.6.0.aar\\64198cfee8ab52ee5bda4d26623204b8\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "230",
+                        "endColumns": "97",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "75",
+                        "startColumns": "4",
+                        "startOffsets": "8742",
+                        "endColumns": "101",
+                        "endOffsets": "8839"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\1e3c747189083967f9a8fe5855495341\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,258,365,473,585,670,770,889,986,1081,1176,1272,1392,1506,1590,1674,1771,1875,1962",
+                        "endColumns": "98,103,106,107,111,84,99,118,96,94,94,95,119,113,83,83,96,103,86,95",
+                        "endOffsets": "149,253,360,468,580,665,765,884,981,1076,1171,1267,1387,1501,1585,1669,1766,1870,1957,2053"
+                    },
+                    "to": {
+                        "startLines": "76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "8844,8943,9047,9154,9262,9374,9459,9559,9678,9775,9870,9965,10061,10181,10295,10379,10463,10560,10664,10751",
+                        "endColumns": "98,103,106,107,111,84,99,118,96,94,94,95,119,113,83,83,96,103,86,95",
+                        "endOffsets": "8938,9042,9149,9257,9369,9454,9554,9673,9770,9865,9960,10056,10176,10290,10374,10458,10555,10659,10746,10842"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-11.6.0.aar\\4d8fbf0f46c63f8414d110afc6459a20\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "237,314,439,505,570,656,767",
+                        "endColumns": "76,124,65,64,85,110,69",
+                        "endOffsets": "313,438,504,569,655,766,836"
+                    },
+                    "to": {
+                        "startLines": "98,99,100,101,102,103,104",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "11058,11139,11268,11338,11407,11497,11612",
+                        "endColumns": "80,128,69,68,89,114,73",
+                        "endOffsets": "11134,11263,11333,11402,11492,11607,11681"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\natsu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.6.0.aar\\ce6dfcf66a2b6526f46570690fe37a3c\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "223",
+                        "endOffsets": "508"
+                    },
+                    "to": {
+                        "startLines": "64",
+                        "startColumns": "4",
+                        "startOffsets": "6967",
+                        "endColumns": "223",
+                        "endOffsets": "7186"
+                    }
+                }
+            ]
+        }
+    ]
+}
