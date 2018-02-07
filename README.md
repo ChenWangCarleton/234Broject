@@ -7,4 +7,4 @@ They can then add products to their own personal grocery list.
 Once they have their list, the app can calculate the optimal store to do their grocery shopping using both the distance and price of products.
 
 The right of this app is shared by Abdullrhman Aljasser, Chen Wang and Hanad Sharmarke. 
-If you want to use this project for any reason, please get permits from all three of them.
+If you want to use this project for any reason, please get permits from all three of them. :)
